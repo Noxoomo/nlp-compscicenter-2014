@@ -11,7 +11,6 @@ object OpenCorpaToSentenceConverter extends App {
   val corpus =  scala.xml.XML.loadFile("/Users/Vasily/Dropbox/homework/NLP/opcorpora.xml")
   val writer = new BufferedWriter(new FileWriter("/Users/Vasily/Dropbox/homework/NLP/sentence-seq.txt"))
   var i = 0
-
   corpus \ "text" foreach {
     text => text \ "paragraphs" \ "paragraph"  foreach {
       paragraph => {
