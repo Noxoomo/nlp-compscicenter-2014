@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12d9ca7e-7fde-4219-a401-bb0173694827" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ParseNews.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/newsToSentence.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Parser.java" afterPath="$PROJECT_DIR$/src/main/java/Parser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ParserTest.java" afterPath="$PROJECT_DIR$/src/test/java/ParserTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nlp-compscicenter-2014.iws" />
@@ -77,7 +77,7 @@
       <file leaf-file-name="OpenCorpaToSentenceConverter.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="95" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+            <state line="8" column="95" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -95,16 +95,16 @@
       <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="19" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+            <state line="17" column="19" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="345">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parser.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Parser.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1275">
+            <state line="46" column="0" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.70388347" vertical-offset="255" max-vertical-offset="2160">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,18 +115,16 @@
       <file leaf-file-name="ParseNews.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ParseNews.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="14" column="52" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newsToSentence.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="newsToSentence.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/newsToSentence.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="61" selection-start="1217" selection-end="1217" vertical-scroll-proportion="-2.9242685" vertical-offset="1954" max-vertical-offset="2535">
+            <state line="154" column="68" selection-start="15226" selection-end="15226" vertical-scroll-proportion="-96.25" vertical-offset="0" max-vertical-offset="2535">
               <folding />
             </state>
           </provider>
@@ -135,10 +133,8 @@
       <file leaf-file-name="ParserTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="66" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="31" column="0" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="570">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -146,7 +142,7 @@
       <file leaf-file-name="ReflectiveCallable.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="270">
               <folding />
             </state>
           </provider>
@@ -155,7 +151,7 @@
       <file leaf-file-name="ParentRunner.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/ParentRunner.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="25" selection-start="2400" selection-end="2400" vertical-scroll-proportion="-7.32" vertical-offset="462" max-vertical-offset="1080">
+            <state line="44" column="25" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1095">
               <folding />
             </state>
           </provider>
@@ -179,10 +175,10 @@
         <option value="$PROJECT_DIR$/src/main/scala/SentenceSplitter.scala" />
         <option value="$PROJECT_DIR$/src/README" />
         <option value="$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala" />
+        <option value="$PROJECT_DIR$/data/newsToSentence.json" />
+        <option value="$PROJECT_DIR$/src/main/java/ParseNews.java" />
         <option value="$PROJECT_DIR$/src/test/java/ParserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Parser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ParseNews.java" />
-        <option value="$PROJECT_DIR$/data/newsToSentence.json" />
       </list>
     </option>
   </component>
@@ -217,7 +213,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -332,7 +328,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -370,7 +366,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParseNews">
+  <component name="RunManager" selected="JUnit.ParserTest">
     <configuration default="false" name="OpencorpaToSentenceConverter" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="OpenCorpaToSentenceConverter" />
       <option name="VM_PARAMETERS" value="-Xmx5g" />
@@ -463,6 +459,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
       <module name="" />
       <setting name="path" value="" />
@@ -474,27 +478,6 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -522,6 +505,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -579,8 +575,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.ParseNews" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ParserTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ParserTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ParseNews" />
         <item index="2" class="java.lang.String" itemvalue="Application.Hello" />
         <item index="3" class="java.lang.String" itemvalue="Application.OpencorpaToSentenceConverter" />
       </list>
@@ -655,7 +651,8 @@
       <updated>1393337611772</updated>
       <workItem from="1393337613683" duration="4352000" />
       <workItem from="1393428335817" duration="99000" />
-      <workItem from="1393602157351" duration="7097000" />
+      <workItem from="1393602157351" duration="8615000" />
+      <workItem from="1394895816168" duration="2739000" />
     </task>
     <task id="LOCAL-00001" summary="README">
       <created>1393866865778</created>
@@ -673,14 +670,18 @@
       <created>1393946005251</created>
       <updated>1393946005251</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="my part of splitting news to sentence">
+      <created>1394367551868</created>
+      <updated>1394367551868</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11548000" />
+    <option name="totallyTimeSpent" value="15805000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1054" extended-state="0" />
+    <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -702,10 +703,10 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16471216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32848233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32848233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -725,7 +726,8 @@
     <MESSAGE value="README&#10;" />
     <MESSAGE value="README (move to root)&#10;" />
     <MESSAGE value="very naive parser" />
-    <option name="LAST_COMMIT_MESSAGE" value="very naive parser" />
+    <MESSAGE value="my part of splitting news to sentence" />
+    <option name="LAST_COMMIT_MESSAGE" value="my part of splitting news to sentence" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -737,14 +739,65 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+        <state line="8" column="95" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SentenceSplitter.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Hello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="5" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="1035">
+        <state line="1" column="7" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="19" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1275">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ParseNews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/newsToSentence.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="68" selection-start="15226" selection-end="15226" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2535">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="66" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="25" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1095">
           <folding />
         </state>
       </provider>
@@ -758,16 +811,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/SentenceSplitter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="5" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1035">
+        <state line="55" column="5" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="1035" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="31" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SentenceSplitter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="5" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1035" />
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.3-sources.jar!/scala/Function1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="6" selection-start="1701" selection-end="1701" vertical-scroll-proportion="0.52117264" vertical-offset="0" max-vertical-offset="921">
-          <folding />
-        </state>
+        <state line="38" column="6" selection-start="1701" selection-end="1701" vertical-scroll-proportion="0.52117264" vertical-offset="0" max-vertical-offset="921" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README">
@@ -779,23 +840,21 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="255">
+        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="270">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="25" selection-start="2400" selection-end="2400" vertical-scroll-proportion="-7.32" vertical-offset="462" max-vertical-offset="1080">
+        <state line="44" column="25" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1095">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/SentenceSplitter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.8055105" vertical-offset="163" max-vertical-offset="780">
-          <folding />
-        </state>
+        <state line="44" column="0" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.8055105" vertical-offset="163" max-vertical-offset="780" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala">
@@ -805,12 +864,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ParserTest.java">
+    <entry file="file://$PROJECT_DIR$/data/newsToSentence.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="66" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="154" column="68" selection-start="15226" selection-end="15226" vertical-scroll-proportion="-96.25" vertical-offset="0" max-vertical-offset="2535">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -821,28 +878,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ParseNews.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="14" column="52" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/newsToSentence.json">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="61" selection-start="1217" selection-end="1217" vertical-scroll-proportion="-2.9242685" vertical-offset="1954" max-vertical-offset="2535">
+        <state line="31" column="0" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="570">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.70388347" vertical-offset="255" max-vertical-offset="2160">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
