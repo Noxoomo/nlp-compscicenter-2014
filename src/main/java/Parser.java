@@ -1,28 +1,17 @@
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.HashSet;
 import java.util.LinkedList;
 
 /**
  * User: Vasily
- * Date: 04.03.14
- * Time: 18:37
+ * Date: 16.03.14
+ * Time: 0:16
  */
 public class Parser {
     private BufferedReader reader = null;
     private LinkedList<String> sentences = new LinkedList<>();
     private HashSet<String> abbreviation = new HashSet<>();
-
-    public Parser(String filename) throws FileNotFoundException {
-        try {
-            reader = new BufferedReader(new FileReader(filename));
-        } catch (FileNotFoundException e) {
-            System.err.println("file not found");
-            throw e;
-        }
-    }
+    State state = State.reading;
 
     private StringBuilder sentence = new StringBuilder();
     private StringBuilder token = new StringBuilder();
@@ -41,13 +30,12 @@ public class Parser {
         sentence = new StringBuilder();
     }
 
+    public LinkedList<String> getSentences() {
+        return sentences;
+    }
 
-    public LinkedList<String> parse() throws IOException {
-        State state = State.reading;
-        String line = removeDoubleSpaces(reader.readLine());
-
-        while (line != null) {
-            char buffer[] = line.toCharArray();
+    public boolean nextLine(String line) {
+        char buffer[] = line.toCharArray();
             for (int i = 0; i < buffer.length; ++i) {
                 switch (state) {
                     case reading: {
@@ -107,11 +95,7 @@ public class Parser {
                     }
                 }
             }
-            line = removeDoubleSpaces(reader.readLine());
-        }
-
-        return sentences;
-
+        return true;
     }
 
     private String removeDoubleSpaces(String str) {
@@ -136,3 +120,4 @@ public class Parser {
     }
 
 }
+
