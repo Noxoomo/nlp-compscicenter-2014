@@ -8,6 +8,11 @@ import java.util.LinkedList;
  * Time: 0:16
  */
 public class Parser {
+    public Parser() {
+        abbreviation.add("т");
+        abbreviation.add("д");
+    }
+
     private BufferedReader reader = null;
     private LinkedList<String> sentences = new LinkedList<>();
     private HashSet<String> abbreviation = new HashSet<>();
@@ -15,6 +20,7 @@ public class Parser {
 
     private StringBuilder sentence = new StringBuilder();
     private StringBuilder token = new StringBuilder();
+    private String prevToken = null;
 
     private void addToken(char c) {
         token.append(c);
@@ -22,6 +28,7 @@ public class Parser {
 
     private void endToken() {
         sentence.append(token.toString());
+        prevToken = token.toString();
         token = new StringBuilder();
     }
 
@@ -64,7 +71,12 @@ public class Parser {
                                     endToken();
                                     ++i;
                                     break;
-                                }
+                                } /*else if (abbreviation.contains(token)) {
+                                    addToken(buffer[i]);
+                                    endToken();
+                                    break;
+                                }*/
+
                                 addToken(buffer[i]);
                                 endToken();
                                 endSentence();

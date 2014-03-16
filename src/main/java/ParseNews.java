@@ -11,9 +11,9 @@ import java.util.LinkedList;
 public class ParseNews {
     public static void main(String[] args) {
         try {
-            FileParser parser = new FileParser("/tmp/news");
+            FileParser parser = new FileParser("tmp/news");
             LinkedList<String> result = parser.parse();
-            BufferedWriter writer = new BufferedWriter(new FileWriter("/tmp/result"));
+            BufferedWriter writer = new BufferedWriter(new FileWriter("tmp/result"));
             writer.write("{\n" +
                     "\t\"document\": {\n" +
                     "\t\t\"sentences\": \n" +
