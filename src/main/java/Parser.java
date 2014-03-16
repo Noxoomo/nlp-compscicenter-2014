@@ -74,6 +74,11 @@ public class Parser {
                                 state = State.inQuote;
                                 break;
                             }
+                            case '\u00ab': {
+                                addToken(buffer[i]);
+                                state = State.inQuote;
+                                break;
+                            }
                             default: {
                                 addToken(buffer[i]);
                             }
@@ -83,6 +88,11 @@ public class Parser {
                     case inQuote: {
                         switch (buffer[i]) {
                             case '\"': {
+                                addToken(buffer[i]);
+                                state = State.reading;
+                                break;
+                            }
+                            case '\u00bb': {
                                 addToken(buffer[i]);
                                 state = State.reading;
                                 break;

@@ -19,7 +19,7 @@ public class ParseNews {
                     "\t\t\"sentences\": \n" +
                     "\t\t[");
             for (String sentence: result) {
-                writer.write("\"" + sentence + "\",");
+                writer.write("\"" + sentence + "\",\n");
             }
             writer.write("]\n" +
                     "\t\t}\n" +
