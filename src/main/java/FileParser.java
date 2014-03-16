@@ -75,5 +75,15 @@ public class FileParser {
         writer.close();
     }
 
+    public void print(String filename) throws IOException {
+        BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
+        for (String sentence : sentences) {
+            writer.write(sentence + "\n");
+
+        }
+        writer.flush();
+        writer.close();
+    }
+
 
 }
