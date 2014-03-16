@@ -19,7 +19,7 @@ public class ParseNews {
                     "\t\t\"sentences\": \n" +
                     "\t\t[");
             for (String sentence: result) {
-                writer.write("\"" + sentence + "\",");
+                writer.write("\"" + spaceFix(sentence) + "\",\n");
             }
             writer.write("]\n" +
                     "\t\t}\n" +
@@ -29,6 +29,16 @@ public class ParseNews {
             writer.close();
         } catch (IOException e) {
 
+        }
+
+    }
+
+    // Fix issue with leading spaces
+    private static String spaceFix(String str) {
+        if (str.startsWith(" ")) {
+            return str.substring(1);
+        } else {
+            return str;
         }
 
     }
