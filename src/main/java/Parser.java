@@ -38,14 +38,21 @@ public class Parser {
         char buffer[] = removeDoubleSpaces(line).toCharArray();
         for (int i = 0; i < buffer.length; ++i) {
             switch (state) {
-                    case reading: {
+                case reading: {
                         switch (buffer[i]) {
                             case ' ':
                                 addToken(' ');
                                 endToken();
                                 break;
                             case '.':
-                                if (i + 2 < buffer.length && buffer[i + 1] == ' ' && Character.isLowerCase(buffer[i + 2])) {
+                                if (i + 2 < buffer.length && buffer[i + 1] == '.' && buffer[i + 2] == '.') {
+                                    addToken('.');
+                                    addToken('.');
+                                    addToken('.');
+                                    endToken();
+                                    endSentence();
+                                    break;
+                                } else if (i + 2 < buffer.length && buffer[i + 1] == ' ' && Character.isLowerCase(buffer[i + 2])) {
                                     addToken(buffer[i]);
                                     addToken(' ');
                                     endToken();
@@ -62,6 +69,7 @@ public class Parser {
                                 endToken();
                                 endSentence();
                                 break;
+                            case '\u2026':
                             case '?':
                             case '!': {
                                 addToken(buffer[i]);
@@ -72,6 +80,11 @@ public class Parser {
                             case '\"': {
                                 addToken(buffer[i]);
                                 state = State.inQuote;
+                                break;
+                            }
+                            case '(': {
+                                addToken(buffer[i]);
+                                state = State.inBrackets;
                                 break;
                             }
                             case '\u00ab': {
@@ -86,25 +99,35 @@ public class Parser {
                         break;
                     }
                     case inQuote: {
+                        addToken(buffer[i]);
                         switch (buffer[i]) {
                             case '\"': {
-                                addToken(buffer[i]);
                                 state = State.reading;
                                 break;
                             }
                             case '\u00bb': {
-                                addToken(buffer[i]);
                                 state = State.reading;
                                 break;
                             }
                             default: {
-                                addToken(buffer[i]);
                                 break;
                             }
                         }
+                        break;
                     }
+                case inBrackets: {
+                    addToken(buffer[i]);
+                    switch (buffer[i]) {
+                        case ')':
+                            state = State.reading;
+                            break;
+                        default:
+                            break;
+                    }
+                    break;
                 }
             }
+        }
         return getSentences();
 
     }
@@ -127,7 +150,7 @@ public class Parser {
 
 
     enum State {
-        reading, inQuote, meetDot
+        reading, inQuote, inBrackets
     }
 
 }

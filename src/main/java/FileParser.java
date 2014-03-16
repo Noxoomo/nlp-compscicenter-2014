@@ -52,10 +52,10 @@ public class FileParser {
 
     public void printJson(String filename) throws IOException {
         BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
-        writer.write("[" + sentences.get(0).replace("\"", "\\\""));
+        writer.write("[" + sentences.get(0));
         String backup = sentences.removeFirst();
         for (String sentence : sentences) {
-            writer.write(",\"" + sentence.replace("\"", "\\\"") + "\"");
+            writer.write(",\"" + sentence + "\"");
 
         }
         sentences.addFirst(backup);
