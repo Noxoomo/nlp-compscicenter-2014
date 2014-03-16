@@ -28,4 +28,18 @@ public class ParserTest {
             assertTrue(testSentences.pop().equals(result.pop()));
         }
     }
+
+    @Test
+    public void testParseFromCorpa() throws Exception {
+        Parser parser = new Parser();
+        parser.nextLine("На счета компании поступали пожертвования от организаций и частных лиц, пожелавших принять участие в дележе будущего состояния, в случае успеха им было обещано 10 % \"царского золота, что должно было составить 500 % чистой прибыли на каждый вклад. Test.");
+        LinkedList<String> testSentences = new LinkedList<>();
+        testSentences.add("На счета компании поступали пожертвования от организаций и частных лиц, пожелавших принять участие в дележе будущего состояния, в случае успеха им было обещано 10 % \"царского золота\", что должно было составить 500 % чистой прибыли на каждый вклад.");
+        testSentences.add("Test.");
+        LinkedList<String> result = parser.getSentences();
+        assertTrue(testSentences.size() == result.size());
+        while (!testSentences.isEmpty()) {
+            assertTrue(testSentences.pop().equals(result.pop()));
+        }
+    }
 }
