@@ -8,9 +8,10 @@ import java.io.{BufferedWriter, FileWriter}
 
 
 object OpenCorpaToSentenceConverter extends App {
-  val corpus = scala.xml.XML.loadFile("/tmp/nlp/opcorpora.xml")
-  val writer = new BufferedWriter(new FileWriter("/tmp/nlp/sentence-seq.txt"))
-  val bad = new BufferedWriter(new FileWriter("/tmp/nlp/sentence-bad.txt"))
+  //Set working directory in IDEA to place, where this files are
+  val corpus = scala.xml.XML.loadFile("opcorpora.xml")
+  val writer = new BufferedWriter(new FileWriter("sentence-seq.txt"))
+  val bad = new BufferedWriter(new FileWriter("sentence-bad.txt"))
   var i = 0
   val testSentence = "Test."
   var tp = 0
@@ -43,16 +44,16 @@ object OpenCorpaToSentenceConverter extends App {
   writer.flush()
   writer.close()
 
-  println(tp)
-  println(fp)
-  println(tn)
-  println(fn)
+  //  println(tp)
+  //  println(fp)
+  //  println(tn)
+  //  println(fn)
 
-  //  val accuracy = tp / (tp + fp)
-  //  val recall = tp/(tp + fn)
-  //  val fm = 2 * accuracy * recall / (accuracy + recall)
-  //
-  //  println(accuracy)
-  //  println(recall)
-  //  println(fm)
+  val accuracy = tp / (tp + fp)
+  val recall = tp / (tp + fn)
+  val fm = 2 * accuracy * recall / (accuracy + recall)
+
+  println(accuracy)
+  println(recall)
+  println(fm)
 }
