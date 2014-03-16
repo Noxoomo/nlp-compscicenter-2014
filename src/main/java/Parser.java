@@ -34,11 +34,11 @@ public class Parser {
         return sentences;
     }
 
-    public boolean nextLine(String line) {
-        char buffer[] = line.toCharArray();
-            for (int i = 0; i < buffer.length; ++i) {
-                switch (state) {
-                    case reading: {
+    public LinkedList<String> nextLine(String line) {
+        char buffer[] = removeDoubleSpaces(line).toCharArray();
+        for (int i = 0; i < buffer.length; ++i) {
+            switch (state) {
+                case reading: {
                         switch (buffer[i]) {
                             case ' ':
                                 addToken(' ');
@@ -105,7 +105,7 @@ public class Parser {
                     }
                 }
             }
-        return true;
+        return getSentences();
     }
 
     private String removeDoubleSpaces(String str) {
