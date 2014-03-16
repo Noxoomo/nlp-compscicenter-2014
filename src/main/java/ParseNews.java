@@ -19,7 +19,7 @@ public class ParseNews {
                     "\t\t\"sentences\": \n" +
                     "\t\t[");
             for (String sentence: result) {
-                writer.write("\"" + spaceFix(sentence) + "\",\n");
+                writer.write("\"" + spaceFix(sentence.replace("\"", "\\\"")) + "\",\n");
             }
             writer.write("]\n" +
                     "\t\t}\n" +
