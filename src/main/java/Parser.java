@@ -106,6 +106,7 @@ public class Parser {
                 }
             }
         return getSentences();
+
     }
 
     private String removeDoubleSpaces(String str) {
