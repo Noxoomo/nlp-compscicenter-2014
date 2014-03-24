@@ -11,23 +11,29 @@ import java.util.LinkedList;
 public class ParseNews {
     public static void main(String[] args) {
         try {
-            FileParser parser = new FileParser("tmp/news");
+            FileParser parser = new FileParser(args[0]);
             LinkedList<String> result = parser.parse();
-            BufferedWriter writer = new BufferedWriter(new FileWriter("tmp/result"));
-            writer.write("{\n" +
-                    "\t\"document\": {\n" +
-                    "\t\t\"sentences\": \n" +
-                    "\t\t[");
+            BufferedWriter writer = new BufferedWriter(new FileWriter(args[1]));
             for (String sentence: result) {
-                writer.write("\"" + spaceFix(sentence.replace("\"", "\\\"")) + "\",\n");
+                writer.write(spaceFix(sentence.replace("\"", "\\\"")) + "\n");
             }
-            writer.write("]\n" +
-                    "\t\t}\n" +
-                    "\n" +
-                    "}");
+
+//
+//            writer.write("{\n" +
+//                    "\t\"document\": {\n" +
+//                    "\t\t\"sentences\": \n" +
+//                    "\t\t[");
+//            for (String sentence: result) {
+//                writer.write("\"" + spaceFix(sentence.replace("\"", "\\\"")) + "\",\n");
+//            }
+//            writer.write("]\n" +
+//                    "\t\t}\n" +
+//                    "\n" +
+//                    "}");
             writer.flush();
             writer.close();
         } catch (IOException e) {
+
 
         }
 
