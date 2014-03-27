@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list id="12d9ca7e-7fde-4219-a401-bb0173694827" name="Default" comment="" />
     <list default="true" id="1f19519e-133e-4c03-9144-61e65d3bd3e1" name="oops, merge master crushed (cherry picked from commit 29d2e77)" comment="naive bayes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/nlp-compscicenter-2014.iml" afterPath="$PROJECT_DIR$/.idea/modules/nlp-compscicenter-2014.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nlp-compscicenter-2014.iws" />
@@ -146,7 +143,7 @@
       <file leaf-file-name="NaiveBayesianLearner.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
               <caret line="32" column="44" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="e#58#101#0" expanded="true" />
@@ -158,10 +155,17 @@
       <file leaf-file-name="NaiveBayesianClassifier.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6549836" vertical-offset="542" max-vertical-offset="1455">
-              <caret line="76" column="116" selection-start-line="76" selection-start-column="81" selection-end-line="76" selection-end-column="81" />
+            <state vertical-scroll-proportion="0.56792873" vertical-offset="15" max-vertical-offset="1305">
+              <caret line="35" column="70" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
               <folding>
                 <element signature="e#1#23#0" expanded="true" />
+                <marker date="1395940612000" expanded="true" signature="2426:2883" placeholder="{...}" />
+                <marker date="1395940612000" expanded="true" signature="2478:2880" placeholder="{...}" />
+                <marker date="1395940612000" expanded="true" signature="2509:2876" placeholder="{...}" />
+                <marker date="1395940612000" expanded="true" signature="2602:2833" placeholder="{...}" />
+                <marker date="1395940612000" expanded="true" signature="2623:2825" placeholder="{...}" />
+                <marker date="1395940612000" expanded="true" signature="2129:2250" placeholder="{...}" />
+                <marker date="1395940612000" expanded="true" signature="2316:2407" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -450,6 +454,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/hamcrest-library-1.3.jar!/" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -779,7 +784,7 @@
       <workItem from="1395681680356" duration="1572000" />
       <workItem from="1395683542826" duration="1022000" />
       <workItem from="1395764528490" duration="162000" />
-      <workItem from="1395934794965" duration="5416000" />
+      <workItem from="1395934794965" duration="5454000" />
     </task>
     <task id="LOCAL-00001" summary="README">
       <created>1393866865778</created>
@@ -825,11 +830,15 @@
       <created>1395684668208</created>
       <updated>1395684668208</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="naive bayes">
+      <created>1395940625010</created>
+      <updated>1395940625010</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44526000" />
+    <option name="totallyTimeSpent" value="44564000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -862,6 +871,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -879,7 +889,6 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -939,9 +948,11 @@
     <MESSAGE value="print per line" />
     <MESSAGE value="json-perline converter" />
     <MESSAGE value="minor changes (like arguments to program instead of hardcoded paths)" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes (like arguments to program instead of hardcoded paths)" />
+    <MESSAGE value="naive bayes" />
+    <option name="LAST_COMMIT_MESSAGE" value="naive bayes" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1338,10 +1349,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6549836" vertical-offset="542" max-vertical-offset="1455">
-          <caret line="76" column="116" selection-start-line="76" selection-start-column="81" selection-end-line="76" selection-end-column="81" />
+        <state vertical-scroll-proportion="0.56792873" vertical-offset="15" max-vertical-offset="1305">
+          <caret line="35" column="70" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
           <folding>
             <element signature="e#1#23#0" expanded="true" />
+            <marker date="1395940612000" expanded="true" signature="2426:2883" placeholder="{...}" />
+            <marker date="1395940612000" expanded="true" signature="2478:2880" placeholder="{...}" />
+            <marker date="1395940612000" expanded="true" signature="2509:2876" placeholder="{...}" />
+            <marker date="1395940612000" expanded="true" signature="2602:2833" placeholder="{...}" />
+            <marker date="1395940612000" expanded="true" signature="2623:2825" placeholder="{...}" />
+            <marker date="1395940612000" expanded="true" signature="2129:2250" placeholder="{...}" />
+            <marker date="1395940612000" expanded="true" signature="2316:2407" placeholder="{...}" />
           </folding>
         </state>
       </provider>
