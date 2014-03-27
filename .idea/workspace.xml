@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list id="12d9ca7e-7fde-4219-a401-bb0173694827" name="Default" comment="" />
-    <list default="true" id="1f19519e-133e-4c03-9144-61e65d3bd3e1" name="oops, merge master crushed (cherry picked from commit 29d2e77)" comment="naive bayes">
+    <list default="true" id="1f19519e-133e-4c03-9144-61e65d3bd3e1" name="oops, merge master crushed (cherry picked from commit 29d2e77)" comment="naive bayes (untested)">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nlp-compscicenter-2014.iws" />
@@ -93,7 +93,7 @@
       <file leaf-file-name="Parser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="2625">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2535">
               <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
               <folding />
             </state>
@@ -140,11 +140,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NaiveBayesianLearner.scala" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="NaiveBayesianLearner.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-              <caret line="32" column="44" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.55982435" vertical-offset="0" max-vertical-offset="911">
+              <caret line="38" column="18" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
               <folding>
                 <element signature="e#58#101#0" expanded="true" />
               </folding>
@@ -152,10 +152,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NaiveBayesianClassifier.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NaiveBayesianClassifier.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56792873" vertical-offset="15" max-vertical-offset="1305">
+            <state vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="1305">
               <caret line="35" column="70" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
               <folding>
                 <element signature="e#1#23#0" expanded="true" />
@@ -241,8 +241,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala" />
         <option value="$PROJECT_DIR$/src/main/java/ParseNews.java" />
         <option value="$PROJECT_DIR$/src/main/scala/NaiveBayesian.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala" />
       </list>
     </option>
   </component>
@@ -784,7 +784,7 @@
       <workItem from="1395681680356" duration="1572000" />
       <workItem from="1395683542826" duration="1022000" />
       <workItem from="1395764528490" duration="162000" />
-      <workItem from="1395934794965" duration="5454000" />
+      <workItem from="1395934794965" duration="5583000" />
     </task>
     <task id="LOCAL-00001" summary="README">
       <created>1393866865778</created>
@@ -834,11 +834,15 @@
       <created>1395940625010</created>
       <updated>1395940625010</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="naive bayes (untested)">
+      <created>1395940640243</created>
+      <updated>1395940640243</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44564000" />
+    <option name="totallyTimeSpent" value="44693000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -949,7 +953,8 @@
     <MESSAGE value="json-perline converter" />
     <MESSAGE value="minor changes (like arguments to program instead of hardcoded paths)" />
     <MESSAGE value="naive bayes" />
-    <option name="LAST_COMMIT_MESSAGE" value="naive bayes" />
+    <MESSAGE value="naive bayes (untested)" />
+    <option name="LAST_COMMIT_MESSAGE" value="naive bayes (untested)" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1273,14 +1278,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2535">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Checker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="810">
@@ -1337,19 +1334,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <caret line="32" column="44" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="e#58#101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56792873" vertical-offset="15" max-vertical-offset="1305">
+        <state vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="1305">
           <caret line="35" column="70" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
           <folding>
             <element signature="e#1#23#0" expanded="true" />
@@ -1360,6 +1347,24 @@
             <marker date="1395940612000" expanded="true" signature="2623:2825" placeholder="{...}" />
             <marker date="1395940612000" expanded="true" signature="2129:2250" placeholder="{...}" />
             <marker date="1395940612000" expanded="true" signature="2316:2407" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2535">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55982435" vertical-offset="0" max-vertical-offset="911">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding>
+            <element signature="e#58#101#0" expanded="true" />
           </folding>
         </state>
       </provider>
