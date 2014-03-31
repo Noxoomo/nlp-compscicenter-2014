@@ -9,7 +9,7 @@ import scala.util.parsing.json.JSON
  */
 
 
-val lines = Source.fromFile("corpusAllNews.json").getLines.mkString
+val lines = Source.fromFile("corpusAllNews.json").getLines().mkString
 val json = JSON.parseFull(lines)
 val writer = new BufferedWriter(new FileWriter("../newsCorpus/corpus"))
 val sentences = (json match {
