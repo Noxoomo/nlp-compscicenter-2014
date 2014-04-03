@@ -30,8 +30,8 @@ object NaiveBayesianClassifier extends App {
   val firstPredict = firstClassDocuments.map(getClass)
   val secondPredict = secondClassDocuments.map(getClass)
   val tp = firstPredict.foldLeft(0)((tp, value) => if (value == 0) tp + 1 else tp)
-  val fn = secondPredict.foldLeft(0)((fn, value) => if (value == 1) fn + 1 else fn)
-  val tn = firstPredict.foldLeft(0)((tn, value) => if (value == 1) tn + 1 else tn)
+  val tn = secondPredict.foldLeft(0)((tn, value) => if (value == 1) tn + 1 else tn)
+  val fn = firstPredict.foldLeft(0)((fn, value) => if (value == 1) fn + 1 else fn)
   val fp = secondPredict.foldLeft(0)((fp, value) => if (value == 0) fp + 1 else fp)
 
   val precision = 1.0 * tp / (tp + fp)
@@ -40,22 +40,22 @@ object NaiveBayesianClassifier extends App {
   val fm = 2 * accuracy * recall / (accuracy + recall)
 
   def getClass(document: Array[String]) = {
-    val firstLL = Math.log(firstProb) + document.map(getFirstProb).foldLeft(0.0)(_ + _)
-    val secondLL = Math.log(secondProb) + document.map(getSecondProb).foldLeft(0.0)(_ + _)
+    val firstLL = Math.log(firstProb) + document.map(getFirstProb).foldLeft(Math.log(firstProb))(_ + _)
+    val secondLL = Math.log(secondProb) + document.map(getSecondProb).foldLeft(Math.log(secondProb))(_ + _)
     if (firstLL > secondLL) 0 else 1
   }
 
   def getFirstProb(word: String) = {
     firstFreq get word match {
       case Some(freq) => Math.log(freq)
-      case None => Math.log(1.0 / firstDictSize)
+      case None => Math.log(1.0 / (firstDictSize + secondDictSize))
     }
   }
 
   def getSecondProb(word: String) = {
     secondFreq get word match {
       case Some(freq) => Math.log(freq)
-      case None => Math.log(1.0 / secondDictSize)
+      case None => Math.log(1.0 / (firstDictSize + secondDictSize))
     }
   }
 
