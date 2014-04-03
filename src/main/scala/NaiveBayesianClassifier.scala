@@ -66,7 +66,7 @@ object NaiveBayesianClassifier extends App {
         def splitRec(accRes: List[List[T]], cur: List[T], list: List[T]): List[List[T]] = {
           list match {
             case head :: tail => if (head.equals(value)) splitRec(cur.reverse :: accRes, List(), tail) else splitRec(accRes, head :: cur, tail)
-            case List() => (cur :: accRes).reverse
+            case List() => (cur.reverse :: accRes).reverse
           }
         }
         splitRec(List(), List(), list)
@@ -75,7 +75,7 @@ object NaiveBayesianClassifier extends App {
 
   }
 
-  print(f"precision: $precision\n accuracy: $accuracy \n recall: $recall \n F: $fm")
+  print(f"precision: $precision\naccuracy: $accuracy \nrecall: $recall \nF: $fm")
 
 
 }
