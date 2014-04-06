@@ -4,49 +4,17 @@
     <bookmark url="file://$PROJECT_DIR$/src" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12d9ca7e-7fde-4219-a401-bb0173694827" name="Default" comment="fix strange idea rearrange code &#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn.arff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/accident/accident1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/accident/accident2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/accident" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/auto/auto1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/auto/auto2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/auto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/culture/culture1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/culture/culture2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/culture" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/economics/economics1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/economics/economics2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/economis" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/hitech/hitech1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/hitech/hitech2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/hitech" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/internet/internet1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/internet/internet2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/internet" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/politics/politics1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/politics/politics2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/politics" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/science/science1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/science/science2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/science" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/society/society1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/society/society2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/society" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/sport/sport1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/sport/sport2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/sport" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/10classes/learn/accident/accident" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/10classes/learn/auto/auto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/10classes/learn/culture/culture" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/10classes/learn/economics/economics" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/10classes/learn/hitech/hitech" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/10classes/learn/internet/internet" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/10classes/learn/politics/politics" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/10classes/learn/science/science" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/10classes/learn/society/society" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/10classes/learn/sport/sport" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/naiveBayes" afterPath="" />
+    <list default="true" id="12d9ca7e-7fde-4219-a401-bb0173694827" name="Default" comment="update learn.arff and test.arff">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/accident/accident3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/auto/auto3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/culture/culture3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/economics/economics3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/hitech/hitech3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/internet/internet3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/politics/politics3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/science/science3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/society/society3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/sport/sport3.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/10classes/learn.arff" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn.arff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/10classes/test.arff" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test.arff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -186,7 +154,7 @@
       <file leaf-file-name="Report" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/classifiersData/naiveBayes/Report">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5050505" vertical-offset="0" max-vertical-offset="594">
+            <state vertical-scroll-proportion="0.75949365" vertical-offset="0" max-vertical-offset="395">
               <caret line="20" column="36" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
@@ -815,7 +783,7 @@
       <workItem from="1396634465209" duration="23000" />
       <workItem from="1396634607279" duration="1371000" />
       <workItem from="1396774220422" duration="66000" />
-      <workItem from="1396775852057" duration="3888000" />
+      <workItem from="1396775852057" duration="4181000" />
     </task>
     <task id="LOCAL-00001" summary="README">
       <created>1393866865778</created>
@@ -909,11 +877,15 @@
       <created>1396808022810</created>
       <updated>1396808022810</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="update learn.arff and test.arff">
+      <created>1396810198579</created>
+      <updated>1396810198579</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60463000" />
+    <option name="totallyTimeSpent" value="60756000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -939,13 +911,13 @@
     <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53638256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.53638256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41476092" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883817" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744282" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883817" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -953,7 +925,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2489339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2489339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3056133" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1034,7 +1006,8 @@
     <MESSAGE value="fix2" />
     <MESSAGE value="weka converter" />
     <MESSAGE value="fix strange idea rearrange code &#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix strange idea rearrange code &#10;" />
+    <MESSAGE value="update learn.arff and test.arff" />
+    <option name="LAST_COMMIT_MESSAGE" value="update learn.arff and test.arff" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1353,7 +1326,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/classifiersData/naiveBayes/Report">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5050505" vertical-offset="0" max-vertical-offset="594">
+        <state vertical-scroll-proportion="0.75949365" vertical-offset="0" max-vertical-offset="395">
           <caret line="20" column="36" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
