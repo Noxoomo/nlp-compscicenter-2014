@@ -5,7 +5,98 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12d9ca7e-7fde-4219-a401-bb0173694827" name="Default" comment="fix2">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala" afterPath="$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn.arff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test.arff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/accident/accident" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/accident/accidents.parsed" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/accident/accidents2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/auto/auto.parsed" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/auto/auto.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/auto/auto2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/auto/auto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/culture/culture.parsed" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/culture/culture.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/culture/culture2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/culture/culture" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/economics/economics.parsed" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/economics/economics.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/economics/economics" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/economics/economics" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/hitech/hi-tech.parsed" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/hitech/hi-tech.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/hitech/hitech2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/hitech/hitech" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/accident/incident.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/internet/internet.parsed" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/internet/internet.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/internet/internet2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/internet/internet" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/politics/politics.parsed" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/politics/politics.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/politics/politics2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/politics/politics" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/science/science.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/science/science2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/science/science" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/science/scince.parsed" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/society/society.parsed" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/society/society.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/society/society" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/society/society" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/sport/sport.parsed" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/sport/sport.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/sport/sport2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/sport/sport" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/wekaConverter.sh" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/learn/accident/accident" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/learn/auto/auto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/learn/culture/culture" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/learn/economics/economics" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/learn/hitech/hitech" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/learn/internet/internet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/learn/politics/politics" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/learn/science/science" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/learn/society/society" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/learn/sport/sport" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/accident/accidents.parsed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/accident/accidents.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/accident/accidents2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/accident/incident.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/auto/auto.parsed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/auto/auto.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/auto/auto2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/culture/culture.parsed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/culture/culture.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/culture/culture2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/economics/economics" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/economics/economics.parsed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/economics/economics.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/hitech/hi-tech.parsed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/hitech/hi-tech.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/hitech/hitech2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/internet/internet.parsed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/internet/internet.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/internet/internet2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/politics/politics.parsed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/politics/politics.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/politics/politics2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/science/science.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/science/science2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/science/scince.parsed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/society/society" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/society/society.parsed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/society/society.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/sport/sport.parsed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/sport/sport.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/sport/sport2" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/naiveBayes" afterPath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/naiveBayes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/auto" afterPath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/auto" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/internet" afterPath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/internet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/politics" afterPath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/politics" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/society" afterPath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/society" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/good/society" afterPath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/good/society" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/societyvsothers.arff" afterPath="$PROJECT_DIR$/data/classifiersData/societyvsothers.arff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/sport" afterPath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/sport" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nlp-compscicenter-2014.iws" />
@@ -113,8 +204,8 @@
       <file leaf-file-name="OpenCorpaToSentenceConverter.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7244786" vertical-offset="0" max-vertical-offset="911">
-              <caret line="48" column="21" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7080132" vertical-offset="0" max-vertical-offset="911">
+              <caret line="47" column="37" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -439,6 +530,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SocietyVsOthers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nlp-compscicenter-2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nlp-compscicenter-2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classifiersData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SocietyVsOthers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bad" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -826,7 +943,7 @@
       <workItem from="1396634465209" duration="23000" />
       <workItem from="1396634607279" duration="1371000" />
       <workItem from="1396774220422" duration="66000" />
-      <workItem from="1396775852057" duration="429000" />
+      <workItem from="1396775852057" duration="760000" />
     </task>
     <task id="LOCAL-00001" summary="README">
       <created>1393866865778</created>
@@ -908,11 +1025,15 @@
       <created>1396776027020</created>
       <updated>1396776027020</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fix2">
+      <created>1396776293656</created>
+      <updated>1396776293656</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57004000" />
+    <option name="totallyTimeSpent" value="57335000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -936,7 +1057,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53638256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -952,7 +1073,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2489339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2489339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3056133" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1034,7 +1155,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="fix2" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1414,8 +1534,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7244786" vertical-offset="0" max-vertical-offset="911">
-          <caret line="48" column="21" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7080132" vertical-offset="0" max-vertical-offset="911">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
           <folding />
         </state>
       </provider>
