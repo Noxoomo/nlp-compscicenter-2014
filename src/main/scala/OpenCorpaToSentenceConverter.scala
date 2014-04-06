@@ -18,6 +18,9 @@ object OpenCorpaToSentenceConverter extends App {
   val fm = 2 * accuracy * recall / (accuracy + recall)
   var i = 0
   var tp = 0.0
+  var fn = 0.0
+  var tn = 0.0
+  var fp = 0.0
   corpus \ "text" foreach {
     text => text \ "paragraphs" \ "paragraph" foreach {
       paragraph => {
@@ -50,9 +53,7 @@ object OpenCorpaToSentenceConverter extends App {
   //  println(fp)
   //  println(tn)
   //  println(fn)
-  var fn = 0.0
-  var tn = 0.0
-  var fp = 0.0
+
   println(f"accuracy: $accuracy\nrecall: $recall\nFm: $fm")
 
 }

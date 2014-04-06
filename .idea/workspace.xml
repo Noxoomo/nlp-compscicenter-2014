@@ -4,31 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/src" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12d9ca7e-7fde-4219-a401-bb0173694827" name="Default" comment="measure fix">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__commons_lang_commons_lang_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_scala_lang_scala_library_2_10_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_scalatest_scalatest_2_10_2_0_M8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT___scala_compiler_2_10_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__junit_junit_4_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__net_sf_squirrel_sql_thirdparty_non_maven_java_cup_0_11a.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__nz_ac_waikato_cms_weka_weka_dev_3_7_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_pentaho_pentaho_commons_pentaho_package_manager_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_10_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_10_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalatest_scalatest_2_10_2_0_M8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/test/accident/accidents.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/test/auto/auto.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/jsonSource/corpus" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/test/culture/culture.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/test/economics/economics.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/test/hitech/hi-tech.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/test/accident/incident.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/test/internet/internet.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/test/politics/politics.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/test/science/science.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/test/society/society.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/society" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/test/sport/sport.txt" />
+    <list default="true" id="12d9ca7e-7fde-4219-a401-bb0173694827" name="Default" comment="another test documents">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala" afterPath="$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nlp-compscicenter-2014.iws" />
@@ -136,8 +113,8 @@
       <file leaf-file-name="OpenCorpaToSentenceConverter.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6455696" vertical-offset="0" max-vertical-offset="900">
-              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.2963776" vertical-offset="0" max-vertical-offset="915">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -849,7 +826,7 @@
       <workItem from="1396634465209" duration="23000" />
       <workItem from="1396634607279" duration="1371000" />
       <workItem from="1396774220422" duration="66000" />
-      <workItem from="1396775852057" duration="66000" />
+      <workItem from="1396775852057" duration="155000" />
     </task>
     <task id="LOCAL-00001" summary="README">
       <created>1393866865778</created>
@@ -923,11 +900,15 @@
       <created>1396543336459</created>
       <updated>1396543336459</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="another test documents">
+      <created>1396775935108</created>
+      <updated>1396775935108</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56641000" />
+    <option name="totallyTimeSpent" value="56730000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -953,13 +934,14 @@
     <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5373444" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53638256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.414956" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883817" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744282" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883817" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -977,7 +959,6 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744282" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991684" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1043,7 +1024,8 @@
     <MESSAGE value="add junit to sbt" />
     <MESSAGE value="my news by categories&#10;little fixes in naive bayes, works with societyvsOthers" />
     <MESSAGE value="measure fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="measure fix" />
+    <MESSAGE value="another test documents" />
+    <option name="LAST_COMMIT_MESSAGE" value="another test documents" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1426,8 +1408,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6455696" vertical-offset="0" max-vertical-offset="900">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.2963776" vertical-offset="0" max-vertical-offset="915">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
           <folding />
         </state>
       </provider>
