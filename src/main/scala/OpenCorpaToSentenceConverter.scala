@@ -13,14 +13,12 @@ object OpenCorpaToSentenceConverter extends App {
   val writer = new BufferedWriter(new FileWriter(args(1)))
   val bad = new BufferedWriter(new FileWriter(args(2)))
   val testSentence = "Test."
-  val accuracy = tp / (tp + fp)
-  val recall = tp / (tp + fn)
-  val fm = 2 * accuracy * recall / (accuracy + recall)
-  var i = 0
-  var tp = 0.0
   var fn = 0.0
   var tn = 0.0
   var fp = 0.0
+  var tp = 0
+  var i = 0
+
   corpus \ "text" foreach {
     text => text \ "paragraphs" \ "paragraph" foreach {
       paragraph => {
@@ -49,11 +47,10 @@ object OpenCorpaToSentenceConverter extends App {
   writer.flush()
   writer.close()
 
-  //  println(tp)
-  //  println(fp)
-  //  println(tn)
-  //  println(fn)
-
+  val accuracy = tp / (tp + fp)
+  val recall = tp / (tp + fn)
+  val fm = 2 * accuracy * recall / (accuracy + recall)
   println(f"accuracy: $accuracy\nrecall: $recall\nFm: $fm")
+
 
 }
