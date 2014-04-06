@@ -4,99 +4,24 @@
     <bookmark url="file://$PROJECT_DIR$/src" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12d9ca7e-7fde-4219-a401-bb0173694827" name="Default" comment="fix2">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn.arff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test.arff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/accident/accident" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/accident/accidents.parsed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/accident/accidents2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/auto/auto.parsed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/auto/auto.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/auto/auto2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/auto/auto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/culture/culture.parsed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/culture/culture.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/culture/culture2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/culture/culture" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/economics/economics.parsed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/economics/economics.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/economics/economics" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/economics/economics" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/hitech/hi-tech.parsed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/hitech/hi-tech.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/hitech/hitech2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/hitech/hitech" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/accident/incident.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/internet/internet.parsed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/internet/internet.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/internet/internet2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/internet/internet" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/politics/politics.parsed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/politics/politics.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/politics/politics2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/politics/politics" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/science/science.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/science/science2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/science/science" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/science/scince.parsed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/society/society.parsed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/society/society.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/society/society" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/society/society" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/sport/sport.parsed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/sport/sport.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test/sport/sport2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/sport/sport" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/wekaConverter.sh" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/learn/accident/accident" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/learn/auto/auto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/learn/culture/culture" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/learn/economics/economics" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/learn/hitech/hitech" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/learn/internet/internet" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/learn/politics/politics" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/learn/science/science" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/learn/society/society" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/learn/sport/sport" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/accident/accidents.parsed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/accident/accidents.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/accident/accidents2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/accident/incident.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/auto/auto.parsed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/auto/auto.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/auto/auto2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/culture/culture.parsed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/culture/culture.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/culture/culture2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/economics/economics" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/economics/economics.parsed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/economics/economics.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/hitech/hi-tech.parsed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/hitech/hi-tech.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/hitech/hitech2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/internet/internet.parsed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/internet/internet.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/internet/internet2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/politics/politics.parsed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/politics/politics.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/politics/politics2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/science/science.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/science/science2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/science/scince.parsed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/society/society" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/society/society.parsed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/society/society.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/sport/sport.parsed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/sport/sport.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/test/sport/sport2" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/naiveBayes" afterPath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/naiveBayes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/auto" afterPath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/auto" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/internet" afterPath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/internet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/politics" afterPath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/politics" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/society" afterPath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/society" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/good/society" afterPath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/good/society" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/societyvsothers.arff" afterPath="$PROJECT_DIR$/data/classifiersData/societyvsothers.arff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/sport" afterPath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/sport" />
+    <list default="true" id="12d9ca7e-7fde-4219-a401-bb0173694827" name="Default" comment="weka converter">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/Report" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/naiveBayes" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/accident" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/auto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/culture" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/economis" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/hitech" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/internet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/politics" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/science" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/society" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/bad/sport" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers/good/society" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/FirstTaskResults" afterPath="$PROJECT_DIR$/FirstTaskResults" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala" afterPath="$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/TestNewsData.scala" afterPath="$PROJECT_DIR$/src/main/scala/TestNewsData.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nlp-compscicenter-2014.iws" />
@@ -181,41 +106,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Parser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Parser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="2625">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FileParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1425">
-              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpenCorpaToSentenceConverter.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="OpenCorpaToSentenceConverter.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7080132" vertical-offset="0" max-vertical-offset="911">
-              <caret line="47" column="37" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+              <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="corpus" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/allNewsCorpus/corpus">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1245" max-vertical-offset="5535">
+              <caret line="96" column="67" selection-start-line="89" selection-start-column="0" selection-end-line="96" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="FirstTaskResults" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/FirstTaskResults">
+        <entry file="file://$PROJECT_DIR$/FirstTaskResults">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="210">
-              <caret line="4" column="22" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -224,8 +139,38 @@
       <file leaf-file-name="NaiveBayesianLearner.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="735">
-              <caret line="38" column="70" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wekaConverter.sh" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/classifiersData/wekaConverter.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="515" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Report" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/classifiersData/naiveBayes/Report">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.024311183" vertical-offset="0" max-vertical-offset="617">
+              <caret line="1" column="75" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+              <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -241,31 +186,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Class.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2835" max-vertical-offset="48255">
-              <caret line="189" column="0" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NaiveBayesianClassifier.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="1305">
-              <caret line="53" column="31" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParserTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ParserTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="780">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="1305">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -274,8 +199,8 @@
       <file leaf-file-name="TestNewsData.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/TestNewsData.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="735">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -333,11 +258,13 @@
         <option value="$PROJECT_DIR$/data/NewsByCategory/Noxoomo/hitech" />
         <option value="$PROJECT_DIR$/data/NewsByCategory/Noxoomo/internet" />
         <option value="$PROJECT_DIR$/data/NewsByCategory/Noxoomo/auto" />
-        <option value="$PROJECT_DIR$/src/main/scala/TestNewsData.scala" />
-        <option value="$PROJECT_DIR$/data/FirstTaskResults" />
-        <option value="$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala" />
+        <option value="$PROJECT_DIR$/data/FirstTaskResults" />
+        <option value="$PROJECT_DIR$/src/main/scala/TestNewsData.scala" />
+        <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala" />
+        <option value="$PROJECT_DIR$/data/classifiersData/naiveBayes/Report" />
       </list>
     </option>
   </component>
@@ -492,6 +419,28 @@
               <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsByCategory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Noxoomo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nlp-compscicenter-2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nlp-compscicenter-2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -529,7 +478,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SocietyVsOthers" />
+              <option name="myItemId" value="naiveBayes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -551,11 +500,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SocietyVsOthers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bad" />
+              <option name="myItemId" value="10classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -573,7 +518,101 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="allNewsCorpus" />
+              <option name="myItemId" value="classifiersData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nlp-compscicenter-2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nlp-compscicenter-2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classifiersData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accident" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nlp-compscicenter-2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nlp-compscicenter-2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classifiersData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nlp-compscicenter-2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nlp-compscicenter-2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classifiersData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -604,19 +643,19 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/classifiersData/SocietyVsOthers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/classifiersData/naiveBayes" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/jsonSource" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/data/jsonSource" />
     </key>
   </component>
   <component name="RunManager" selected="Application.NaiveBayesianClassifier">
@@ -626,6 +665,69 @@
       <option name="VM_PARAMETERS" value="-Xmx5g" />
       <option name="PROGRAM_PARAMETERS" value="opcorpora.xml sentence-seq.txt sentence-bad.txt" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/.." />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="nlp-compscicenter-2014" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestNewsData" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="TestNewsData" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="corpus" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/data/allNewsCorpus" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="nlp-compscicenter-2014" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="NaiveBayesianLearner" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="NaiveBayesianLearner" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="good bad naiveBayes" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/data/classifiersData/naiveBayes" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="nlp-compscicenter-2014" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="NaiveBayesianClassifier" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="NaiveBayesianClassifier" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="good bad naiveBayes" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/data/classifiersData/naiveBayes" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -662,69 +764,6 @@
       </option>
       <envs />
       <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestNewsData" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="TestNewsData" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="corpus" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/data/allNewsCorpus" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="nlp-compscicenter-2014" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="NaiveBayesianLearner" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="NaiveBayesianLearner" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="good bad naiveBayes" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/data/classifiersData/SocietyVsOthers" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="nlp-compscicenter-2014" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="NaiveBayesianClassifier" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="NaiveBayesianClassifier" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="good bad naiveBayes" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/data/classifiersData/SocietyVsOthers" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="nlp-compscicenter-2014" />
-      <envs />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
         <option name="TRANSPORT" value="0" />
@@ -855,17 +894,17 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.OpencorpaToSentenceConverter" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ParserTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestNewsData" />
-      <item index="3" class="java.lang.String" itemvalue="Application.NaiveBayesianLearner" />
-      <item index="4" class="java.lang.String" itemvalue="Application.NaiveBayesianClassifier" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestNewsData" />
+      <item index="2" class="java.lang.String" itemvalue="Application.NaiveBayesianLearner" />
+      <item index="3" class="java.lang.String" itemvalue="Application.NaiveBayesianClassifier" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ParserTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.NaiveBayesianClassifier" />
         <item index="1" class="java.lang.String" itemvalue="Application.NaiveBayesianLearner" />
-        <item index="2" class="java.lang.String" itemvalue="Application.OpencorpaToSentenceConverter" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestNewsData" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestNewsData" />
+        <item index="3" class="java.lang.String" itemvalue="Application.OpencorpaToSentenceConverter" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.ParserTest" />
       </list>
     </recent_temporary>
@@ -943,7 +982,7 @@
       <workItem from="1396634465209" duration="23000" />
       <workItem from="1396634607279" duration="1371000" />
       <workItem from="1396774220422" duration="66000" />
-      <workItem from="1396775852057" duration="760000" />
+      <workItem from="1396775852057" duration="3149000" />
     </task>
     <task id="LOCAL-00001" summary="README">
       <created>1393866865778</created>
@@ -1029,11 +1068,15 @@
       <created>1396776293656</created>
       <updated>1396776293656</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="weka converter">
+      <created>1396784501490</created>
+      <updated>1396784501490</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57335000" />
+    <option name="totallyTimeSpent" value="59724000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1062,7 +1105,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53638256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.414956" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41476092" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883817" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1074,7 +1117,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2489339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3056133" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3056133" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1152,13 +1195,22 @@
     <MESSAGE value="another test documents" />
     <MESSAGE value="fix" />
     <MESSAGE value="fix2" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix2" />
+    <MESSAGE value="weka converter" />
+    <option name="LAST_COMMIT_MESSAGE" value="weka converter" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="20" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1166,20 +1218,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ParseNews.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="765">
-          <caret line="14" column="52" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FileParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="675">
-          <caret line="24" column="110" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1455" max-vertical-offset="2085">
@@ -1299,13 +1337,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/jsonSource/corpusAllNews.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.92324805" vertical-offset="2665" max-vertical-offset="3585">
@@ -1373,13 +1404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="23.791666" vertical-offset="1636" max-vertical-offset="2535">
           <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/allNewsCorpus/corpus">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="5535">
-          <caret line="96" column="67" selection-start-line="89" selection-start-column="0" selection-end-line="96" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -1484,14 +1508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/FirstTaskResults">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <caret line="4" column="22" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="720">
@@ -1508,34 +1524,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala">
+    <entry file="file://$PROJECT_DIR$/data/allNewsCorpus/corpus">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <caret line="38" column="70" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="1305">
-          <caret line="53" column="31" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1245" max-vertical-offset="5535">
+          <caret line="96" column="67" selection-start-line="89" selection-start-column="0" selection-end-line="96" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/TestNewsData.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="735">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstTaskResults">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7080132" vertical-offset="0" max-vertical-offset="911">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="1305">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/classifiersData/wekaConverter.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="515" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/classifiersData/naiveBayes/Report">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024311183" vertical-offset="0" max-vertical-offset="617">
+          <caret line="1" column="75" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
           <folding />
         </state>
       </provider>

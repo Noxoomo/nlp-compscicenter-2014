@@ -1,4 +1,3 @@
-import java.io.FileWriter
 import scala.io.Source
 
 /**
@@ -8,9 +7,10 @@ import scala.io.Source
  */
 object TestNewsData extends App() {
   val testSentence = "Test."
-  val accuracy = tp / (tp + fp)
-  val recall = tp / (tp + fn)
-  val fm = 2 * accuracy * recall / (accuracy + recall)
+  var fn = 0.0
+  var tn = 0.0
+  var fp = 0.0
+
   var i = 0
   var tp = 0.0
   for (sentence <- Source.fromFile(args(0)).getLines()) {
@@ -32,9 +32,11 @@ object TestNewsData extends App() {
   //  println(fp)
   //  println(tn)
   //  println(fn)
-  var fn = 0.0
-  var tn = 0.0
-  var fp = 0.0
+
+
+  val accuracy = tp / (tp + fp)
+  val recall = tp / (tp + fn)
+  val fm = 2 * accuracy * recall / (accuracy + recall)
 
   println(f"accuracy: $accuracy\nrecall: $recall\nFm: $fm")
   //  println(recall)
