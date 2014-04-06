@@ -32,13 +32,14 @@ object NaiveBayesianLearner extends App {
   writer.write(firstDictSize + "\n")
   writer.write(firstProb + "\n")
   writer.write(firstFreq.map {
-    case (word, freq) => word + " " + freq
+    case (word, freq) => f"$word $freq"
   }.mkString("\n"))
   writer.write("\n" + classEndIndicator + "\n")
   writer.write(secondDictSize + "\n")
   writer.write(secondProb + "\n")
   writer.write(secondFreq.map {
-    case (word, freq) => word + " " + freq
+    case (word, freq) => f"$word $freq"
   }.mkString("\n"))
-
+  writer.flush()
+  writer.close()
 }
