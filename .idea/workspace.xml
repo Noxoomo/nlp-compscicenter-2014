@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12d9ca7e-7fde-4219-a401-bb0173694827" name="Default" comment="classification report">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SecondHomeworkTask" afterPath="$PROJECT_DIR$/SecondHomeworkTask" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nlp-compscicenter-2014.iws" />
@@ -835,7 +834,7 @@
       <workItem from="1396634465209" duration="23000" />
       <workItem from="1396634607279" duration="1371000" />
       <workItem from="1396774220422" duration="66000" />
-      <workItem from="1396775852057" duration="6352000" />
+      <workItem from="1396775852057" duration="6374000" />
     </task>
     <task id="LOCAL-00001" summary="README">
       <created>1393866865778</created>
@@ -941,11 +940,15 @@
       <created>1396854368860</created>
       <updated>1396854368860</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="classification report">
+      <created>1396854410344</created>
+      <updated>1396854410344</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62927000" />
+    <option name="totallyTimeSpent" value="62949000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
