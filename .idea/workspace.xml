@@ -4,23 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/src" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12d9ca7e-7fde-4219-a401-bb0173694827" name="Default" comment="som">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SecondHomeworkTask" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/accident/accident4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/auto/auto4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/culture/culture4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/economics/economics4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/hitech/hitech4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/internet/internet4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learnProj.arff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/politics/politics4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/science/science4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/society/society4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn/sport/sport4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/testProj.arff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/10classes/learn.arff" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/learn.arff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/10classes/test.arff" afterPath="$PROJECT_DIR$/data/classifiersData/10classes/test.arff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/wekaConverter.sh" afterPath="$PROJECT_DIR$/data/classifiersData/wekaConverter.sh" />
+    <list default="true" id="12d9ca7e-7fde-4219-a401-bb0173694827" name="Default" comment="classification report">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SecondHomeworkTask" afterPath="$PROJECT_DIR$/SecondHomeworkTask" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nlp-compscicenter-2014.iws" />
@@ -168,8 +153,8 @@
       <file leaf-file-name="SecondHomeworkTask" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SecondHomeworkTask">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5294118" vertical-offset="0" max-vertical-offset="2550">
-              <caret line="21" column="42" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2565">
+              <caret line="0" column="120" selection-start-line="0" selection-start-column="120" selection-end-line="0" selection-end-column="120" />
               <folding />
             </state>
           </provider>
@@ -850,7 +835,7 @@
       <workItem from="1396634465209" duration="23000" />
       <workItem from="1396634607279" duration="1371000" />
       <workItem from="1396774220422" duration="66000" />
-      <workItem from="1396775852057" duration="6287000" />
+      <workItem from="1396775852057" duration="6352000" />
     </task>
     <task id="LOCAL-00001" summary="README">
       <created>1393866865778</created>
@@ -952,11 +937,15 @@
       <created>1396813063575</created>
       <updated>1396813063575</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="classification report">
+      <created>1396854368860</created>
+      <updated>1396854368860</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62862000" />
+    <option name="totallyTimeSpent" value="62927000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1053,7 +1042,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="README&#10;" />
     <MESSAGE value="README (move to root)&#10;" />
     <MESSAGE value="very naive parser" />
     <MESSAGE value="my part of splitting news to sentence" />
@@ -1078,7 +1066,8 @@
     <MESSAGE value="fix strange idea rearrange code &#10;" />
     <MESSAGE value="update learn.arff and test.arff" />
     <MESSAGE value="update learn.arff and test.arff with Mark's articles" />
-    <option name="LAST_COMMIT_MESSAGE" value="update learn.arff and test.arff with Mark's articles" />
+    <MESSAGE value="classification report" />
+    <option name="LAST_COMMIT_MESSAGE" value="classification report" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1405,8 +1394,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SecondHomeworkTask">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5294118" vertical-offset="0" max-vertical-offset="2550">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2565">
+          <caret line="0" column="120" selection-start-line="0" selection-start-column="120" selection-end-line="0" selection-end-column="120" />
           <folding />
         </state>
       </provider>
