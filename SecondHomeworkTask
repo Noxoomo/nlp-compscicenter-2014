@@ -1,0 +1,164 @@
+Выбор атрибутов по  chi-square — как-то не заработало, всем выдало одинаковый score = 0. Наверно у нас данных для обучения мало + куча словоформ русского языка портят все.
+
+Деревья (а точнее Random Forest, т.к. с таким кол-во данных вообще ничего хорошо работать не будет, так зачем нам красивое дерево, которое можно анализировать…)
+Из таблички с accuracy видно, чо некоторые категории совсем плохо определяются. На это влияют 1) то, что у нас мало данных 2) В источнике (yandex.news) новости попадают в разные категории, а их относили к
+конкретно одной
+
+Scheme:weka.classifiers.trees.RandomForest -I 1000 -K 30 -S 1
+Relation:     _Users_Vasily_Dropbox_homework_NLP_nlp-compscicenter-2014_data_classifiersData_10classes_learn-weka.filters.unsupervised.attribute.NominalToString-C1-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Reorder-R2-last,1
+Instances:    40
+Attributes:   3611
+[list of attributes omitted]
+Test mode:user supplied test set: size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Random forest of 1000 trees, each constructed while considering 30 random features.
+Out of bag error: 0.95
+
+
+
+Time taken to build model: 5.44 seconds
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances           8               26.6667 %
+Incorrectly Classified Instances        22               73.3333 %
+Kappa statistic                          0.1852
+Mean absolute error                      0.1772
+Root mean squared error                  0.297
+Relative absolute error                 98.4704 %
+Root relative squared error             99.0148 %
+Total Number of Instances               30
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.667     0.185      0.286     0.667     0.4        0.926    accident
+                 0.667     0.222      0.25      0.667     0.364      0.716    auto
+                 0         0          0         0         0          0.654    culture
+                 0         0.037      0         0         0          0.543    economics
+                 0         0          0         0         0          0.605    hitech
+                 0         0.074      0         0         0          0.451    internet
+                 0.667     0.259      0.222     0.667     0.333      0.815    politics
+                 0         0          0         0         0          0.537    science
+                 0         0.037      0         0         0          0.543    society
+                 0.667     0          1         0.667     0.8        0.877    sport
+Weighted Avg.    0.267     0.081      0.176     0.267     0.19       0.667
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j   <-- classified as
+ 2 0 0 0 0 0 1 0 0 0 | a = accident
+ 1 2 0 0 0 0 0 0 0 0 | b = auto
+ 1 1 0 0 0 0 1 0 0 0 | c = culture
+ 0 2 0 0 0 0 1 0 0 0 | d = economics
+ 0 1 0 0 0 2 0 0 0 0 | e = hitech
+ 1 1 0 0 0 0 1 0 0 0 | f = internet
+ 0 0 0 1 0 0 2 0 0 0 | g = politics
+ 0 1 0 0 0 0 1 0 1 0 | h = science
+ 1 0 0 0 0 0 2 0 0 0 | i = society
+ 1 0 0 0 0 0 0 0 0 2 | j = sport
+
+
+
+
+
+SVM:
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances           7               23.3333 %
+Incorrectly Classified Instances        23               76.6667 %
+Kappa statistic                          0.1481
+Mean absolute error                      0.1751
+Root mean squared error                  0.2986
+Relative absolute error                 97.284  %
+Root relative squared error             99.5463 %
+Total Number of Instances               30
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.667     0.148      0.333     0.667     0.444      0.87     accident
+                 0.333     0.148      0.2       0.333     0.25       0.728    auto
+                 0         0          0         0         0          0.778    culture
+                 0         0          0         0         0          0.593    economics
+                 0         0          0         0         0          0.747    hitech
+                 0         0.074      0         0         0          0.735    internet
+                 1         0.444      0.2       1         0.333      0.778    politics
+                 0         0          0         0         0          0.747    science
+                 0         0          0         0         0          0.481    society
+                 0.333     0.037      0.5       0.333     0.4        0.84     sport
+Weighted Avg.    0.233     0.085      0.123     0.233     0.143      0.73
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j   <-- classified as
+ 2 0 0 0 0 0 1 0 0 0 | a = accident
+ 1 1 0 0 0 0 0 0 0 1 | b = auto
+ 0 0 0 0 0 0 3 0 0 0 | c = culture
+ 0 1 0 0 0 0 2 0 0 0 | d = economics
+ 0 1 0 0 0 2 0 0 0 0 | e = hitech
+ 1 1 0 0 0 0 1 0 0 0 | f = internet
+ 0 0 0 0 0 0 3 0 0 0 | g = politics
+ 0 1 0 0 0 0 2 0 0 0 | h = science
+ 1 0 0 0 0 0 2 0 0 0 | i = society
+ 1 0 0 0 0 0 1 0 0 1 | j = sport
+
+
+
+Логистическая регрессия — без dimension reduction все плохо и работает долго, а выделить атрибуты как-то
+не получается. Так что давайте сделаем random projection и посмотрим, что получилось:
+
+Time taken to build model: 21.76 seconds
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances           9               30      %
+Incorrectly Classified Instances        21               70      %
+Kappa statistic                          0.2222
+Mean absolute error                      0.1426
+Root mean squared error                  0.3683
+Relative absolute error                 79.2    %
+Root relative squared error            122.7605 %
+Total Number of Instances               30
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.333     0.148      0.2       0.333     0.25       0.667    accident
+                 0.667     0          1         0.667     0.8        0.988    auto
+                 0         0.148      0         0         0          0.617    culture
+                 0         0.074      0         0         0          0.481    economics
+                 0.333     0.037      0.5       0.333     0.4        0.778    hitech
+                 0.333     0.148      0.2       0.333     0.25       0.741    internet
+                 0.333     0.037      0.5       0.333     0.4        0.519    politics
+                 0.333     0.074      0.333     0.333     0.333      0.494    science
+                 0.667     0.111      0.4       0.667     0.5        0.642    society
+                 0         0          0         0         0          0.568    sport
+Weighted Avg.    0.3       0.078      0.313     0.3       0.293      0.649
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j   <-- classified as
+ 1 0 1 0 0 0 0 0 1 0 | a = accident
+ 0 2 1 0 0 0 0 0 0 0 | b = auto
+ 2 0 0 0 0 0 0 0 1 0 | c = culture
+ 0 0 0 0 0 0 1 2 0 0 | d = economics
+ 0 0 0 0 1 2 0 0 0 0 | e = hitech
+ 1 0 0 1 0 1 0 0 0 0 | f = internet
+ 0 0 1 0 0 1 1 0 0 0 | g = politics
+ 0 0 0 0 1 0 0 1 1 0 | h = science
+ 0 0 0 0 0 1 0 0 2 0 | i = society
+ 1 0 1 1 0 0 0 0 0 0 | j = sport
+
+
+
+
+ Выводы:
+ 1) давать командные задания — плохая идея и те, кто должны делать отчет нифига не делают…
+ 2) У нас мало данных, поэтому угадываем порядка 25% классов. Ну и обучаться на 4 экземплярах каждого класса плохая идея, а с учетом
+  кол-ва слов в тексте   тем более.
