@@ -11,8 +11,9 @@ object NaiveBayesianClassifier extends App {
                                  if file.isFile) yield Source.fromFile(file.getAbsolutePath).getLines().mkString(" ").filterNot(punctuation contains).split(" ")
   val secondClassDocuments = for (file <- new java.io.File(args(1)).listFiles
                                   if file.isFile) yield Source.fromFile(file.getAbsolutePath).getLines().mkString(" ").filterNot(punctuation contains).split(" ")
-
-  val config = Source.fromFile(args(2)).getLines().toList.split(classEndIndicator)
+  val source = Source.fromFile(args(2)).getLines()
+  val unknownProb = source.next().toDouble
+  val config = source.toList.split(classEndIndicator)
   val firstStats = config.head
   val secondStats = config.tail.head
   val firstDictSize = firstStats.head.toInt
@@ -40,22 +41,22 @@ object NaiveBayesianClassifier extends App {
   val fm = 2 * accuracy * recall / (accuracy + recall)
 
   def getClass(document: Array[String]) = {
-    val firstLL = Math.log(firstProb) + document.map(getFirstProb).foldLeft(Math.log(firstProb))(_ + _)
-    val secondLL = Math.log(secondProb) + document.map(getSecondProb).foldLeft(Math.log(secondProb))(_ + _)
+    val firstLL = document.map(getFirstProb).foldLeft(Math.log(firstProb))(_ + _)
+    val secondLL = document.map(getSecondProb).foldLeft(Math.log(secondProb))(_ + _)
     if (firstLL > secondLL) 0 else 1
   }
 
   def getFirstProb(word: String) = {
     firstFreq get word match {
       case Some(freq) => Math.log(freq)
-      case None => Math.log(1.0 / (firstDictSize + secondDictSize))
+      case None => Math.log(unknownProb)
     }
   }
 
   def getSecondProb(word: String) = {
     secondFreq get word match {
       case Some(freq) => Math.log(freq)
-      case None => Math.log(1.0 / (firstDictSize + secondDictSize))
+      case None => Math.log(unknownProb)
     }
   }
 
