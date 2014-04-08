@@ -4,56 +4,65 @@
     <bookmark url="file://$PROJECT_DIR$/src" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12d9ca7e-7fde-4219-a401-bb0173694827" name="Default" comment="naive bayes updated">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/naiveBayes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test.arff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NaiveBayesReport" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/accident1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/accident2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/accident3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/accident4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/auto1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/auto2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/auto3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/auto4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/culture1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/culture2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/culture3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/culture4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/economics1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/economics2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/economics3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/economics4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/hitech1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/hitech2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/hitech3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/hitech4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/internet1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/internet2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/internet3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/internet4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/naiveBayes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/politics1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/politics2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/politics3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/politics4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/science1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/science2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/science3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/science4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/society1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/society2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/society3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/society4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/sport1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/sport2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/sport3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/sport4" />
+    <list default="true" id="12d9ca7e-7fde-4219-a401-bb0173694827" name="Default" comment="naive bayes updated (add split words endings, lower case all)">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/Helpers.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/accident" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/auto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/culture" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/hitech" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/internet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/science" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/society" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/sport" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/economis" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/politics" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/accident1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/accident2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/accident3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/accident4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/auto1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/auto3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/auto4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/culture1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/culture3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/culture4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/hitech1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/hitech3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/hitech4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/internet1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/internet3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/internet4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/science1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/science3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/science4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/society1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/society2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/society3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/society4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/sport1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/sport3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/sport4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/economics1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/economics2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/economics3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/economics4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/politics1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/politics3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/politics4" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn.arff" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn.arff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FirstTaskResults" afterPath="$PROJECT_DIR$/FirstTaskResults" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/naiveBayes" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/naiveBayes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/naiveBayes" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/naiveBayes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test.arff" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test.arff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NaiveBayesReport" afterPath="$PROJECT_DIR$/NaiveBayesReport" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala" afterPath="$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala" afterPath="$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/naiveBayes" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/naiveBayes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/auto2" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/auto2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/culture2" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/culture2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/hitech2" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/hitech2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/internet2" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/internet2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/politics2" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/politics2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/science2" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/science2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/sport2" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/sport2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nlp-compscicenter-2014.iws" />
@@ -161,8 +170,20 @@
       <file leaf-file-name="NaiveBayesianLearner.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="750">
+              <caret line="26" column="48" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+              <folding>
+                <element signature="e#58#101#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Helpers.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Helpers.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5527638" vertical-offset="0" max-vertical-offset="597">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -211,31 +232,21 @@
       <file leaf-file-name="NaiveBayesianClassifier.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="716" max-vertical-offset="1320">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1095">
+              <caret line="39" column="57" selection-start-line="36" selection-start-column="1" selection-end-line="39" selection-end-column="54" />
+              <folding>
+                <element signature="e#1#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NaiveBayesReport" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NaiveBayesReport" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NaiveBayesReport">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19448946" vertical-offset="0" max-vertical-offset="617">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+              <caret line="41" column="21" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestNewsData.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/TestNewsData.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="765">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding>
-                <marker date="1396808018000" expanded="false" signature="0:22" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -298,10 +309,11 @@
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/data/classifiersData/naiveBayes/Report" />
         <option value="$PROJECT_DIR$/SecondHomeworkTask" />
-        <option value="$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala" />
         <option value="$PROJECT_DIR$/FirstTaskResults" />
+        <option value="$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala" />
         <option value="$PROJECT_DIR$/NaiveBayesReport" />
+        <option value="$PROJECT_DIR$/src/main/scala/Helpers.scala" />
       </list>
     </option>
   </component>
@@ -357,7 +369,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -498,7 +510,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -524,7 +536,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/classifiersData/naiveBayes/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
   <component name="RecentsManager">
@@ -584,7 +596,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="NaiveBayesianLearner" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="good bad naiveBayes" />
+      <option name="PROGRAM_PARAMETERS" value="bad good  ../test/naiveBayes" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/data/classifiersData/naiveBayes/learn" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -607,7 +619,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="NaiveBayesianClassifier" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="good bad naiveBayes" />
+      <option name="PROGRAM_PARAMETERS" value="bad  good naiveBayes" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/data/classifiersData/naiveBayes/test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -662,6 +674,14 @@
       <setting name="consoleArgs" value="-usejavacp" />
       <method />
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
       <module name="" />
       <setting name="path" value="" />
@@ -673,27 +693,6 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -722,6 +721,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -865,7 +877,8 @@
       <workItem from="1396774220422" duration="66000" />
       <workItem from="1396775852057" duration="6541000" />
       <workItem from="1396878072360" duration="19000" />
-      <workItem from="1396890123554" duration="2490000" />
+      <workItem from="1396890123554" duration="2693000" />
+      <workItem from="1396955455129" duration="3705000" />
     </task>
     <task id="LOCAL-00001" summary="README">
       <created>1393866865778</created>
@@ -979,11 +992,15 @@
       <created>1396854433096</created>
       <updated>1396854433096</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="naive bayes updated">
+      <created>1396897836836</created>
+      <updated>1396897836836</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65625000" />
+    <option name="totallyTimeSpent" value="69533000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1007,7 +1024,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5350877" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1016,15 +1033,15 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883817" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4648094" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744282" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32640332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883817" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37793177" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3056133" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2489339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43035343" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1040,15 +1057,15 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53846157" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16431323" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32228118" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1080,8 +1097,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="README (move to root)&#10;" />
-    <MESSAGE value="very naive parser" />
     <MESSAGE value="my part of splitting news to sentence" />
     <MESSAGE value="some minor changes" />
     <MESSAGE value="split parser and fileparser" />
@@ -1105,13 +1120,15 @@
     <MESSAGE value="update learn.arff and test.arff" />
     <MESSAGE value="update learn.arff and test.arff with Mark's articles" />
     <MESSAGE value="classification report" />
-    <option name="LAST_COMMIT_MESSAGE" value="classification report" />
+    <MESSAGE value="naive bayes updated" />
+    <MESSAGE value="naive bayes updated (add split words endings, lower case all)" />
+    <option name="LAST_COMMIT_MESSAGE" value="naive bayes updated (add split words endings, lower case all)" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="24" />
+      <option name="time" value="25" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1119,14 +1136,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/allNewsCorpus/corpus">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1245" max-vertical-offset="5535">
-          <caret line="96" column="67" selection-start-line="89" selection-start-column="0" selection-end-line="96" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FirstTaskResults">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
@@ -1139,7 +1148,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="750">
           <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="e#58#101#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1179,7 +1190,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="1305">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1188,7 +1201,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="765">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
-            <marker date="1396808018000" expanded="false" signature="0:22" placeholder="..." />
+            <marker date="1396808018000" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1418,7 +1431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1245" max-vertical-offset="5535">
           <caret line="96" column="67" selection-start-line="89" selection-start-column="0" selection-end-line="96" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1427,7 +1439,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
-            <marker date="1396808018000" expanded="false" signature="0:22" placeholder="..." />
+            <marker date="1396808018000" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1464,14 +1476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SecondHomeworkTask">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2565">
-          <caret line="0" column="120" selection-start-line="0" selection-start-column="120" selection-end-line="0" selection-end-column="120" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FirstTaskResults">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
@@ -1480,26 +1484,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SecondHomeworkTask">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2565">
+          <caret line="0" column="120" selection-start-line="0" selection-start-column="120" selection-end-line="0" selection-end-column="120" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="750">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="e#58#101#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="716" max-vertical-offset="1320">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1095">
+          <caret line="39" column="57" selection-start-line="36" selection-start-column="1" selection-end-line="39" selection-end-column="54" />
+          <folding>
+            <element signature="e#1#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NaiveBayesReport">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19448946" vertical-offset="0" max-vertical-offset="617">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Helpers.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5527638" vertical-offset="0" max-vertical-offset="597">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
           <folding />
         </state>
       </provider>

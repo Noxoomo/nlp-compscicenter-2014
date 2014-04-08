@@ -6,15 +6,16 @@
 
 import java.io.{BufferedWriter, FileWriter}
 import scala.io.Source
+import Helpers._
+
 
 object NaiveBayesianLearner extends App {
-  val punctuation = Set('.', ',', '?', '!', '\"', '…', '(', ')', ';')
   val classEndIndicator = "----end_of_class----"
 
   val firstClassDocuments = for (file <- new java.io.File(args(0)).listFiles
-                                 if file.isFile) yield Source.fromFile(file.getAbsolutePath).getLines().mkString(" ").filterNot(punctuation contains).split(" ")
+                                 if file.isFile) yield Source.fromFile(file.getAbsolutePath).getLines().mkString(" ").normalize().split("\\s+")
   val secondClassDocuments = for (file <- new java.io.File(args(1)).listFiles
-                                  if file.isFile) yield Source.fromFile(file.getAbsolutePath).getLines().mkString(" ").filterNot(punctuation contains).split(" ")
+                                  if file.isFile) yield Source.fromFile(file.getAbsolutePath).getLines().mkString(" ").normalize().split("\\s+")
 
 
   val firstProb = 1.0 * firstClassDocuments.size / (firstClassDocuments.size + secondClassDocuments.size)
@@ -23,7 +24,7 @@ object NaiveBayesianLearner extends App {
   //we have virtual «others» word to solve problem with new words
   val firstDictSize = firstClassDocuments.foldLeft(1)(_ + _.size)
   val secondDictSize = secondClassDocuments.foldLeft(1)(_ + _.size)
-  val dictSize = firstDictSize + secondDictSize + 1e5
+  val dictSize = firstDictSize + secondDictSize
   val unknownProb = 1.0 / dictSize
   val knownWordProb = (dictSize - 1.0) / dictSize
 
