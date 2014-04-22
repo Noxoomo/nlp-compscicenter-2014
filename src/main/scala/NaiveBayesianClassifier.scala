@@ -34,6 +34,8 @@ object NaiveBayesianClassifier extends App {
   val fn = firstPredict.foldLeft(0)((fn, value) => if (value == 1) fn + 1 else fn)
   val fp = secondPredict.foldLeft(0)((fp, value) => if (value == 0) fp + 1 else fp)
 
+  //  print(f"tp = $tp\n tn = $tn\m fn = $fn\n fp = $fp\n")
+
   val precision = 1.0 * tp / (tp + fp)
   val accuracy = 1.0 * (tp + tn) / (tp + fp + tn + fn)
   val recall = 1.0 * tp / (tp + fn)

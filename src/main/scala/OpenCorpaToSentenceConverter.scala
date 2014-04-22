@@ -47,10 +47,11 @@ object OpenCorpaToSentenceConverter extends App {
   writer.flush()
   writer.close()
 
-  val accuracy = tp / (tp + fp)
+  val accuracy = (tp + tn) / (tp + tn + fn + fp)
+  val precision = tp / (tp + fp)
   val recall = tp / (tp + fn)
   val fm = 2 * accuracy * recall / (accuracy + recall)
-  println(f"accuracy: $accuracy\nrecall: $recall\nFm: $fm")
+  println(f"accuracy: $accuracy\nprecision: $precision \nrecall: $recall\nFm: $fm")
 
 
 }

@@ -22,14 +22,16 @@ object NaiveBayesianLearner extends App {
   val secondProb = 1.0 * secondClassDocuments.size / (firstClassDocuments.size + secondClassDocuments.size)
 
   //we have virtual «others» word to solve problem with new words
-  val firstDictSize = firstClassDocuments.foldLeft(1)(_ + _.size)
-  val secondDictSize = secondClassDocuments.foldLeft(1)(_ + _.size)
+  val firstDictSize = firstClassDocuments.foldLeft(0)(_ + _.size)
+  val secondDictSize = secondClassDocuments.foldLeft(0)(_ + _.size)
   val dictSize = firstDictSize + secondDictSize
   val unknownProb = 1.0 / dictSize
   val knownWordProb = (dictSize - 1.0) / dictSize
 
+
   val firstFreq = firstClassDocuments.flatMap(_.map(str => str)).groupBy(str => str).mapValues(_.size * knownWordProb / firstDictSize)
   val secondFreq = secondClassDocuments.flatMap(_.map(str => str)).groupBy(str => str).mapValues(_.size * knownWordProb / secondDictSize)
+
 
   val writer = new BufferedWriter(new FileWriter(args(2)))
   writer.write(f"$unknownProb\n")

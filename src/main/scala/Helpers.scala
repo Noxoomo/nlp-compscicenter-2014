@@ -1,3 +1,4 @@
+import scala.io.Source
 import scala.util.matching.Regex
 
 object Helpers {
@@ -22,6 +23,31 @@ object Helpers {
     def normalize() = {
       endings.replaceAllIn(text.toLowerCase.replace("\n", " ").filterNot(punctuation contains), " ")
       //text.toLowerCase().replace("\n"," ").filterNot(punctuation contains)
+    }
+  }
+
+  val dict = Source.fromFile("/Users/Vasily/Dropbox/homework/NLP/ushakov.txt").getLines().mkString(" ").split(" ").map(_.toLowerCase).toSet
+  val preposition = Set('в', "на", "для", "к", "c")
+
+  implicit class FeaturesExtractor(entity: String) {
+    val whitespace = new Regex("\t")
+    val split_entity = whitespace.split(entity)
+    val word = split_entity(0)
+    val label = split_entity(1)
+
+
+    def extractFeatures() = {
+      val upperFeature = word(0).isUpper
+      val allUp = word.forall(_.isUpper)
+      val inDict = dict contains word.toLowerCase
+      val containsLatin = word.exists(c => {
+        val code = Char.char2int(c.toLower)
+        if (Char.char2int('a') <= code && code <= Char.char2int('z'))
+          true
+        else false
+      })
+      val isPreposition = preposition contains word.toLowerCase
+      f"$word\t$upperFeature\t$allUp\t$inDict\t$containsLatin\t$isPreposition\t$label"
     }
   }
 
