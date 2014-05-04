@@ -5,37 +5,51 @@
     <bookmark url="file://$PROJECT_DIR$/NaiveBayesReport_2" line="0" mnemonic="6" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12d9ca7e-7fde-4219-a401-bb0173694827" name="Default" comment="some fixes and part of next homework">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/model" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/model" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-3" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-0-learn" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-0-learn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-1-test" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-1-test" />
+    <list default="true" id="12d9ca7e-7fde-4219-a401-bb0173694827" name="Default" comment="fix flush in FactsConverter. add punctuation and quotes remove to FactsConverter">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/featuresExtractionMerged.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/NLP.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/fit.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/model" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus.dev.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus.test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus.train.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-0-learn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-0-test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-1-learn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-1-test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-2-learn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-2-test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-3-learn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-3-test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-4-learn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-4-test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-5-learn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-5-test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-6-learn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-6-test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-7-learn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-7-test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-8-learn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-8-test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-9-learn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-9-test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_train_features" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/template" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/train" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/FactsConverter.scala" afterPath="$PROJECT_DIR$/src/main/scala/FactsConverter.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Helpers.scala" afterPath="$PROJECT_DIR$/src/main/scala/Helpers.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/.ipynb_checkpoints/NLP-checkpoint.ipynb" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/.ipynb_checkpoints/NLP-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/NLP.ipynb" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/NLP.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/featuresExtraction.scala" afterPath="$PROJECT_DIR$/src/main/scala/featuresExtraction.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/fit.sh" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/fit.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-0" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-1" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-2" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-4" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-5" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-6" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-7" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-8" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-9" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-0-test" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-0-test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-1-learn" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-1-learn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-2-learn" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-2-learn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-2-test" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-2-test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-3-learn" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-3-learn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-3-test" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-3-test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-4-learn" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-4-learn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-4-test" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-4-test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_test" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/template" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/template" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nlp-compscicenter-2014.iws" />
@@ -122,9 +136,11 @@
       <file leaf-file-name="NaiveBayesianLearner.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="840">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="780">
               <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding />
+              <folding>
+                <element signature="e#58#101#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,8 +148,18 @@
       <file leaf-file-name="OpenCorpaToSentenceConverter.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="945">
+            <state vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="885">
               <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestNewsData.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/TestNewsData.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="765">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -142,18 +168,8 @@
       <file leaf-file-name="normalizeTexts.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/normalizeTexts.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="405">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
               <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NaiveBayesReport_2" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NaiveBayesReport_2">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="161" max-vertical-offset="645">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -162,20 +178,20 @@
       <file leaf-file-name="Helpers.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Helpers.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="1110">
-              <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1557" max-vertical-offset="2175">
+              <caret line="58" column="51" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
               <folding>
-                <element signature="e#0#22#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FactsConverter.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FactsConverter.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/FactsConverter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.9660194" vertical-offset="1212" max-vertical-offset="1830">
-              <caret line="41" column="64" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+            <state vertical-scroll-proportion="-8.230769" vertical-offset="491" max-vertical-offset="2220">
+              <caret line="47" column="83" selection-start-line="47" selection-start-column="83" selection-end-line="47" selection-end-column="83" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -183,11 +199,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BufferedWriter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/src.zip!/java/io/BufferedWriter.java">
+      <file leaf-file-name="StringLike.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.3-sources.jar!/scala/collection/immutable/StringLike.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3147" max-vertical-offset="3765">
-              <caret line="256" column="36" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2599" max-vertical-offset="4200">
+              <caret line="228" column="6" selection-start-line="228" selection-start-column="6" selection-end-line="228" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NaiveBayesianClassifier.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="492" max-vertical-offset="1110">
+              <caret line="61" column="38" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -197,27 +223,17 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/featuresExtraction.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
-              <caret line="47" column="74" selection-start-line="47" selection-start-column="74" selection-end-line="47" selection-end-column="74" />
+              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NaiveBayesianClassifier.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala">
+      <file leaf-file-name="featuresExtractionMerged.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/featuresExtractionMerged.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1125">
-              <caret line="61" column="38" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FirstTaskResults.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FirstTaskResults.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5339806" vertical-offset="0" max-vertical-offset="990">
+              <caret line="24" column="59" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -289,8 +305,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/featuresExtraction.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Helpers.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/featuresExtractionMerged.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/FactsConverter.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Helpers.scala" />
       </list>
     </option>
   </component>
@@ -463,10 +480,13 @@
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -477,30 +497,7 @@
       <recent name="$PROJECT_DIR$/data/jsonSource" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FactsConverter">
-    <configuration default="false" name="NaiveBayesianClassifier" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="NaiveBayesianClassifier" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value=" good bad naiveBayes" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/data/classifiersData/naiveBayes/test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="nlp-compscicenter-2014" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.featuresExtractionMerged">
     <configuration default="false" name="featuresExtraction" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="featuresExtraction" />
@@ -575,6 +572,29 @@
       <option name="MAIN_CLASS_NAME" value="FactsConverter" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="learn2 and_good_table.xml news-080404.xml  news-shevard.xml news-vybory.xml" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/data/nameEntity/romip2005-facts" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="nlp-compscicenter-2014" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="featuresExtractionMerged" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="featuresExtractionMerged" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="merged_train learn ru_corpus.test.txt test" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/data/nameEntity/romip2005-facts" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -705,19 +725,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.NaiveBayesianClassifier" />
-      <item index="1" class="java.lang.String" itemvalue="Application.featuresExtraction" />
-      <item index="2" class="java.lang.String" itemvalue="Application.normalizeTexts" />
-      <item index="3" class="java.lang.String" itemvalue="Application.OpenCorpaToSentenceConverter" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FactsConverter" />
+      <item index="0" class="java.lang.String" itemvalue="Application.featuresExtraction" />
+      <item index="1" class="java.lang.String" itemvalue="Application.normalizeTexts" />
+      <item index="2" class="java.lang.String" itemvalue="Application.OpenCorpaToSentenceConverter" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FactsConverter" />
+      <item index="4" class="java.lang.String" itemvalue="Application.featuresExtractionMerged" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FactsConverter" />
-        <item index="1" class="java.lang.String" itemvalue="Application.featuresExtraction" />
-        <item index="2" class="java.lang.String" itemvalue="Application.normalizeTexts" />
-        <item index="3" class="java.lang.String" itemvalue="Application.OpenCorpaToSentenceConverter" />
-        <item index="4" class="java.lang.String" itemvalue="Application.NaiveBayesianClassifier" />
+        <item index="0" class="java.lang.String" itemvalue="Application.featuresExtractionMerged" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FactsConverter" />
+        <item index="2" class="java.lang.String" itemvalue="Application.featuresExtraction" />
+        <item index="3" class="java.lang.String" itemvalue="Application.normalizeTexts" />
+        <item index="4" class="java.lang.String" itemvalue="Application.OpenCorpaToSentenceConverter" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -807,7 +827,7 @@
       <workItem from="1398446993164" duration="1284000" />
       <workItem from="1398765298694" duration="911000" />
       <workItem from="1399018296712" duration="83000" />
-      <workItem from="1399194917486" duration="2653000" />
+      <workItem from="1399194917486" duration="16056000" />
     </task>
     <task id="LOCAL-00001" summary="README">
       <created>1393866865778</created>
@@ -941,11 +961,15 @@
       <created>1398185465876</created>
       <updated>1398185465876</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="fix flush in FactsConverter. add punctuation and quotes remove to FactsConverter">
+      <created>1399198300122</created>
+      <updated>1399198300122</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94283000" />
+    <option name="totallyTimeSpent" value="107686000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -968,14 +992,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="1054" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53430355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4116424" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3918919" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883817" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4647303" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1042,7 +1066,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="some minor changes" />
     <MESSAGE value="split parser and fileparser" />
     <MESSAGE value="initial checker for accuracy and other&#10;exporter result to json and xml&#10;check how well on openCorpa (scala…)" />
     <MESSAGE value="oops, merge master crushed&#10;" />
@@ -1067,7 +1090,8 @@
     <MESSAGE value="naive bayes updated" />
     <MESSAGE value="naive bayes updated (add split words endings, lower case all)" />
     <MESSAGE value="some fixes and part of next homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="some fixes and part of next homework" />
+    <MESSAGE value="fix flush in FactsConverter. add punctuation and quotes remove to FactsConverter" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix flush in FactsConverter. add punctuation and quotes remove to FactsConverter" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1081,7 +1105,7 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="41" />
+      <option name="time" value="67" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1089,35 +1113,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="1305">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/TestNewsData.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="765">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1455" max-vertical-offset="2085">
-          <caret line="97" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="765">
@@ -1360,13 +1355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/TestNewsData.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fix_cp1251_encoding.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="497">
@@ -1391,60 +1379,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="415" max-vertical-offset="1110">
-          <caret line="61" column="38" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="298" max-vertical-offset="795">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="945">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/normalizeTexts.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="375">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FirstTaskResults.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="497">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Helpers.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="1110">
-          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/featuresExtraction.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="387" max-vertical-offset="1200">
-          <caret line="47" column="74" selection-start-line="47" selection-start-column="74" selection-end-line="47" selection-end-column="74" />
           <folding />
         </state>
       </provider>
@@ -1457,13 +1395,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.3-sources.jar!/scala/Predef.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3943" max-vertical-offset="6840">
+          <caret line="286" column="6" selection-start-line="286" selection-start-column="6" selection-end-line="286" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.3-sources.jar!/scala/collection/immutable/StringLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2599" max-vertical-offset="4200">
+          <caret line="228" column="6" selection-start-line="228" selection-start-column="6" selection-end-line="228" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="415" max-vertical-offset="1110">
+          <caret line="61" column="38" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="298" max-vertical-offset="795">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="e#58#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/normalizeTexts.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="375">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="945">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/TestNewsData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="765">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="904" max-vertical-offset="45075">
+          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/featuresExtraction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/FactsConverter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9660194" vertical-offset="1212" max-vertical-offset="1830">
-          <caret line="41" column="64" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        <state vertical-scroll-proportion="-8.230769" vertical-offset="491" max-vertical-offset="2220">
+          <caret line="47" column="83" selection-start-line="47" selection-start-column="83" selection-end-line="47" selection-end-column="83" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Helpers.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1557" max-vertical-offset="2175">
+          <caret line="58" column="51" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/featuresExtractionMerged.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5339806" vertical-offset="0" max-vertical-offset="990">
+          <caret line="24" column="59" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>

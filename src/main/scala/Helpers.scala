@@ -1,3 +1,4 @@
+import FactsConverter.Fact
 import scala.io.Source
 import scala.util.matching.Regex
 
@@ -32,15 +33,64 @@ object Helpers {
     }
   }
 
+  implicit class EntitiExtractor(text: String) {
+    def markEntities(facts: List[Fact]) = {
+      //fact1: A owns B
+      //fact2: A works in B
+      //we can't convert facts to B-ORG\B-PER, because we don't know, where is a person and where is   an organisation
+      // => So let's classify to entitie
+      //Offsets in XML — wrong, can't use them
+
+      val firstEntities = facts.map(fact => fact.firstText.removePunctuation().toLowerCase() ->(fact.systemOffset, fact.systemLength)).toMap
+      val secondEntities = facts.map(fact => fact.secondText.removePunctuation().toLowerCase() ->(fact.systemOffset, fact.systemLength)).toMap
+
+      val words = text.split(" ")
+      var currOffset = 0
+      //      var inFirst = false
+      //      var inSecond = false
+
+      def isEntity(word: String, dict: Map[String, (Int, Int)]) = {
+        firstEntities.get(word.toLowerCase()) match {
+          case Some((offset, length)) => true //currOffset >= offset && currOffset < offset + length
+          case None => false
+        }
+      }
+
+      words.filterNot(word => word == "-" || word == "").map(word => {
+        if (isEntity(word, firstEntities)) {
+          //          currOffset += word.length + 1
+          //          val mapped = word + "\t" + (if (inFirst) "I_ENT" else "B_ENT")
+          //          inFirst = true
+          //          inSecond = false
+          //          mapped
+          word + "\t" + "ENT"
+        } else if (isEntity(word, secondEntities)) {
+          //          currOffset += word.length + 1
+          //          val mapped = word + "\t" + (if (inSecond) "I_ENT" else "B_ENT")
+          //          inSecond = true
+          //          inFirst = false
+          word + "\t" + "ENT"
+          //          mapped
+        } else {
+          //          currOffset += word.length +1
+          //          inFirst = false
+          //          inSecond = false
+          word + "\t" + "O"
+        }
+      })
+    }
+
+  }
+
   val dict = Source.fromFile("/Users/Vasily/Dropbox/homework/NLP/ushakov.txt").getLines().mkString(" ").split(" ").map(_.toLowerCase).toSet
   val abridgments = Set("ООО", "ОАО", "ИП", "Компания", "Общество", "СМИ", "ФСК", "ИД", "ГУ", "БИ", "НИУ", "НФ")
 
 
-  implicit class FeaturesExtractor(entity: String) {
+  implicit class FeaturesExtractor(val entity: String) {
     val whitespace = new Regex("\t")
     val split_entity = whitespace.split(entity)
     val word = split_entity(0)
-    val label = split_entity(1)
+    val label = if (split_entity(1) == "O") "O" else "ENT"
 
 
     def extractFeatures() = {
@@ -61,6 +111,26 @@ object Helpers {
       val isAbridgment = abridgments contains word.toLowerCase
       f"$word\t$upperFeature\t$twoOrMoreUp\t$inDict\t$containsLatin\t$isLong\t$isAbridgment\t$label"
     }
+
+    def extractFeaturesTwoClass() = {
+      val upperFeature = word(0).isUpper
+      val twoOrMoreUp = word.foldLeft(0)((acc, c) => {
+        acc + {
+          if (c.isUpper) 1 else 0
+        }
+      }) > 1
+      val inDict = dict contains word.toLowerCase
+      val containsLatin = word.exists(c => {
+        val code = Char.char2int(c.toLower)
+        if (Char.char2int('a') <= code && code <= Char.char2int('z'))
+          true
+        else false
+      })
+      val isLong = word.length > 4
+      val isAbridgment = abridgments contains word.toLowerCase
+      f"$word\t$upperFeature\t$twoOrMoreUp\t$inDict\t$containsLatin\t$isLong\t$isAbridgment\t$label"
+    }
+
   }
 
 }

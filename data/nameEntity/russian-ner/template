@@ -1,8 +1,0 @@
-U00:%x[0,0]
-B01:%x[0,1]
-B02:%x[0,2]
-U03:%x[0,3]
-U04:%x[0,4]
-U05:%x[0,5]
-U16:%x[0,6]
-#f"$word\t$upperFeature\t$allUp\t$inDict\t$containsLatin\t$isLong\t$label"
