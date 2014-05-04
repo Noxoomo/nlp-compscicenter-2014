@@ -21,7 +21,7 @@ Bulletin	true	false	false	true	false	I-ORG	I-ORG
 10	false	false	true	false	false	O	O
 й	false	false	true	false	false	O	O
 Международный	true	false	true	false	false	O	O
-металлургический	false	false	true	false	false	O	O
+металлургический	false	false	true	false	false	O	I-ORG
 саммит	false	false	false	false	false	O	O
 в	false	false	true	false	false	O	O
 Москве	true	false	true	false	false	O	O
@@ -143,10 +143,10 @@ Bulletin	true	false	false	true	false	I-ORG	I-ORG
 Evraz	true	false	false	true	false	B-ORG	B-ORG
 Северсталь	true	false	false	false	false	B-ORG	I-ORG
 НЛМК	true	true	false	false	false	B-ORG	B-ORG
-ММК	true	true	false	false	false	B-ORG	I-ORG
+ММК	true	true	false	false	false	B-ORG	B-ORG
 Мечел	true	false	false	false	false	B-ORG	B-PER
 ТМК	true	true	false	false	false	B-ORG	O
-ПМХ	true	true	false	false	false	B-ORG	I-ORG
+ПМХ	true	true	false	false	false	B-ORG	O
 и	false	false	true	false	false	O	O
 ряд	false	false	true	false	false	O	O
 других	false	false	true	false	false	O	O
@@ -154,7 +154,7 @@ Evraz	true	false	false	true	false	B-ORG	B-ORG
 компаний	false	false	false	false	false	O	O
 
 Компания	true	false	true	false	false	O	O
-Андэк	true	false	false	false	false	B-ORG	I-PER
+Андэк	true	false	false	false	false	B-ORG	B-ORG
 специализирующаяся	false	false	false	false	false	O	O
 на	false	false	true	false	true	O	O
 решениях	false	false	true	false	false	O	O
@@ -200,7 +200,7 @@ Evraz	true	false	false	true	false	B-ORG	B-ORG
 стандартов	false	false	false	false	false	O	O
 в	false	false	true	false	false	O	O
 области	false	false	true	false	false	O	O
-ИБ	true	true	false	false	false	O	B-ORG
+ИБ	true	true	false	false	false	O	O
 152	false	false	false	false	false	O	O
 ФЗ	true	true	false	false	false	O	O
 161	false	false	false	false	false	O	O
@@ -209,7 +209,7 @@ PCI	true	true	false	true	false	O	I-ORG
 DSS	true	true	false	true	false	O	I-ORG
 СТО	true	true	true	false	false	O	O
 БР	true	true	false	false	false	O	O
-ИББС	true	true	false	false	false	O	I-ORG
+ИББС	true	true	false	false	false	O	O
 ISO	true	true	false	true	false	O	I-ORG
 27001	false	false	false	false	false	O	O
 BS	true	true	false	true	false	O	B-ORG
@@ -294,7 +294,7 @@ BS	true	true	false	true	false	O	B-ORG
 России	true	false	true	false	false	I-ORG	I-ORG
 по	false	false	true	false	false	O	O
 обеспечению	false	false	false	false	false	O	O
-ИБ	true	true	false	false	false	O	B-ORG
+ИБ	true	true	false	false	false	O	O
 говорится	false	false	true	false	false	O	O
 в	false	false	true	false	false	O	O
 сообщении	false	false	true	false	false	O	O
@@ -384,7 +384,7 @@ BS	true	true	false	true	false	O	B-ORG
 оптимизации	false	false	false	false	false	O	O
 процессов	false	false	true	false	false	O	O
 управления	false	false	true	false	false	O	O
-ИБ	true	true	false	false	false	O	B-ORG
+ИБ	true	true	false	false	false	O	O
 Как	true	false	true	false	false	O	O
 отметили	false	false	false	false	false	O	O
 в	false	false	true	false	false	O	O
@@ -400,7 +400,7 @@ BS	true	true	false	true	false	O	B-ORG
 и	false	false	true	false	false	O	O
 задачи	false	false	true	false	false	O	O
 подразделениям	false	false	false	false	false	O	O
-ИБ	true	true	false	false	false	O	B-ORG
+ИБ	true	true	false	false	false	O	O
 В	true	true	true	false	false	O	O
 частности	false	false	true	false	false	O	O
 это	false	false	true	false	false	O	O
@@ -448,7 +448,7 @@ BS	true	true	false	true	false	O	B-ORG
 эффективности	false	false	false	false	false	O	O
 системы	false	false	true	false	false	O	O
 обеспечения	false	false	true	false	false	O	O
-ИБ	true	true	false	false	false	O	B-ORG
+ИБ	true	true	false	false	false	O	O
 и	false	false	true	false	false	O	O
 их	false	false	true	false	false	O	O
 целевые	false	false	true	false	false	O	O
@@ -510,7 +510,7 @@ BS	true	true	false	true	false	O	B-ORG
 обеспечения	false	false	true	false	false	O	O
 безопасности	false	false	true	false	false	O	O
 считает	false	false	true	false	false	O	O
-Вячеслав	true	false	false	false	false	B-PER	O
+Вячеслав	true	false	false	false	false	B-PER	B-PER
 Максимов	true	false	false	false	false	I-PER	I-PER
 Так	true	false	true	false	false	O	O
 например	false	false	true	false	false	O	O
@@ -534,7 +534,7 @@ SIEM	true	true	false	true	false	O	B-ORG
 определить	false	false	true	false	false	O	O
 актуальные	false	false	false	false	false	O	O
 угрозы	false	false	true	false	false	O	O
-ИБ	true	true	false	false	false	O	B-ORG
+ИБ	true	true	false	false	false	O	O
 научить	false	false	true	false	false	O	O
 систему	false	false	true	false	false	O	O
 выявлять	false	false	false	false	false	O	O
@@ -544,11 +544,11 @@ SIEM	true	true	false	true	false	O	B-ORG
 процессы	false	false	true	false	false	O	O
 мониторинга	false	false	false	false	false	O	O
 событий	false	false	true	false	false	O	O
-ИБ	true	true	false	false	false	O	B-ORG
+ИБ	true	true	false	false	false	O	O
 реагирования	false	false	false	false	false	O	O
 на	false	false	true	false	true	O	O
 инциденты	false	false	false	false	false	O	O
-ИБ	true	true	false	false	false	O	B-ORG
+ИБ	true	true	false	false	false	O	O
 обучить	false	false	true	false	false	O	O
 администраторов	false	false	false	false	false	O	O
 и	false	false	true	false	false	O	O
@@ -556,7 +556,7 @@ SIEM	true	true	false	true	false	O	B-ORG
 системы	false	false	true	false	false	O	O
 довести	false	false	true	false	false	O	O
 правила	false	false	true	false	false	O	O
-ИБ	true	true	false	false	false	O	B-ORG
+ИБ	true	true	false	false	false	O	O
 до	false	false	true	false	false	O	O
 пользователей	false	false	false	false	false	O	O
 информационных	false	false	false	false	false	O	O
@@ -616,7 +616,7 @@ Ru	true	false	false	true	false	O	O
 с	false	false	true	false	false	O	O
 президентом	false	false	false	false	false	O	O
 США	true	true	true	false	false	O	O
-Бараком	true	false	false	false	false	B-PER	O
+Бараком	true	false	false	false	false	B-PER	B-ORG
 Обамой	true	false	false	false	false	I-PER	I-PER
 подчеркнул	false	false	true	false	false	O	O
 что	false	false	true	false	false	O	O
@@ -1327,7 +1327,7 @@ Ru	true	false	false	true	false	I-ORG	I-ORG
 вопросами	false	false	true	false	false	O	O
 очень	false	false	true	false	false	O	O
 хорошо	false	false	true	false	false	O	O
-Владимир	true	false	true	false	false	B-PER	O
+Владимир	true	false	true	false	false	B-PER	B-PER
 Путин	true	false	false	false	false	I-PER	I-PER
 выступая	false	false	true	false	false	O	O
 на	false	false	true	false	true	O	O
@@ -1390,7 +1390,7 @@ Ru	true	false	false	true	false	I-ORG	I-ORG
 Select	true	false	false	true	false	O	B-ORG
 USA	true	true	false	true	false	O	I-ORG
 Выбирай	true	false	true	false	false	O	O
-США	true	true	true	false	false	O	O
+США	true	true	true	false	false	O	I-ORG
 которая	false	false	true	false	false	O	O
 ориентирована	false	false	false	false	false	O	O
 на	false	false	true	false	true	O	O
@@ -1551,7 +1551,7 @@ Yammer	true	false	false	true	false	B-ORG	B-ORG
 предполагалось	false	false	true	false	false	O	O
 месяц	false	false	true	false	false	O	O
 назад	false	false	true	false	false	O	O
-Yammer	true	false	false	true	false	B-ORG	B-ORG
+Yammer	true	false	false	true	false	B-ORG	O
 была	false	false	true	false	false	O	O
 создана	false	false	true	false	false	O	O
 в	false	false	true	false	false	O	O
@@ -1615,7 +1615,7 @@ Yammer	true	false	false	true	false	B-ORG	B-ORG
 Ford	true	false	true	true	false	B-ORG	O
 Motor	true	false	true	true	false	I-ORG	I-ORG
 eBay	false	false	false	true	false	B-ORG	O
-Telefonica	true	false	false	true	false	B-ORG	O
+Telefonica	true	false	false	true	false	B-ORG	B-ORG
 O2	true	false	false	true	false	B-ORG	I-ORG
 7	false	false	true	false	false	B-ORG	O
 Eleven	true	false	false	true	false	I-ORG	B-ORG
@@ -1681,17 +1681,17 @@ Office	true	false	false	true	false	O	O
 рядом	false	false	true	false	false	O	O
 других	false	false	true	false	false	O	O
 продуктов	false	false	true	false	false	O	O
-Microsoft	true	false	false	true	false	B-ORG	B-ORG
+Microsoft	true	false	false	true	false	B-ORG	O
 в	false	false	true	false	false	O	O
 том	false	false	true	false	false	O	O
 числе	false	false	true	false	false	O	O
 SharePoint	true	false	false	true	false	O	B-ORG
 Office	true	false	false	true	false	O	O
 365	false	false	false	false	false	O	O
-Microsoft	true	false	false	true	false	O	B-ORG
+Microsoft	true	false	false	true	false	O	O
 Dynamics	true	false	false	true	false	O	O
 и	false	false	true	false	false	O	O
-Skype	true	false	false	true	false	O	B-ORG
+Skype	true	false	false	true	false	O	O
 Кроме	true	false	true	false	false	O	O
 того	false	false	true	false	false	O	O
 она	false	false	true	false	false	O	O
@@ -1706,7 +1706,7 @@ Yammer	true	false	false	true	false	B-ORG	O
 останется	false	false	true	false	false	O	O
 ее	false	false	true	false	false	O	O
 создатель	false	false	true	false	false	O	O
-Дэвид	true	false	false	false	false	B-PER	O
+Дэвид	true	false	false	false	false	B-PER	B-PER
 Сакс	true	false	false	false	false	I-PER	I-PER
 который	false	false	true	false	false	O	O
 до	false	false	true	false	false	O	O
@@ -1920,7 +1920,7 @@ doc	false	false	false	true	false	O	O
 Московский	true	false	true	false	false	I-ORG	I-ORG
 комбинат	false	false	false	false	false	I-ORG	O
 хлебопродуктов	false	false	false	false	false	I-ORG	O
-МКХ	true	true	false	false	false	I-ORG	B-ORG
+МКХ	true	true	false	false	false	I-ORG	O
 в	false	false	true	false	false	O	O
 рамках	false	false	true	false	false	O	O
 которого	false	false	true	false	false	O	O
@@ -1957,7 +1957,7 @@ c	false	false	true	true	true	O	O
 проекта	false	false	true	false	false	O	O
 власти	false	false	true	false	false	O	O
 освободили	false	false	true	false	false	O	O
-МКХ	true	true	false	false	false	B-ORG	B-ORG
+МКХ	true	true	false	false	false	B-ORG	O
 от	false	false	true	false	false	O	O
 оплаты	false	false	true	false	false	O	O
 долевого	false	false	false	false	false	O	O
@@ -1997,7 +1997,7 @@ c	false	false	true	true	true	O	O
 обойму	false	false	false	false	false	O	O
 крупнейших	false	false	false	false	false	O	O
 многофункциональных	false	false	false	false	false	O	O
-ЖК	true	true	false	false	false	O	B-ORG
+ЖК	true	true	false	false	false	O	O
 в	false	false	true	false	false	O	O
 столице	false	false	true	false	false	O	O
 На	true	false	true	false	true	O	O
@@ -2123,7 +2123,7 @@ daily	false	false	false	true	false	I-ORG	I-ORG
 градостроительно	false	false	false	false	false	B-ORG	O
 земельной	false	false	true	false	false	I-ORG	O
 комиссии	false	false	true	false	false	I-ORG	O
-ГЗК	true	true	false	false	false	I-ORG	B-ORG
+ГЗК	true	true	false	false	false	I-ORG	O
 от	false	false	true	false	false	O	O
 6	false	false	true	false	false	O	O
 июня	false	false	true	false	false	O	O
@@ -2135,13 +2135,13 @@ daily	false	false	false	true	false	I-ORG	I-ORG
 На	true	false	true	false	true	O	O
 минувшей	false	false	true	false	false	O	O
 неделе	false	false	true	false	false	O	O
-ГЗК	true	true	false	false	false	B-ORG	B-ORG
+ГЗК	true	true	false	false	false	B-ORG	O
 одобрила	false	false	false	false	false	O	O
 градостроительный	false	false	false	false	false	O	O
 план	false	false	true	false	false	O	O
 земельного	false	false	true	false	false	O	O
 участка	false	false	true	false	false	O	O
-ГПЗУ	true	true	false	false	false	O	B-ORG
+ГПЗУ	true	true	false	false	false	O	O
 который	false	false	true	false	false	O	O
 регламентирует	false	false	false	false	false	O	O
 параметры	false	false	false	false	false	O	O
@@ -2214,7 +2214,7 @@ daily	false	false	false	true	false	I-ORG	I-ORG
 следует	false	false	true	false	false	O	O
 из	false	false	true	false	false	O	O
 протокола	false	false	false	false	false	O	O
-ГЗК	true	true	false	false	false	B-ORG	B-ORG
+ГЗК	true	true	false	false	false	B-ORG	O
 Cовокупные	true	false	false	true	false	O	I-ORG
 инвестиции	false	false	false	false	false	O	O
 в	false	false	true	false	false	O	O
@@ -2252,7 +2252,7 @@ Cовокупные	true	false	false	true	false	O	I-ORG
 группы	false	false	true	false	false	O	O
 НЭО	true	true	false	false	false	B-ORG	B-ORG
 Центр	true	false	true	false	false	I-ORG	I-ORG
-Елена	true	false	true	false	false	B-PER	O
+Елена	true	false	true	false	false	B-PER	I-ORG
 Самсонова	true	false	false	false	false	I-PER	I-PER
 Себестоимость	true	false	true	false	false	O	O
 1	false	false	true	false	false	O	O
@@ -2317,7 +2317,7 @@ Cовокупные	true	false	false	true	false	O	I-ORG
 проект	false	false	true	false	false	O	O
 сквозь	false	false	true	false	false	O	O
 фильтр	false	false	false	false	false	O	O
-ГЗК	true	true	false	false	false	B-ORG	B-ORG
+ГЗК	true	true	false	false	false	B-ORG	O
 Сегодня	true	false	true	false	false	O	O
 город	false	false	true	false	false	O	O
 пытается	false	false	true	false	false	O	O
@@ -2422,9 +2422,9 @@ market	false	false	false	true	false	O	O
 Его	true	false	true	false	false	O	O
 кандидатуру	false	false	true	false	false	O	O
 выдвигал	false	false	false	false	false	O	O
-Национальный	true	false	true	false	false	B-ORG	O
-резервный	false	false	true	false	false	I-ORG	O
-банк	false	false	true	false	false	I-ORG	O
+Национальный	true	false	true	false	false	B-ORG	B-ORG
+резервный	false	false	true	false	false	I-ORG	I-ORG
+банк	false	false	true	false	false	I-ORG	I-ORG
 НРБ	true	true	false	false	false	I-ORG	B-ORG
 бизнесмена	false	false	false	false	false	O	O
 Александра	true	false	true	false	false	B-PER	B-PER
@@ -2444,7 +2444,7 @@ market	false	false	false	true	false	O	O
 является	false	false	true	false	false	O	O
 государство	false	false	true	false	false	O	O
 За	true	false	true	false	false	O	O
-Навального	true	false	false	false	false	B-PER	I-PER
+Навального	true	false	false	false	false	B-PER	B-PER
 было	false	false	true	false	false	O	O
 отдано	false	false	true	false	false	O	O
 787	false	false	false	false	false	O	O
@@ -2608,7 +2608,7 @@ market	false	false	false	true	false	O	O
 эти	false	false	true	false	false	O	O
 кандидаты	false	false	true	false	false	O	O
 кроме	false	false	true	false	false	O	O
-Алексашенко	true	false	false	false	false	B-PER	O
+Алексашенко	true	false	false	false	false	B-PER	B-PER
 поддержанного	false	false	false	false	false	O	O
 НРБ	true	true	false	false	false	B-ORG	B-ORG
 были	false	false	true	false	false	O	O
@@ -2638,13 +2638,13 @@ market	false	false	false	true	false	O	O
 Национальная	true	false	true	false	false	I-ORG	O
 резервная	false	false	true	false	false	I-ORG	O
 корпорация	false	false	true	false	false	I-ORG	O
-Леонид	true	false	true	false	false	B-PER	O
+Леонид	true	false	true	false	false	B-PER	B-PER
 Душатин	true	false	false	false	false	I-PER	I-PER
 заместитель	false	false	true	false	false	O	O
 председателя	false	false	true	false	false	O	O
 правления	false	false	true	false	false	O	O
 Россельхозбанка	true	false	false	false	false	B-ORG	B-ORG
-Кирилл	true	false	true	false	false	B-PER	O
+Кирилл	true	false	true	false	false	B-PER	B-PER
 Левин	true	false	true	false	false	I-PER	O
 советник	false	false	true	false	false	O	O
 вице	false	false	true	false	false	O	O
@@ -2708,7 +2708,7 @@ market	false	false	false	true	false	O	O
 блока	false	false	true	false	false	O	O
 ОАО	true	true	false	false	false	B-ORG	B-ORG
 Альфа	true	false	true	false	false	I-ORG	I-ORG
-банк	false	false	true	false	false	I-ORG	O
+банк	false	false	true	false	false	I-ORG	I-ORG
 Сергей	true	false	true	false	false	B-PER	B-PER
 Меднов	true	false	false	false	false	I-PER	I-PER
 отказался	false	false	true	false	false	O	O
@@ -2750,7 +2750,7 @@ market	false	false	false	true	false	O	O
 равняется	false	false	true	false	false	O	O
 100	false	false	true	false	false	O	O
 голосам	false	false	false	false	false	O	O
-Виталий	true	false	false	false	false	B-PER	O
+Виталий	true	false	false	false	false	B-PER	B-PER
 Савельев	true	false	false	false	false	I-PER	I-PER
 получил	false	false	true	false	false	O	O
 более	false	false	true	false	false	O	O

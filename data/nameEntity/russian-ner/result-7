@@ -20,7 +20,7 @@
 непрерывного	false	false	true	false	false	O	O
 литья	false	false	true	false	false	O	O
 заготовок	false	false	true	false	false	O	O
-МНЛЗ	true	true	false	false	false	O	B-ORG
+МНЛЗ	true	true	false	false	false	O	O
 изготовленной	false	false	true	false	false	O	O
 и	false	false	true	false	false	O	O
 поставленной	false	false	true	false	false	O	O
@@ -135,7 +135,7 @@ GmbH	true	false	false	true	false	I-ORG	I-ORG
 вторичного	false	false	true	false	false	O	O
 охлаждения	false	false	true	false	false	O	O
 внутри	false	false	true	false	false	O	O
-МНЛЗ	true	true	false	false	false	O	B-ORG
+МНЛЗ	true	true	false	false	false	O	O
 где	false	false	true	false	false	O	O
 металл	false	false	true	false	false	O	O
 затвердевает	false	false	false	false	false	O	O
@@ -182,7 +182,7 @@ GmbH	true	false	false	true	false	I-ORG	I-ORG
 директор	false	false	true	false	false	O	O
 ЗАО	true	true	false	false	false	B-ORG	B-ORG
 Северсталь	true	false	false	false	false	I-ORG	I-ORG
-Сортовой	true	false	false	false	false	I-ORG	I-PER
+Сортовой	true	false	false	false	false	I-ORG	I-ORG
 завод	false	false	true	false	false	I-ORG	O
 Балаково	true	false	false	false	false	I-ORG	O
 Игорь	true	false	false	false	false	B-PER	B-PER
@@ -224,7 +224,7 @@ GmbH	true	false	false	true	false	I-ORG	I-ORG
 с	false	false	true	false	false	O	O
 другими	false	false	true	false	false	O	O
 типами	false	false	true	false	false	O	O
-МНЛЗ	true	true	false	false	false	O	B-ORG
+МНЛЗ	true	true	false	false	false	O	O
 меньшую	false	false	true	false	false	O	O
 металлоемкость	false	false	false	false	false	O	O
 Наша	true	false	true	false	false	O	O
@@ -344,7 +344,7 @@ CNews	true	false	false	true	false	O	B-ORG
 экс	false	false	false	false	false	O	O
 министра	false	false	true	false	false	O	O
 связи	false	false	true	false	false	O	O
-Игоря	true	false	false	false	false	B-PER	B-ORG
+Игоря	true	false	false	false	false	B-PER	B-PER
 Щеголева	true	false	false	false	false	I-PER	I-PER
 а	false	false	true	false	false	O	O
 также	false	false	true	false	false	O	O
@@ -471,7 +471,7 @@ CNews	true	false	false	true	false	O	B-ORG
 экс	false	false	false	false	false	O	O
 министра	false	false	true	false	false	O	O
 связи	false	false	true	false	false	O	O
-Игоря	true	false	false	false	false	B-PER	B-ORG
+Игоря	true	false	false	false	false	B-PER	B-PER
 Щеголева	true	false	false	false	false	I-PER	I-PER
 В	true	true	true	false	false	O	O
 серьезном	false	false	false	false	false	O	O
@@ -531,7 +531,7 @@ CNews	true	false	false	true	false	O	B-ORG
 выбрать	false	false	true	false	false	O	O
 здание	false	false	true	false	false	O	O
 под	false	false	true	false	false	O	O
-ЦОД	true	true	false	false	false	O	B-ORG
+ЦОД	true	true	false	false	false	O	O
 Насколько	true	false	true	false	false	O	O
 дорого	false	false	true	false	false	O	O
 сделать	false	false	true	false	false	O	O
@@ -597,8 +597,8 @@ Jankie	true	false	false	true	false	O	I-ORG
 прицел	false	false	true	false	false	O	O
 попала	false	false	true	false	false	O	O
 коробочная	false	false	true	false	false	O	O
-ERP	true	true	false	true	false	O	B-ORG
-Microsoft	true	false	false	true	false	O	I-ORG
+ERP	true	true	false	true	false	O	O
+Microsoft	true	false	false	true	false	O	O
 Dynamics	true	false	false	true	false	O	O
 NAV	true	true	false	true	false	O	I-ORG
 Как	true	false	true	false	false	O	O
@@ -948,7 +948,7 @@ Twitter	true	false	false	true	false	O	O
 месяцев	false	false	true	false	false	O	O
 количество	false	false	true	false	false	O	O
 пользователей	false	false	false	false	false	O	O
-Insragram	true	false	false	true	false	O	B-ORG
+Insragram	true	false	false	true	false	O	O
 только	false	false	true	false	false	O	O
 через	false	false	true	false	false	O	O
 iPhone	false	false	false	true	false	O	O
@@ -1098,7 +1098,7 @@ Facebook	true	false	false	true	false	B-ORG	B-ORG
 фотохостинг	false	false	false	false	false	O	O
 технологию	false	false	false	false	false	O	O
 от	false	false	true	false	false	O	O
-Face	true	false	true	true	false	B-ORG	O
+Face	true	false	true	true	false	B-ORG	B-ORG
 com	false	false	false	true	false	I-ORG	O
 которая	false	false	true	false	false	O	O
 будет	false	false	true	false	false	O	O
@@ -1218,7 +1218,7 @@ Facebook	true	false	false	true	false	B-ORG	B-ORG
 крупные	false	false	true	false	false	O	O
 компании	false	false	true	false	false	O	O
 как	false	false	true	false	false	O	O
-Google	true	false	false	true	false	B-ORG	B-ORG
+Google	true	false	false	true	false	B-ORG	O
 и	false	false	true	false	false	O	O
 Microsoft	true	false	false	true	false	B-ORG	B-ORG
 добавляет	false	false	false	false	false	O	O
@@ -1571,10 +1571,10 @@ IMAX	true	true	false	true	false	O	B-ORG
 у	false	false	true	false	false	O	O
 принадлежащих	false	false	true	false	false	O	O
 мэрии	false	false	false	false	false	O	O
-ЦТК	true	true	false	false	false	B-ORG	B-ORG
+ЦТК	true	true	false	false	false	B-ORG	O
 и	false	false	true	false	false	O	O
 Усадьба	true	false	true	false	false	B-ORG	O
-Центр	true	false	true	false	false	I-ORG	O
+Центр	true	false	true	false	false	I-ORG	I-ORG
 В	true	true	true	false	false	O	O
 пресс	false	false	true	false	false	O	O
 службе	false	false	true	false	false	O	O
@@ -1608,7 +1608,7 @@ IMAX	true	true	false	true	false	O	B-ORG
 Ъ	true	true	true	false	false	O	O
 в	false	false	true	false	false	O	O
 окружении	false	false	true	false	false	O	O
-Никиты	true	false	false	false	false	B-PER	O
+Никиты	true	false	false	false	false	B-PER	B-PER
 Михалкова	true	false	false	false	false	I-PER	I-PER
 утверждает	false	false	false	false	false	O	O
 что	false	false	true	false	false	O	O
@@ -1742,7 +1742,7 @@ Blackwood	true	false	false	true	false	B-ORG	B-ORG
 пакет	false	false	true	false	false	O	O
 ОАО	true	true	false	false	false	B-ORG	B-ORG
 ОК	true	true	false	false	false	I-ORG	I-ORG
-Лужники	true	false	false	false	false	I-ORG	O
+Лужники	true	false	false	false	false	I-ORG	I-ORG
 По	true	false	true	false	false	O	O
 неофициальной	false	false	false	false	false	O	O
 информации	false	false	true	false	false	O	O
@@ -1823,7 +1823,7 @@ Blackwood	true	false	false	true	false	B-ORG	B-ORG
 Сейчас	true	false	true	false	false	O	O
 основные	false	false	true	false	false	O	O
 мероприятия	false	false	true	false	false	O	O
-ММФК	true	true	false	false	false	O	B-ORG
+ММФК	true	true	false	false	false	O	O
 проходят	false	false	true	false	false	O	O
 на	false	false	true	false	true	O	O
 Новом	true	false	true	false	false	O	O
@@ -1902,7 +1902,7 @@ doc	false	false	false	true	false	O	O
 газа	false	false	true	false	false	O	O
 в	false	false	true	false	false	O	O
 России	true	false	true	false	false	O	O
-Новатэку	true	false	false	false	false	B-ORG	I-PER
+Новатэку	true	false	false	false	false	B-ORG	O
 заинтересовался	false	false	false	false	false	O	O
 приобретением	false	false	true	false	false	O	O
 активов	false	false	false	false	false	O	O
@@ -1922,7 +1922,7 @@ doc	false	false	false	true	false	O	O
 заявил	false	false	true	false	false	O	O
 глава	false	false	true	false	false	O	O
 компании	false	false	true	false	false	O	O
-Леонид	true	false	true	false	false	B-PER	O
+Леонид	true	false	true	false	false	B-PER	B-PER
 Михельсон	true	false	false	false	false	I-PER	I-PER
 По	true	false	true	false	false	O	O
 его	false	false	true	false	false	O	O
@@ -1973,7 +1973,7 @@ doc	false	false	false	true	false	O	O
 В	true	true	true	false	false	O	O
 настоящее	false	false	true	false	false	O	O
 время	false	false	true	false	false	O	O
-Новатэк	true	false	false	false	false	B-ORG	B-ORG
+Новатэк	true	false	false	false	false	B-ORG	O
 уже	false	false	true	false	false	O	O
 владеет	false	false	true	false	false	O	O
 долей	false	false	true	false	false	O	O
@@ -2040,7 +2040,7 @@ doc	false	false	false	true	false	O	O
 покупке	false	false	true	false	false	O	O
 газовых	false	false	true	false	false	O	O
 активов	false	false	false	false	false	O	O
-Алросы	true	false	false	false	false	B-ORG	B-ORG
+Алросы	true	false	false	false	false	B-ORG	O
 По	true	false	true	false	false	O	O
 его	false	false	true	false	false	O	O
 словам	false	false	true	false	false	O	O
@@ -2319,11 +2319,11 @@ daily	false	false	false	true	false	I-ORG	I-ORG
 объединения	false	false	true	false	false	O	O
 Представители	true	false	true	false	false	O	O
 Минкомсвязи	true	false	false	false	false	B-ORG	I-PER
-Минэкономразвития	true	false	false	false	false	B-ORG	I-PER
+Минэкономразвития	true	false	false	false	false	B-ORG	B-ORG
 МЭР	true	true	true	false	false	I-ORG	O
 МВД	true	true	false	false	false	B-ORG	O
 и	false	false	true	false	false	O	O
-ФСБ	true	true	false	false	false	B-ORG	B-ORG
+ФСБ	true	true	false	false	false	B-ORG	O
 обсуждали	false	false	false	false	false	O	O
 сценарий	false	false	true	false	false	O	O
 Ростелекома	true	false	false	false	false	B-ORG	O
@@ -2354,7 +2354,7 @@ daily	false	false	false	true	false	I-ORG	I-ORG
 направлял	false	false	false	false	false	O	O
 письмо	false	false	true	false	false	O	O
 главе	false	false	true	false	false	O	O
-МВД	true	true	false	false	false	B-ORG	B-ORG
+МВД	true	true	false	false	false	B-ORG	O
 Рашиду	true	false	false	false	false	B-PER	O
 Нургалиеву	true	false	false	false	false	I-PER	I-PER
 с	false	false	true	false	false	O	O
@@ -2484,7 +2484,7 @@ daily	false	false	false	true	false	I-ORG	I-ORG
 Стрешинский	true	false	false	false	false	I-PER	I-PER
 Президент	true	false	true	false	false	O	O
 АФК	true	true	false	false	false	B-ORG	B-ORG
-Система	true	false	true	false	false	I-ORG	O
+Система	true	false	true	false	false	I-ORG	I-ORG
 Михаил	true	false	true	false	false	B-PER	B-PER
 Шамолин	true	false	false	false	false	I-PER	I-PER
 говорит	false	false	true	false	false	O	O
@@ -2587,7 +2587,7 @@ Sprinter	true	false	false	true	false	O	I-ORG
 По	true	false	true	false	false	O	O
 словам	false	false	true	false	false	O	O
 главы	false	false	true	false	false	O	O
-Мерседес	true	false	false	false	false	B-ORG	B-ORG
+Мерседес	true	false	false	false	false	B-ORG	O
 Бенц	true	false	false	false	false	I-ORG	I-PER
 Рус	true	false	false	false	false	I-ORG	I-PER
 Юргена	true	false	false	false	false	B-PER	I-PER

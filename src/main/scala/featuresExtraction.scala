@@ -45,7 +45,7 @@ object featuresExtraction extends App {
     writer.close()
   }
 
-  def save_cv(dest: String, sentences: Array[List[String]], folds: Int = 10) {
+  def save_cv(dest: String, sentences: Array[List[String]], folds: Int = 5) {
     for (i <- 0 until folds) {
       print(i)
       val learnWriter = new BufferedWriter(new FileWriter(f"$dest-$i-learn"))

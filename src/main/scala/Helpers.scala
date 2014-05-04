@@ -24,10 +24,17 @@ object Helpers {
       endings.replaceAllIn(text.toLowerCase.replace("\n", " ").filterNot(punctuation contains), " ")
       //text.toLowerCase().replace("\n"," ").filterNot(punctuation contains)
     }
+
+    val punctuationRegexp = new Regex("(\\.|\\?|,|\\!|\\(|\\)|…|;|«|»|\")")
+
+    def removePunctuation() = {
+      punctuationRegexp.replaceAllIn(text, "")
+    }
   }
 
   val dict = Source.fromFile("/Users/Vasily/Dropbox/homework/NLP/ushakov.txt").getLines().mkString(" ").split(" ").map(_.toLowerCase).toSet
-  val preposition = Set('в', "на", "для", "к", "c")
+  val abridgments = Set("ООО", "ОАО", "ИП", "Компания", "Общество", "СМИ", "ФСК", "ИД", "ГУ", "БИ", "НИУ", "НФ")
+
 
   implicit class FeaturesExtractor(entity: String) {
     val whitespace = new Regex("\t")
@@ -38,7 +45,11 @@ object Helpers {
 
     def extractFeatures() = {
       val upperFeature = word(0).isUpper
-      val allUp = word.forall(_.isUpper)
+      val twoOrMoreUp = word.foldLeft(0)((acc, c) => {
+        acc + {
+          if (c.isUpper) 1 else 0
+        }
+      }) > 1
       val inDict = dict contains word.toLowerCase
       val containsLatin = word.exists(c => {
         val code = Char.char2int(c.toLower)
@@ -46,9 +57,13 @@ object Helpers {
           true
         else false
       })
-      val isPreposition = preposition contains word.toLowerCase
-      f"$word\t$upperFeature\t$allUp\t$inDict\t$containsLatin\t$isPreposition\t$label"
+      val isLong = word.length > 4
+      val isAbridgment = abridgments contains word.toLowerCase
+      f"$word\t$upperFeature\t$twoOrMoreUp\t$inDict\t$containsLatin\t$isLong\t$isAbridgment\t$label"
     }
   }
 
 }
+
+
+

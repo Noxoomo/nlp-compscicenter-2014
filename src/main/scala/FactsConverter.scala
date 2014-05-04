@@ -3,6 +3,8 @@ import java.nio.charset.Charset
 import scala.collection.mutable
 import scala.xml.MetaData
 
+import Helpers._
+
 /**
  * User: Kribesk
  * Date: 29.04.14.
@@ -35,7 +37,7 @@ object FactsConverter extends App {
       val words = content.split("[ \n\t]+")
       var output = "#Document " + id + "\n\n"
       for (word <- words) {
-        output += word + " " + 0 + "\n"
+        output += (if (word != "-") word.removePunctuation() + " " + 0 + "\n" else "")
       }
       output + "\n"
     }
@@ -107,6 +109,7 @@ object FactsConverter extends App {
   for (task <- tasks) {
     writer.write(task.getEntities)
   }
+  writer.flush()
   writer.close()
   println("Done.")
 

@@ -857,7 +857,7 @@ Skype	true	false	false	true	false	B-ORG	O
 Fast	true	false	false	true	false	B-ORG	B-ORG
 Lane	true	false	false	true	false	I-ORG	I-ORG
 Ventures	true	false	false	true	false	I-ORG	I-ORG
-Андрей	true	false	true	false	false	B-PER	O
+Андрей	true	false	true	false	false	B-PER	B-PER
 Куликов	true	false	false	false	false	I-PER	I-PER
 Создание	true	false	true	false	false	O	O
 интернет	false	false	false	false	false	O	O
@@ -881,7 +881,7 @@ Ventures	true	false	false	true	false	I-ORG	I-ORG
 вполне	false	false	true	false	false	O	O
 сопоставимы	false	false	false	false	false	O	O
 с	false	false	true	false	false	O	O
-Америкой	true	false	false	false	false	O	O
+Америкой	true	false	false	false	false	O	B-ORG
 и	false	false	true	false	false	O	O
 Европой	true	false	false	false	false	O	O
 Поэтому	true	false	true	false	false	O	O
@@ -1012,7 +1012,7 @@ Management	true	false	false	true	false	I-ORG	I-ORG
 и	false	false	true	false	false	O	O
 автор	false	false	true	false	false	O	O
 термина	false	false	true	false	false	O	O
-БРИК	true	true	false	false	false	O	B-ORG
+БРИК	true	true	false	false	false	O	O
 В	true	true	true	false	false	O	O
 интервью	false	false	true	false	false	O	O
 Газете	true	false	true	false	false	O	O
@@ -1408,7 +1408,7 @@ Ru	true	false	false	true	false	O	O
 по	false	false	true	false	false	I-ORG	O
 страхованию	false	false	true	false	false	I-ORG	O
 вкладов	false	false	true	false	false	I-ORG	O
-АСВ	true	true	false	false	false	I-ORG	B-ORG
+АСВ	true	true	false	false	false	I-ORG	O
 но	false	false	true	false	false	O	O
 и	false	false	true	false	false	O	O
 срок	false	false	true	false	false	O	O
@@ -1510,7 +1510,7 @@ Ru	true	false	false	true	false	O	O
 распространение	false	false	true	false	false	O	O
 и	false	false	true	false	false	O	O
 классифицируемых	false	false	false	false	false	O	O
-АСВ	true	true	false	false	false	B-ORG	B-ORG
+АСВ	true	true	false	false	false	B-ORG	O
 как	false	false	true	false	false	O	O
 незаконное	false	false	true	false	false	O	O
 дробление	false	false	true	false	false	O	O
@@ -1624,7 +1624,7 @@ Ru	true	false	false	true	false	O	O
 и	false	false	true	false	false	O	O
 ст	false	false	false	false	false	O	O
 159	false	false	false	false	false	O	O
-УК	true	true	false	false	false	O	B-ORG
+УК	true	true	false	false	false	O	O
 РФ	true	true	false	false	false	O	I-ORG
 Центральный	true	false	true	false	false	B-ORG	O
 районный	false	false	true	false	false	I-ORG	O
@@ -1835,7 +1835,7 @@ Ru	true	false	false	true	false	O	O
 причинение	false	false	true	false	false	O	O
 материального	false	false	true	false	false	O	O
 вреда	false	false	true	false	false	O	O
-АСВ	true	true	false	false	false	B-ORG	B-ORG
+АСВ	true	true	false	false	false	B-ORG	O
 а	false	false	true	false	false	O	O
 также	false	false	true	false	false	O	O
 вкладчикам	false	false	false	false	false	O	O
@@ -1961,7 +1961,7 @@ Ru	true	false	false	true	false	O	O
 заместитель	false	false	true	false	false	O	O
 гендиректора	false	false	false	false	false	O	O
 АСВ	true	true	false	false	false	B-ORG	B-ORG
-Андрей	true	false	true	false	false	B-PER	O
+Андрей	true	false	true	false	false	B-PER	B-PER
 Мельников	true	false	false	false	false	I-PER	I-PER
 В	true	true	true	false	false	O	O
 результате	false	false	true	false	false	O	O
@@ -2168,7 +2168,7 @@ Ru	true	false	false	true	false	O	O
 соответствующие	false	false	true	false	false	O	O
 поправки	false	false	true	false	false	O	O
 предложенные	false	false	true	false	false	O	O
-АСВ	true	true	false	false	false	B-ORG	B-ORG
+АСВ	true	true	false	false	false	B-ORG	O
 в	false	false	true	false	false	O	O
 закон	false	false	true	false	false	O	O
 о	false	false	true	false	false	O	O
@@ -2208,7 +2208,7 @@ Ru	true	false	false	true	false	O	O
 не	false	false	true	false	false	O	O
 все	false	false	true	false	false	O	O
 кого	false	false	true	false	false	O	O
-АСВ	true	true	false	false	false	B-ORG	B-ORG
+АСВ	true	true	false	false	false	B-ORG	O
 относит	false	false	true	false	false	O	O
 к	false	false	true	false	true	O	O
 дробильщикам	false	false	false	false	false	O	O
@@ -2297,7 +2297,7 @@ Ru	true	false	false	true	false	O	O
 филиала	false	false	false	false	false	O	O
 банка	false	false	true	false	false	O	O
 Евразия	true	false	true	false	false	B-ORG	O
-Центр	true	false	true	false	false	I-ORG	O
+Центр	true	false	true	false	false	I-ORG	I-ORG
 Юрий	true	false	false	false	false	B-PER	B-PER
 Мушта	true	false	false	false	false	I-PER	I-PER
 Подробнее	true	false	false	false	false	O	O
@@ -2322,7 +2322,7 @@ doc	false	false	false	true	false	O	O
 бизнесом	false	false	false	false	false	O	O
 своего	false	false	true	false	false	O	O
 конкурента	false	false	false	false	false	O	O
-АСТ	true	true	false	false	false	B-ORG	B-ORG
+АСТ	true	true	false	false	false	B-ORG	O
 по	false	false	true	false	false	O	O
 договоренности	false	false	false	false	false	O	O
 с	false	false	true	false	false	O	O
@@ -2420,11 +2420,11 @@ doc	false	false	false	true	false	O	O
 издательства	false	false	true	false	false	O	O
 и	false	false	true	false	false	O	O
 дистрибуцию	false	false	false	false	false	O	O
-АСТ	true	true	false	false	false	B-ORG	B-ORG
+АСТ	true	true	false	false	false	B-ORG	O
 Кроме	true	false	true	false	false	O	O
 того	false	false	true	false	false	O	O
 владельцы	false	false	false	false	false	O	O
-АСТ	true	true	false	false	false	B-ORG	B-ORG
+АСТ	true	true	false	false	false	B-ORG	O
 хотя	false	false	true	false	false	O	O
 и	false	false	true	false	false	O	O
 не	false	false	true	false	false	O	O
@@ -2454,7 +2454,7 @@ doc	false	false	false	true	false	O	O
 весь	false	false	true	false	false	O	O
 бизнес	false	false	false	false	false	O	O
 владельцы	false	false	false	false	false	O	O
-АСТ	true	true	false	false	false	B-ORG	B-ORG
+АСТ	true	true	false	false	false	B-ORG	O
 смогут	false	false	true	false	false	O	O
 получить	false	false	true	false	false	O	O
 около	false	false	true	false	false	O	O
@@ -2480,7 +2480,7 @@ doc	false	false	false	true	false	O	O
 переговоры	false	false	true	false	false	O	O
 о	false	false	true	false	false	O	O
 поглощении	false	false	false	false	false	O	O
-АСТ	true	true	false	false	false	B-ORG	B-ORG
+АСТ	true	true	false	false	false	B-ORG	O
 Сумма	true	false	true	false	false	O	O
 сделки	false	false	true	false	false	O	O
 оценивалась	false	false	false	false	false	O	O
@@ -2540,11 +2540,11 @@ doc	false	false	false	true	false	O	O
 рынка	false	false	true	false	false	O	O
 Основным	true	false	true	false	false	O	O
 владельцем	false	false	true	false	false	O	O
-АСТ	true	true	false	false	false	B-ORG	B-ORG
+АСТ	true	true	false	false	false	B-ORG	O
 является	false	false	true	false	false	O	O
 кипрская	false	false	false	false	false	O	O
 A	true	true	true	true	false	B-ORG	O
-A	true	true	true	true	false	I-ORG	O
+A	true	true	true	true	false	I-ORG	I-ORG
 B	true	true	false	true	false	I-ORG	I-ORG
 P	true	true	false	true	false	I-ORG	I-ORG
 Advanced	true	false	false	true	false	I-ORG	I-ORG
@@ -2617,7 +2617,7 @@ Ltd	true	false	false	true	false	I-ORG	I-ORG
 на	false	false	true	false	true	O	O
 нефтепродукты	false	false	false	false	false	O	O
 российскими	false	false	false	false	false	O	O
-ВИНК	true	true	false	false	false	O	B-ORG
+ВИНК	true	true	false	false	false	O	O
 происходит	false	false	true	false	false	O	O
 медленно	false	false	true	false	false	O	O
 и	false	false	true	false	false	O	O
@@ -2708,7 +2708,7 @@ Ltd	true	false	false	true	false	I-ORG	I-ORG
 топлива	false	false	true	false	false	O	O
 на	false	false	true	false	true	O	O
 столичных	false	false	true	false	false	O	O
-АЗС	true	true	false	false	false	O	B-ORG
+АЗС	true	true	false	false	false	O	O
 свидетельствуют	false	false	true	false	false	O	O
 данные	false	false	true	false	false	O	O
 Московской	true	false	true	false	false	B-ORG	O
@@ -2883,7 +2883,7 @@ daily	false	false	false	true	false	I-ORG	I-ORG
 по	false	false	true	false	false	O	O
 стратегическому	false	false	false	false	false	O	O
 развитию	false	false	true	false	false	O	O
-ИАЦ	true	true	false	false	false	B-ORG	B-ORG
+ИАЦ	true	true	false	false	false	B-ORG	O
 Кортес	true	false	false	false	false	I-ORG	O
 Павел	true	false	true	false	false	B-PER	O
 Строков	true	false	false	false	false	I-PER	I-PER

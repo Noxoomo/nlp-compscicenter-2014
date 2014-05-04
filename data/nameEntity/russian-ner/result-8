@@ -141,7 +141,7 @@
 ЧТПЗ	true	true	false	false	false	B-ORG	B-ORG
 Ярослав	true	false	true	false	false	B-PER	O
 Ждань	true	false	false	false	false	I-PER	I-PER
-ММК	true	true	false	false	false	B-ORG	O
+ММК	true	true	false	false	false	B-ORG	B-ORG
 и	false	false	true	false	false	O	O
 ЧТПЗ	true	true	false	false	false	B-ORG	B-ORG
 компании	false	false	true	false	false	O	O
@@ -219,7 +219,7 @@
 черной	false	false	true	false	false	O	O
 металлургии	false	false	true	false	false	O	O
 России	true	false	true	false	false	O	O
-Активы	true	false	false	false	false	O	I-PER
+Активы	true	false	false	false	false	O	O
 компании	false	false	true	false	false	O	O
 в	false	false	true	false	false	O	O
 России	true	false	true	false	false	O	O
@@ -287,7 +287,7 @@ Office	true	false	false	true	false	O	O
 Microsoft	true	false	false	true	false	O	B-ORG
 Dynamics	true	false	false	true	false	O	O
 включающую	false	false	false	false	false	O	O
-ERP	true	true	false	true	false	O	B-ORG
+ERP	true	true	false	true	false	O	O
 и	false	false	true	false	false	O	O
 CRM	true	true	false	true	false	O	B-ORG
 решения	false	false	true	false	false	O	O
@@ -353,14 +353,14 @@ Yammer	true	false	false	true	false	B-ORG	B-ORG
 подразделения	false	false	true	false	false	O	O
 Microsoft	true	false	false	true	false	O	B-ORG
 Office	true	false	false	true	false	O	O
-Division	true	false	false	true	false	O	I-ORG
+Division	true	false	false	true	false	O	O
 главой	false	false	true	false	false	O	O
 которого	false	false	true	false	false	O	O
 является	false	false	true	false	false	O	O
 Курт	true	false	false	false	false	B-PER	B-PER
 Дель	true	false	true	false	false	I-PER	O
 Бене	true	false	false	false	false	I-PER	I-PER
-Kurt	true	false	false	true	false	I-PER	I-ORG
+Kurt	true	false	false	true	false	I-PER	B-ORG
 DelBene	true	false	false	true	false	I-PER	I-ORG
 Приобретение	true	false	true	false	false	O	O
 Yammer	true	false	false	true	false	B-ORG	B-ORG
@@ -399,7 +399,7 @@ Microsoft	true	false	false	true	false	B-ORG	B-ORG
 заявил	false	false	true	false	false	O	O
 Стив	true	false	false	false	false	B-PER	B-ORG
 Балмер	true	false	false	false	false	I-PER	I-PER
-Steve	true	false	false	true	false	I-PER	I-ORG
+Steve	true	false	false	true	false	I-PER	B-ORG
 Ballmer	true	false	false	true	false	I-PER	I-ORG
 исполнительный	false	false	true	false	false	O	O
 директор	false	false	true	false	false	O	O
@@ -454,17 +454,17 @@ Yammer	true	false	false	true	false	O	B-ORG
 инструментов	false	false	true	false	false	O	O
 Office	true	false	false	true	false	O	O
 365	false	false	false	false	false	O	O
-Microsoft	true	false	false	true	false	O	B-ORG
+Microsoft	true	false	false	true	false	O	O
 Dynamics	true	false	false	true	false	O	O
 включающий	false	false	true	false	false	O	O
 в	false	false	true	false	false	O	O
 себя	false	false	true	false	false	O	O
-ERP	true	true	false	true	false	O	B-ORG
+ERP	true	true	false	true	false	O	O
 и	false	false	true	false	false	O	O
 CRM	true	true	false	true	false	O	B-ORG
 рещения	false	false	false	false	false	O	O
 и	false	false	true	false	false	O	O
-Skype	true	false	false	true	false	O	B-ORG
+Skype	true	false	false	true	false	O	O
 Интеграция	true	false	false	false	false	O	O
 Yammer	true	false	false	true	false	O	B-ORG
 с	false	false	true	false	false	O	O
@@ -529,7 +529,7 @@ Microsoft	true	false	false	true	false	B-ORG	B-ORG
 Дэвид	true	false	false	false	false	B-PER	B-PER
 Сакс	true	false	false	false	false	I-PER	I-PER
 David	true	false	false	true	false	I-PER	I-PER
-Sacks	true	false	false	true	false	I-PER	I-ORG
+Sacks	true	false	false	true	false	I-PER	I-PER
 исполнительный	false	false	true	false	false	O	O
 директор	false	false	true	false	false	O	O
 и	false	false	true	false	false	O	O
@@ -568,7 +568,7 @@ Microsoft	true	false	false	true	false	B-ORG	B-ORG
 заявил	false	false	true	false	false	O	O
 Ларри	true	false	false	false	false	B-PER	B-ORG
 Каннелл	true	false	false	false	false	I-PER	I-PER
-Larry	true	false	false	true	false	I-PER	I-ORG
+Larry	true	false	false	true	false	I-PER	B-ORG
 Cannell	true	false	false	true	false	I-PER	I-ORG
 аналитик	false	false	false	false	false	O	O
 Gartner	true	false	false	true	false	B-ORG	B-ORG
@@ -591,11 +591,11 @@ Yammer	true	false	false	true	false	O	B-ORG
 тыс	false	false	false	false	false	O	O
 компаниями	false	false	false	false	false	O	O
 включая	false	false	true	false	false	O	O
-Ford	true	false	true	true	false	B-ORG	O
+Ford	true	false	true	true	false	B-ORG	B-ORG
 Motor	true	false	true	true	false	I-ORG	I-ORG
 eBay	false	false	false	true	false	B-ORG	O
-Telefonica	true	false	false	true	false	B-ORG	O
-O2	true	false	false	true	false	I-ORG	I-ORG
+Telefonica	true	false	false	true	false	B-ORG	B-ORG
+O2	true	false	false	true	false	I-ORG	B-ORG
 и	false	false	true	false	false	O	O
 др	false	false	false	false	false	O	O
 Согласно	true	false	true	false	false	O	O
@@ -852,7 +852,7 @@ microsoft_vstroit_socset_v_erp_crm_i_ofis_494268	false	false	false	true	false	O	
 монтажные	false	false	false	false	false	O	O
 работы	false	false	true	false	false	O	O
 по	false	false	true	false	false	O	O
-ВПП	true	true	false	false	false	O	B-ORG
+ВПП	true	true	false	false	false	O	O
 2	false	false	true	false	false	O	O
 еще	false	false	true	false	false	O	O
 в	false	false	true	false	false	O	O
@@ -1774,7 +1774,7 @@ BNDES	true	true	false	true	false	B-ORG	I-ORG
 второе	false	false	true	false	false	O	O
 место	false	false	true	false	false	O	O
 после	false	false	true	false	false	O	O
-Банка	true	false	true	false	false	B-ORG	O
+Банка	true	false	true	false	false	B-ORG	B-ORG
 развития	false	false	true	false	false	I-ORG	O
 Китая	true	false	true	false	false	I-ORG	O
 по	false	false	true	false	false	O	O
@@ -1963,7 +1963,7 @@ BNDES	true	true	false	true	false	B-ORG	I-ORG
 отметить	false	false	true	false	false	O	O
 что	false	false	true	false	false	O	O
 у	false	false	true	false	false	O	O
-Внешэкономбанка	true	false	false	false	false	B-ORG	B-ORG
+Внешэкономбанка	true	false	false	false	false	B-ORG	O
 подобная	false	false	true	false	false	O	O
 логика	false	false	true	false	false	O	O
 функционирования	false	false	true	false	false	O	O
@@ -2223,7 +2223,7 @@ externalities	false	false	false	true	false	O	O
 пример	false	false	true	false	false	O	O
 Китая	true	false	true	false	false	O	O
 и	false	false	true	false	false	O	O
-Банка	true	false	true	false	false	B-ORG	O
+Банка	true	false	true	false	false	B-ORG	B-ORG
 развития	false	false	true	false	false	I-ORG	O
 Китая	true	false	true	false	false	I-ORG	O
 БРК	true	true	false	false	false	I-ORG	O
@@ -2769,7 +2769,7 @@ BNDES	true	true	false	true	false	O	B-ORG
 нашего	false	false	true	false	false	O	O
 дочернего	false	false	false	false	false	O	O
 МСП	true	true	false	false	false	B-ORG	O
-Банка	true	false	true	false	false	I-ORG	O
+Банка	true	false	true	false	false	I-ORG	I-ORG
 Соответствующая	true	false	true	false	false	O	O
 работа	false	false	true	false	false	O	O
 с	false	false	true	false	false	O	O
@@ -2819,7 +2819,7 @@ BNDES	true	true	false	true	false	O	B-ORG
 нашего	false	false	true	false	false	O	O
 дочернего	false	false	false	false	false	O	O
 МСП	true	true	false	false	false	B-ORG	O
-Банка	true	false	true	false	false	I-ORG	O
+Банка	true	false	true	false	false	I-ORG	I-ORG
 150	false	false	true	false	false	O	O
 млн	false	false	false	false	false	O	O
 руб	false	false	false	false	false	O	O
@@ -2875,10 +2875,10 @@ BNDES	true	true	false	true	false	O	B-ORG
 расширение	false	false	true	false	false	O	O
 функций	false	false	true	false	false	O	O
 МСП	true	true	false	false	false	B-ORG	O
-Банка	true	false	true	false	false	I-ORG	O
+Банка	true	false	true	false	false	I-ORG	I-ORG
 притом	false	false	true	false	false	O	O
 что	false	false	true	false	false	O	O
-Внешэкономбанк	true	false	false	false	false	B-ORG	B-ORG
+Внешэкономбанк	true	false	false	false	false	B-ORG	B-PER
 уже	false	false	true	false	false	O	O
 принял	false	false	true	false	false	O	O
 решение	false	false	true	false	false	O	O
@@ -4014,7 +4014,7 @@ Embraer	true	false	false	true	false	B-ORG	B-ORG
 выложить	false	false	true	false	false	O	O
 за	false	false	true	false	false	O	O
 Связь	true	false	true	false	false	B-ORG	O
-банк	false	false	true	false	false	I-ORG	O
+банк	false	false	true	false	false	I-ORG	I-ORG
 и	false	false	true	false	false	O	O
 Глобэкс	true	false	false	false	false	B-ORG	O
 устраивающие	false	false	false	false	false	O	O
@@ -4081,7 +4081,7 @@ Embraer	true	false	false	true	false	B-ORG	B-ORG
 тот	false	false	true	false	false	O	O
 минимум	false	false	true	false	false	O	O
 который	false	false	true	false	false	O	O
-Внешэкономбанк	true	false	false	false	false	B-ORG	O
+Внешэкономбанк	true	false	false	false	false	B-ORG	B-ORG
 сможет	false	false	true	false	false	O	O
 сделать	false	false	true	false	false	O	O
 для	false	false	true	false	true	O	O
@@ -4278,7 +4278,7 @@ Largus	true	false	false	true	false	O	O
 дилеров	false	false	false	false	false	O	O
 Как	true	false	true	false	false	O	O
 сообщает	false	false	true	false	false	O	O
-Автосреда	true	false	false	false	false	B-ORG	B-ORG
+Автосреда	true	false	false	false	false	B-ORG	O
 со	false	false	true	false	false	O	O
 ссылкой	false	false	true	false	false	O	O
 на	false	false	true	false	true	O	O
@@ -4449,7 +4449,7 @@ Largus	true	false	false	true	false	O	O
 лежит	false	false	true	false	false	O	O
 единая	false	false	true	false	false	O	O
 платформа	false	false	true	false	false	O	O
-B0	true	false	false	true	false	O	B-ORG
+B0	true	false	false	true	false	O	O
 принадлежащая	false	false	true	false	false	O	O
 концерну	false	false	false	false	false	O	O
 Renault	true	false	false	true	false	B-ORG	B-ORG
@@ -4535,7 +4535,7 @@ Lada	true	false	false	true	false	O	O
 своей	false	false	true	false	false	O	O
 доли	false	false	true	false	false	O	O
 в	false	false	true	false	false	O	O
-ТНК	true	true	false	false	false	B-ORG	O
+ТНК	true	true	false	false	false	B-ORG	B-ORG
 BP	true	true	false	true	false	I-ORG	I-ORG
 BP	true	true	false	true	false	B-ORG	I-ORG
 не	false	false	true	false	false	O	O
@@ -4817,7 +4817,7 @@ AAR	true	true	false	true	false	B-ORG	B-ORG
 доли	false	false	true	false	false	O	O
 BP	true	true	false	true	false	B-ORG	B-ORG
 в	false	false	true	false	false	O	O
-ТНК	true	true	false	false	false	B-ORG	O
+ТНК	true	true	false	false	false	B-ORG	B-ORG
 BP	true	true	false	true	false	I-ORG	I-ORG
 Однако	true	false	true	false	false	O	O
 вчера	false	false	true	false	false	O	O
@@ -4910,7 +4910,7 @@ BP	true	true	false	true	false	B-ORG	B-ORG
 свою	false	false	true	false	false	O	O
 долю	false	false	true	false	false	O	O
 в	false	false	true	false	false	O	O
-ТНК	true	true	false	false	false	B-ORG	O
+ТНК	true	true	false	false	false	B-ORG	B-ORG
 BP	true	true	false	true	false	I-ORG	I-ORG
 считает	false	false	true	false	false	O	O
 аналитик	false	false	false	false	false	O	O

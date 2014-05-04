@@ -5,230 +5,37 @@
     <bookmark url="file://$PROJECT_DIR$/NaiveBayesReport_2" line="0" mnemonic="6" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12d9ca7e-7fde-4219-a401-bb0173694827" name="Default" comment="naive bayes updated (add split words endings, lower case all)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/romip2005-facts/and_good_table.xml.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/model" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/romip2005-facts/news-080404.xml.bz2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/romip2005-facts/news-shevard.xml.bz2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/romip2005-facts/qa-fact-extraction.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FirstTaskResults.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/.ipynb_checkpoints/NLP-checkpoint.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/NLP.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NaiveBayesReport_2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/accident.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/accident1.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/accident2.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/accident3.txt.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/accident4.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/accidents.parsed.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/accidents2.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/auto.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/auto.parsed.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/auto.txt.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/auto1.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/auto2.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/auto2.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/auto3.txt.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/auto4.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/culture.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/culture.parsed.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/culture.txt.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/culture1.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/culture2.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/culture2.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/culture3.txt.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/culture4.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/economics.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/economics.parsed.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/economics.txt.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/economics1.fixed.fixed.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/economics1.fixed.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/economics1.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/economics2.fixed.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/economics2.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/economics3.txt.fixed.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/economics3.txt.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/economics4.fixed.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/economics4.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/economis.fixed.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/economis.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/featuresExtraction.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/fit.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/hi-tech.parsed.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/hi-tech.txt.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/hitech.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/hitech1.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/hitech2.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/hitech2.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/hitech3.txt.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/hitech4.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/incident.txt.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/internet.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/internet.parsed.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/internet.txt.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/internet1.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/internet2.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/internet2.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/internet3.txt.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/internet4.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/romip2005-facts/news-vybory.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/normalizeTexts.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/politics.fixed.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/politics.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/politics.parsed.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/politics.txt.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/politics1.fixed.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/politics1.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/politics2.fixed.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/politics2.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/politics2.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/politics3.txt.fixed.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/politics3.txt.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/politics4.fixed.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/politics4.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-0" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-5" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-6" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-7" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-8" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-9" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus.dev.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus.test.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus.train.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-0-learn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-0-test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-1-learn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-1-test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-2-learn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-2-test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-3-learn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-3-test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-4-learn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-4-test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-5-learn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-5-test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-6-learn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-6-test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-7-learn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-7-test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-8-learn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-8-test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-9-learn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-9-test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_train_features" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/science.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/science.txt.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/science1.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/science2.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/science2.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/science3.txt.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/science4.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/scince.parsed.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/society.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/society.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/society.parsed.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/society.txt.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/society1.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/society2.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/society3.txt.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/society4.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/sport.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/sport.parsed.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/sport.txt.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/sport1.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/sport2.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/sport2.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/sport3.txt.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/sport4.fixed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/template" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/train" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FirstTaskResults" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/Report" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/accident1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/accident2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/accident3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/accident4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/auto1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/auto2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/auto3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/auto4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/culture1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/culture2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/culture3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/culture4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/hitech1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/hitech2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/hitech3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/hitech4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/internet1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/internet2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/internet3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/internet4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/science1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/science2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/science3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/science4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/society1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/society2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/society3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/society4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/sport1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/sport2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/sport3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/bad/sport4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/economics1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/economics2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/economics3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/economics4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/politics1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/politics2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/politics3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/good/politics4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn/naiveBayes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/naiveBayes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/accidents.parsed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/accidents2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/auto.parsed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/auto.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/auto2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/culture.parsed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/culture.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/culture2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/hi-tech.parsed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/hi-tech.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/hitech2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/incident.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/internet.parsed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/internet.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/internet2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/science.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/science2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/scince.parsed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/society" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/society.parsed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/society.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/sport.parsed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/sport.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/bad/sport2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/economics" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/economics.parsed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/economics.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/politics.parsed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/politics.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/good/politics2" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn.arff" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/learn.arff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/naiveBayes" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test/naiveBayes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test.arff" afterPath="$PROJECT_DIR$/data/classifiersData/naiveBayes/test.arff" />
+    <list default="true" id="12d9ca7e-7fde-4219-a401-bb0173694827" name="Default" comment="some fixes and part of next homework">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/model" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/model" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-3" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-0-learn" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-0-learn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-1-test" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-1-test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/FactsConverter.scala" afterPath="$PROJECT_DIR$/src/main/scala/FactsConverter.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Helpers.scala" afterPath="$PROJECT_DIR$/src/main/scala/Helpers.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala" afterPath="$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala" afterPath="$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala" afterPath="$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/.ipynb_checkpoints/NLP-checkpoint.ipynb" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/.ipynb_checkpoints/NLP-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/NLP.ipynb" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/NLP.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/featuresExtraction.scala" afterPath="$PROJECT_DIR$/src/main/scala/featuresExtraction.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/fit.sh" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/fit.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-0" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-1" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-2" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-4" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-5" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-6" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-7" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-8" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-8" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-9" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/result-9" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-0-test" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-0-test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-1-learn" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-1-learn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-2-learn" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-2-learn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-2-test" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-2-test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-3-learn" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-3-learn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-3-test" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-3-test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-4-learn" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-4-learn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-4-test" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn-4-test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_learn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_test" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/ru_corpus_test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/nameEntity/russian-ner/template" afterPath="$PROJECT_DIR$/data/nameEntity/russian-ner/template" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nlp-compscicenter-2014.iws" />
@@ -250,6 +57,23 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/ParserTest.java" line="23" class="ParserTest" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -286,24 +110,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/ParserTest.java" line="23" class="ParserTest" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules converted="true" />
     <ui_properties converted="true" />
   </component>
@@ -316,7 +122,7 @@
       <file leaf-file-name="NaiveBayesianLearner.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="855">
+            <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="840">
               <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding />
             </state>
@@ -326,7 +132,7 @@
       <file leaf-file-name="OpenCorpaToSentenceConverter.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="945">
+            <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="945">
               <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
               <folding />
             </state>
@@ -336,7 +142,7 @@
       <file leaf-file-name="normalizeTexts.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/normalizeTexts.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="375">
+            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="405">
               <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
@@ -353,21 +159,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fix_cp1251_encoding.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fix_cp1251_encoding.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Helpers.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Helpers.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="294" max-vertical-offset="885">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="1110">
+              <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -375,11 +171,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="featuresExtraction.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FactsConverter.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/FactsConverter.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.9660194" vertical-offset="1212" max-vertical-offset="1830">
+              <caret line="41" column="64" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BufferedWriter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/src.zip!/java/io/BufferedWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3147" max-vertical-offset="3765">
+              <caret line="256" column="36" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="featuresExtraction.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/featuresExtraction.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36775818" vertical-offset="274" max-vertical-offset="1185">
-              <caret line="30" column="39" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+              <caret line="47" column="74" selection-start-line="47" selection-start-column="74" selection-end-line="47" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -390,16 +208,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1125">
               <caret line="61" column="38" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NaiveBayesReport" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NaiveBayesReport">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="840">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -480,8 +288,9 @@
         <option value="$PROJECT_DIR$/NaiveBayesReport_2" />
         <option value="$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Helpers.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/featuresExtraction.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Helpers.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/FactsConverter.scala" />
       </list>
     </option>
   </component>
@@ -650,7 +459,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../IdeaProjects/Classifiers" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
   <component name="RecentsManager">
@@ -668,30 +477,7 @@
       <recent name="$PROJECT_DIR$/data/jsonSource" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.featuresExtraction">
-    <configuration default="false" name="NaiveBayesianLearner" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="NaiveBayesianLearner" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value=" good  bad ../test/naiveBayes" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/data/classifiersData/naiveBayes/learn" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="nlp-compscicenter-2014" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.FactsConverter">
     <configuration default="false" name="NaiveBayesianClassifier" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="NaiveBayesianClassifier" />
@@ -784,19 +570,27 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console">
-      <module name="" />
-      <setting name="vmparams4" value="-Djline.terminal=NONE" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="consoleArgs" value="-usejavacp" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+    <configuration default="false" name="FactsConverter" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="FactsConverter" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="learn2 and_good_table.xml news-080404.xml  news-shevard.xml news-vybory.xml" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/data/nameEntity/romip2005-facts" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="nlp-compscicenter-2014" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
@@ -810,6 +604,14 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -903,19 +705,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.NaiveBayesianLearner" />
-      <item index="1" class="java.lang.String" itemvalue="Application.NaiveBayesianClassifier" />
-      <item index="2" class="java.lang.String" itemvalue="Application.featuresExtraction" />
-      <item index="3" class="java.lang.String" itemvalue="Application.normalizeTexts" />
-      <item index="4" class="java.lang.String" itemvalue="Application.OpenCorpaToSentenceConverter" />
+      <item index="0" class="java.lang.String" itemvalue="Application.NaiveBayesianClassifier" />
+      <item index="1" class="java.lang.String" itemvalue="Application.featuresExtraction" />
+      <item index="2" class="java.lang.String" itemvalue="Application.normalizeTexts" />
+      <item index="3" class="java.lang.String" itemvalue="Application.OpenCorpaToSentenceConverter" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FactsConverter" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.featuresExtraction" />
-        <item index="1" class="java.lang.String" itemvalue="Application.normalizeTexts" />
-        <item index="2" class="java.lang.String" itemvalue="Application.OpenCorpaToSentenceConverter" />
-        <item index="3" class="java.lang.String" itemvalue="Application.NaiveBayesianClassifier" />
-        <item index="4" class="java.lang.String" itemvalue="Application.NaiveBayesianLearner" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FactsConverter" />
+        <item index="1" class="java.lang.String" itemvalue="Application.featuresExtraction" />
+        <item index="2" class="java.lang.String" itemvalue="Application.normalizeTexts" />
+        <item index="3" class="java.lang.String" itemvalue="Application.OpenCorpaToSentenceConverter" />
+        <item index="4" class="java.lang.String" itemvalue="Application.NaiveBayesianClassifier" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -999,7 +801,13 @@
       <workItem from="1398099477154" duration="4295000" />
       <workItem from="1398145859216" duration="2732000" />
       <workItem from="1398159244051" duration="446000" />
-      <workItem from="1398164697126" duration="4447000" />
+      <workItem from="1398164697126" duration="6895000" />
+      <workItem from="1398445973029" duration="148000" />
+      <workItem from="1398446797206" duration="155000" />
+      <workItem from="1398446993164" duration="1284000" />
+      <workItem from="1398765298694" duration="911000" />
+      <workItem from="1399018296712" duration="83000" />
+      <workItem from="1399194917486" duration="2653000" />
     </task>
     <task id="LOCAL-00001" summary="README">
       <created>1393866865778</created>
@@ -1129,11 +937,15 @@
       <created>1396966382902</created>
       <updated>1396966382902</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="some fixes and part of next homework">
+      <created>1398185465876</created>
+      <updated>1398185465876</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86601000" />
+    <option name="totallyTimeSpent" value="94283000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1159,23 +971,24 @@
     <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.53430355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53430355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4116424" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883817" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4648094" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45841995" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4647303" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45738044" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883817" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1641791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2489339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3045738" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3045738" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1183,7 +996,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991684" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1230,7 +1042,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="my part of splitting news to sentence" />
     <MESSAGE value="some minor changes" />
     <MESSAGE value="split parser and fileparser" />
     <MESSAGE value="initial checker for accuracy and other&#10;exporter result to json and xml&#10;check how well on openCorpa (scala…)" />
@@ -1255,7 +1066,8 @@
     <MESSAGE value="classification report" />
     <MESSAGE value="naive bayes updated" />
     <MESSAGE value="naive bayes updated (add split words endings, lower case all)" />
-    <option name="LAST_COMMIT_MESSAGE" value="naive bayes updated (add split words endings, lower case all)" />
+    <MESSAGE value="some fixes and part of next homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="some fixes and part of next homework" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1264,12 +1076,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/scala/featuresExtraction.scala</url>
-          <line>70</line>
+          <line>71</line>
           <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="36" />
+      <option name="time" value="41" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1277,20 +1089,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/classifiersData/wekaConverter.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecondHomeworkTask">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2565">
-          <caret line="0" column="120" selection-start-line="0" selection-start-column="120" selection-end-line="0" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
@@ -1593,14 +1391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FirstTaskResults.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="497">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="415" max-vertical-offset="1110">
@@ -1633,10 +1423,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FirstTaskResults.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="497">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Helpers.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="294" max-vertical-offset="885">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="1110">
+          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
@@ -1645,9 +1443,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/featuresExtraction.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36775818" vertical-offset="274" max-vertical-offset="1185">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="387" max-vertical-offset="1200">
+          <caret line="47" column="74" selection-start-line="47" selection-start-column="74" selection-end-line="47" selection-end-column="74" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/src.zip!/java/io/BufferedWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3147" max-vertical-offset="3765">
+          <caret line="256" column="36" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/FactsConverter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9660194" vertical-offset="1212" max-vertical-offset="1830">
+          <caret line="41" column="64" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

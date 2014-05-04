@@ -4,7 +4,7 @@
 Корр	true	false	false	false	false	O	B-ORG
 БИЗНЕС	true	true	false	false	false	B-ORG	B-ORG
 ТАСС	true	true	false	false	false	I-ORG	I-ORG
-Денис	true	false	false	false	false	B-PER	O
+Денис	true	false	false	false	false	B-PER	B-PER
 Дубровин	true	false	false	false	false	I-PER	I-PER
 Кипр	true	false	false	false	false	O	I-PER
 возлагает	false	false	false	false	false	O	O
@@ -25,7 +25,7 @@
 информационный	false	false	true	false	false	O	O
 портал	false	false	true	false	false	O	O
 Еврообсервер	true	false	false	false	false	O	O
-EUObserver	true	false	false	true	false	O	I-ORG
+EUObserver	true	false	false	true	false	O	B-ORG
 Кипрские	true	false	false	false	false	O	B-PER
 переговорщики	false	false	false	false	false	O	O
 близки	false	false	true	false	false	O	O
@@ -54,7 +54,7 @@ EUObserver	true	false	false	true	false	O	I-ORG
 Евросоюза	true	false	false	false	false	O	O
 сообщило	false	false	false	false	false	O	O
 издание	false	false	true	false	false	O	O
-Кипр	true	false	false	false	false	O	B-ORG
+Кипр	true	false	false	false	false	O	O
 который	false	false	true	false	false	O	O
 с	false	false	true	false	false	O	O
 1	false	false	true	false	false	O	O
@@ -108,7 +108,7 @@ EUObserver	true	false	false	true	false	O	I-ORG
 ее	false	false	true	false	false	O	O
 без	false	false	true	false	false	O	O
 участия	false	false	true	false	false	O	O
-МВФ	true	true	false	false	false	B-ORG	B-ORG
+МВФ	true	true	false	false	false	B-ORG	O
 и	false	false	true	false	false	O	O
 не	false	false	true	false	false	O	O
 в	false	false	true	false	false	O	O
@@ -334,7 +334,7 @@ EUObserver	true	false	false	true	false	O	I-ORG
 Опубликован	true	false	true	false	false	O	O
 новый	false	false	true	false	false	O	O
 рейтинг	false	false	false	false	false	O	O
-CNews100	true	false	false	true	false	O	B-ORG
+CNews100	true	false	false	true	false	O	O
 Крупнейшие	true	false	true	false	false	O	O
 ИТ	true	true	false	false	false	O	O
 компании	false	false	true	false	false	O	O
@@ -507,7 +507,7 @@ Projects	true	false	false	true	false	I-ORG	I-ORG
 пяти	false	false	true	false	false	O	O
 компаний	false	false	false	false	false	O	O
 из	false	false	true	false	false	O	O
-CNews100	true	false	false	true	false	O	B-ORG
+CNews100	true	false	false	true	false	O	O
 зафиксирован	false	false	false	false	false	O	O
 по	false	false	true	false	false	O	O
 итогам	false	false	true	false	false	O	O
@@ -530,7 +530,7 @@ CNews100	true	false	false	true	false	O	B-ORG
 входа	false	false	true	false	false	O	O
 в	false	false	true	false	false	O	O
 рейтинг	false	false	false	false	false	O	O
-CNews100	true	false	false	true	false	O	B-ORG
+CNews100	true	false	false	true	false	O	O
 по	false	false	true	false	false	O	O
 итогам	false	false	true	false	false	O	O
 2011	false	false	false	false	false	O	O
@@ -784,7 +784,7 @@ CNA	true	true	false	true	false	B-ORG	B-ORG
 страны	false	false	true	false	false	O	O
 по	false	false	true	false	false	O	O
 рейтингу	false	false	false	false	false	O	O
-CNews100	true	false	false	true	false	O	B-ORG
+CNews100	true	false	false	true	false	O	O
 редко	false	false	true	false	false	O	O
 превышает	false	false	true	false	false	O	O
 2	false	false	true	false	false	O	O
@@ -885,8 +885,8 @@ CNews100	true	false	false	true	false	O	B-ORG
 шаг	false	false	true	false	false	O	O
 уже	false	false	true	false	false	O	O
 сделала	false	false	true	false	false	O	O
-АФК	true	true	false	false	false	B-ORG	B-ORG
-Система	true	false	true	false	false	I-ORG	O
+АФК	true	true	false	false	false	B-ORG	O
+Система	true	false	true	false	false	I-ORG	I-ORG
 начавшая	false	false	false	false	false	O	O
 интеграцию	false	false	false	false	false	O	O
 активов	false	false	false	false	false	O	O
@@ -1271,7 +1271,7 @@ Ru	true	false	false	true	false	I-ORG	I-ORG
 между	false	false	true	false	false	O	O
 мной	false	false	true	false	false	O	O
 и	false	false	true	false	false	O	O
-Алексашенко	true	false	false	false	false	B-PER	O
+Алексашенко	true	false	false	false	false	B-PER	B-PER
 Сергей	true	false	true	false	false	B-PER	B-PER
 Алексашенко	true	false	false	false	false	I-PER	I-PER
 независимый	false	false	true	false	false	O	O
@@ -1431,7 +1431,7 @@ Lewis	true	false	false	true	false	I-ORG	I-ORG
 Мои	true	false	true	false	false	O	O
 взгляды	false	false	true	false	false	O	O
 на	false	false	true	false	true	O	O
-Ростехнологии	true	false	false	false	false	B-ORG	O
+Ростехнологии	true	false	false	false	false	B-ORG	B-ORG
 на	false	false	true	false	true	O	O
 Чемезова	true	false	false	false	false	B-PER	O
 или	false	false	true	false	false	O	O
@@ -1772,7 +1772,7 @@ cost	false	false	false	true	false	O	O
 мои	false	false	true	false	false	O	O
 взгляды	false	false	true	false	false	O	O
 на	false	false	true	false	true	O	O
-Аэрофлот	true	false	false	false	false	B-ORG	O
+Аэрофлот	true	false	false	false	false	B-ORG	B-ORG
 это	false	false	true	false	false	O	O
 взгляды	false	false	true	false	false	O	O
 пассажира	false	false	true	false	false	O	O
@@ -1886,7 +1886,7 @@ cost	false	false	false	true	false	O	O
 активно	false	false	true	false	false	O	O
 влияет	false	false	true	false	false	O	O
 на	false	false	true	false	true	O	O
-Аэрофлот	true	false	false	false	false	B-ORG	O
+Аэрофлот	true	false	false	false	false	B-ORG	B-ORG
 и	false	false	true	false	false	O	O
 другие	false	false	true	false	false	O	O
 авиакомпании	false	false	false	false	false	O	O
@@ -2046,7 +2046,7 @@ cost	false	false	false	true	false	O	O
 сухого	false	false	true	false	false	O	O
 цельного	false	false	true	false	false	O	O
 молока	false	false	true	false	false	O	O
-СЦМ	true	true	false	false	false	O	B-ORG
+СЦМ	true	true	false	false	false	O	O
 сухого	false	false	true	false	false	O	O
 обезжиренного	false	false	false	false	false	O	O
 молока	false	false	true	false	false	O	O
@@ -2078,7 +2078,7 @@ cost	false	false	false	true	false	O	O
 этого	false	false	true	false	false	O	O
 по	false	false	true	false	false	O	O
 мнению	false	false	true	false	false	O	O
-Союзмолока	true	false	false	false	false	B-ORG	B-ORG
+Союзмолока	true	false	false	false	false	B-ORG	O
 является	false	false	true	false	false	O	O
 беспрецедентный	false	false	false	false	false	O	O
 рост	false	false	true	false	false	O	O
@@ -2531,7 +2531,7 @@ doc	false	false	false	true	false	O	O
 1967389	false	false	false	false	false	O	O
 
 Соса	true	false	false	false	false	B-ORG	O
-Cola	true	false	false	true	false	I-ORG	I-ORG
+Cola	true	false	false	true	false	I-ORG	B-ORG
 и	false	false	true	false	false	O	O
 ее	false	false	true	false	false	O	O
 дочерние	false	false	false	false	false	O	O
@@ -2630,7 +2630,7 @@ Cola	true	false	false	true	false	I-ORG	I-ORG
 Китаю	true	false	false	false	false	O	I-PER
 и	false	false	true	false	false	O	O
 Бразилии	true	false	false	false	false	O	O
-Coca	true	false	false	true	false	B-ORG	B-ORG
+Coca	true	false	false	true	false	B-ORG	O
 Cola	true	false	false	true	false	I-ORG	I-ORG
 сумела	false	false	true	false	false	O	O
 существенно	false	false	true	false	false	O	O
@@ -2970,7 +2970,7 @@ daily	false	false	false	true	false	I-ORG	I-ORG
 ранее	false	false	true	false	false	O	O
 6	false	false	true	false	false	O	O
 июня	false	false	true	false	false	O	O
-Демьян	true	false	true	false	false	B-PER	O
+Демьян	true	false	true	false	false	B-PER	B-PER
 Кудрявцев	true	false	false	false	false	I-PER	I-PER
 ушел	false	false	true	false	false	O	O
 с	false	false	true	false	false	O	O
@@ -2978,7 +2978,7 @@ daily	false	false	false	true	false	I-ORG	I-ORG
 гендиректора	false	false	false	false	false	O	O
 холдинга	false	false	false	false	false	O	O
 Коммерсантъ	true	false	false	false	false	B-ORG	B-ORG
-Генеральным	true	false	false	false	false	O	I-PER
+Генеральным	true	false	false	false	false	O	O
 директором	false	false	true	false	false	O	O
 холдинга	false	false	false	false	false	O	O
 вместо	false	false	true	false	false	O	O
@@ -3011,7 +3011,7 @@ daily	false	false	false	true	false	I-ORG	I-ORG
 современную	false	false	true	false	false	O	O
 мультимедийную	false	false	false	false	false	O	O
 компанию	false	false	true	false	false	O	O
-Демьян	true	false	true	false	false	B-PER	O
+Демьян	true	false	true	false	false	B-PER	B-PER
 Кудрявцев	true	false	false	false	false	I-PER	I-PER
 остается	false	false	true	false	false	O	O
 в	false	false	true	false	false	O	O
