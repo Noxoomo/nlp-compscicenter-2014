@@ -17,12 +17,23 @@ object Helpers {
   }
 
   implicit class Normalizer(text: String) {
-    val punctuation = Set('.', ',', '?', '!', '\"', '…', '(', ')', ';', '-', '«', '»', '–')
+    val punctuation = Set('.', ',', '?', '!', '\"', '…', '(', ')', ';', '-', '«', '»', '–', ":")
     val endings = new Regex("(ий|ой|ый|ая|ие|их|ое|ую|ем|им|ии|ей|ом|ых|ым|ия|ёй)\\b")
 
     //о|а|я|ы|и|е|у|ю
     def normalize() = {
       endings.replaceAllIn(text.toLowerCase.replace("\n", " ").filterNot(punctuation contains), " ")
+      //text.toLowerCase().replace("\n"," ").filterNot(punctuation contains)
+    }
+
+    val hashtag = new Regex("#(([\\p{L}\\d])+)\\b")
+    val user = new Regex("@(([\\w\\d])+)\\b")
+    val link = new Regex("(http://|https://)(([\\w\\d/.])+)(\\s|$)")
+    val whitespaces = new Regex("( )+");
+
+    def normalizeTweets() = {
+      whitespaces.replaceAllIn(hashtag.replaceAllIn(user.replaceAllIn(link.replaceAllIn(text.replace("\n", " "), ""), " "), " ").toLowerCase, " ").filterNot(punctuation contains)
+      //      endings.replaceAllIn(text.toLowerCase.replace("\n", " ").filterNot(punctuation contains), " ")
       //text.toLowerCase().replace("\n"," ").filterNot(punctuation contains)
     }
 
@@ -33,7 +44,7 @@ object Helpers {
     }
   }
 
-  implicit class EntitiExtractor(text: String) {
+  implicit class EntityExtractor(text: String) {
     def markEntities(facts: List[Fact]) = {
       //fact1: A owns B
       //fact2: A works in B
@@ -46,8 +57,8 @@ object Helpers {
 
       val words = text.split(" ")
       var currOffset = 0
-      //      var inFirst = false
-      //      var inSecond = false
+      var inFirst = false
+      var inSecond = false
 
       def isEntity(word: String, dict: Map[String, (Int, Int)]) = {
         firstEntities.get(word.toLowerCase()) match {
@@ -59,22 +70,22 @@ object Helpers {
       words.filterNot(word => word == "-" || word == "").map(word => {
         if (isEntity(word, firstEntities)) {
           //          currOffset += word.length + 1
-          //          val mapped = word + "\t" + (if (inFirst) "I_ENT" else "B_ENT")
-          //          inFirst = true
-          //          inSecond = false
-          //          mapped
-          word + "\t" + "ENT"
+          val mapped = word + "\t" + (if (inFirst) "I_ENT" else "B_ENT")
+          inFirst = true
+          inSecond = false
+          mapped
+          //          word + "\t" + "ENT"
         } else if (isEntity(word, secondEntities)) {
           //          currOffset += word.length + 1
-          //          val mapped = word + "\t" + (if (inSecond) "I_ENT" else "B_ENT")
-          //          inSecond = true
-          //          inFirst = false
-          word + "\t" + "ENT"
-          //          mapped
+          val mapped = word + "\t" + (if (inSecond) "I_ENT" else "B_ENT")
+          inSecond = true
+          inFirst = false
+          //          word + "\t" + "ENT"
+          mapped
         } else {
           //          currOffset += word.length +1
-          //          inFirst = false
-          //          inSecond = false
+          inFirst = false
+          inSecond = false
           word + "\t" + "O"
         }
       })
@@ -90,7 +101,7 @@ object Helpers {
     val whitespace = new Regex("\t")
     val split_entity = whitespace.split(entity)
     val word = split_entity(0)
-    val label = if (split_entity(1) == "O") "O" else "ENT"
+    val label = split_entity(1)
 
 
     def extractFeatures() = {
@@ -128,6 +139,7 @@ object Helpers {
       })
       val isLong = word.length > 4
       val isAbridgment = abridgments contains word.toLowerCase
+      val label = if (this.label == "O") "O" else "ENT"
       f"$word\t$upperFeature\t$twoOrMoreUp\t$inDict\t$containsLatin\t$isLong\t$isAbridgment\t$label"
     }
 
