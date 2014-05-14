@@ -5,20 +5,23 @@
     <bookmark url="file://$PROJECT_DIR$/NaiveBayesReport_2" line="0" mnemonic="6" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12d9ca7e-7fde-4219-a401-bb0173694827" name="Default" comment="something like facts to entities converter">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/happy_tweets" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/Report" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/TweetsExtractor.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/TwitterClassifier.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/TwitterLearner.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/happy_posts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/model" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/russian_post_1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/sad_posts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/sad_tweets" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/target" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/test-russian-post" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Helpers.scala" afterPath="$PROJECT_DIR$/src/main/scala/Helpers.scala" />
+    <list default="true" id="12d9ca7e-7fde-4219-a401-bb0173694827" name="Default" comment="second half">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/bad_sorted" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/good_to_classifier" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/DictClassifier.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/PMIAttributes.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/badPMI" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/bad_classifier" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/bad_filtered" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/goodPMI" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/good_classifier" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/good_filtered" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/good_sorted" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/SentimentAnalysis/happy_tweets" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/happy_tweets" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/SentimentAnalysis/Report" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/Report" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/SentimentAnalysis/TweetsExtractor.ipynb" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/TweetsExtractor.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/SentimentAnalysis/model" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/model" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/SentimentAnalysis/sad_tweets" afterPath="$PROJECT_DIR$/data/SentimentAnalysis/sad_tweets" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nlp-compscicenter-2014.iws" />
@@ -102,53 +105,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NaiveBayesianLearner.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianLearner.scala">
+      <file leaf-file-name="Report" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/SentimentAnalysis/Report">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="750">
-              <caret line="15" column="133" selection-start-line="15" selection-start-column="133" selection-end-line="15" selection-end-column="133" />
+            <state vertical-scroll-proportion="-0.10294118" vertical-offset="401" max-vertical-offset="945">
+              <caret line="23" column="90" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="90" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestNewsData.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/TestNewsData.scala">
+      <file leaf-file-name="bad_classifier" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/SentimentAnalysis/bad_classifier">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="876" max-vertical-offset="1410">
+              <caret line="88" column="18" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="normalizeTexts.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/normalizeTexts.scala">
+      <file leaf-file-name="FactsConverter.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/FactsConverter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="2145">
+              <caret line="47" column="83" selection-start-line="47" selection-start-column="83" selection-end-line="47" selection-end-column="83" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Helpers.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Helpers.scala">
+      <file leaf-file-name="PMIAttributes.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/PMIAttributes.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2340">
-              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="675">
+              <caret line="38" column="1" selection-start-line="10" selection-start-column="33" selection-end-line="38" selection-end-column="1" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#1#17#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Report" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/SentimentAnalysis/Report">
+      <file leaf-file-name="DictClassifier.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/DictClassifier.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="501">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="178" max-vertical-offset="735">
+              <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+              <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -157,8 +172,8 @@
       <file leaf-file-name="TwitterLearner.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/TwitterLearner.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="279" max-vertical-offset="780">
-              <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="780">
+              <caret line="30" column="137" selection-start-line="29" selection-start-column="2" selection-end-line="30" selection-end-column="137" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -169,18 +184,8 @@
       <file leaf-file-name="TwitterClassifier.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/TwitterClassifier.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="1095">
-              <caret line="9" column="108" selection-start-line="9" selection-start-column="108" selection-end-line="9" selection-end-column="108" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FactsConverter.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/FactsConverter.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="2220">
-              <caret line="47" column="83" selection-start-line="47" selection-start-column="83" selection-end-line="47" selection-end-column="83" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="9" selection-end-column="130" />
               <folding />
             </state>
           </provider>
@@ -189,18 +194,8 @@
       <file leaf-file-name="NaiveBayesianClassifier.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="1110">
-              <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="featuresExtraction.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/featuresExtraction.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1230">
-              <caret line="64" column="3" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1110">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -225,10 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/data/newsCorpus1.json" />
-        <option value="$PROJECT_DIR$/data/jsonSource/newsToSentence_Kribesk.json" />
-        <option value="$PROJECT_DIR$/src/main/java/FileParser.java" />
-        <option value="$PROJECT_DIR$/tmp/result" />
         <option value="$PROJECT_DIR$/src/main/java/Parser.java" />
         <option value="$PROJECT_DIR$/src/test/java/ParserTest.java" />
         <option value="$PROJECT_DIR$/data/jsonSource/corpusAllNews.json" />
@@ -272,9 +263,13 @@
         <option value="$PROJECT_DIR$/src/main/scala/TwitterBayesian/NaiveBayesianLearner.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/TwitterBayesian/TweeterLeaner.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/TweeterLeaner.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/TwitterClassifier.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/TwitterLearner.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Helpers.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/TwitterClassifier.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ChiSquareAttributes.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/PMIAttributes.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/DictClassifier.scala" />
+        <option value="$PROJECT_DIR$/data/SentimentAnalysis/bad_classifier" />
         <option value="$PROJECT_DIR$/data/SentimentAnalysis/Report" />
       </list>
     </option>
@@ -501,53 +496,7 @@
       <recent name="$PROJECT_DIR$/data/jsonSource" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwitterClassifier">
-    <configuration default="false" name="featuresExtraction" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="featuresExtraction" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="ru_corpus.train.txt ru_corpus_learn ru_corpus.test.txt ru_corpus_test" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/data/nameEntity/russian-ner/experiment-1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="nlp-compscicenter-2014" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FactsConverter" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="FactsConverter" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="learn2 and_good_table.xml news-080404.xml  news-shevard.xml news-vybory.xml" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/data/nameEntity/romip2005-facts" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="nlp-compscicenter-2014" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.DictClassifier">
     <configuration default="false" name="featuresExtractionMerged" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="featuresExtractionMerged" />
@@ -602,6 +551,52 @@
       <module name="nlp-compscicenter-2014" />
       <envs />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PMIAttributes" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="PMIAttributes" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="happy_tweets sad_tweets" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/data/SentimentAnalysis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="nlp-compscicenter-2014" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DictClassifier" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="DictClassifier" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="good_classifier bad_classifier happy_posts sad_posts" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/data/SentimentAnalysis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="nlp-compscicenter-2014" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -868,19 +863,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.featuresExtraction" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FactsConverter" />
-      <item index="2" class="java.lang.String" itemvalue="Application.featuresExtractionMerged" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TwitterLearner" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TwitterClassifier" />
+      <item index="0" class="java.lang.String" itemvalue="Application.featuresExtractionMerged" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TwitterLearner" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TwitterClassifier" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PMIAttributes" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DictClassifier" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TwitterClassifier" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TwitterLearner" />
-        <item index="2" class="java.lang.String" itemvalue="Application.featuresExtractionMerged" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FactsConverter" />
-        <item index="4" class="java.lang.String" itemvalue="Application.featuresExtraction" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DictClassifier" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PMIAttributes" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TwitterClassifier" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TwitterLearner" />
+        <item index="4" class="java.lang.String" itemvalue="Application.featuresExtractionMerged" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -971,7 +966,7 @@
       <workItem from="1398765298694" duration="911000" />
       <workItem from="1399018296712" duration="83000" />
       <workItem from="1399194917486" duration="18585000" />
-      <workItem from="1400002231537" duration="3389000" />
+      <workItem from="1400002231537" duration="8540000" />
     </task>
     <task id="LOCAL-00001" summary="README">
       <created>1393866865778</created>
@@ -1113,11 +1108,15 @@
       <created>1399214084934</created>
       <updated>1399214084934</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="first part of homework 5">
+      <created>1400009255437</created>
+      <updated>1400009255437</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113604000" />
+    <option name="totallyTimeSpent" value="118755000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1146,7 +1145,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53430355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3918919" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3918919" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883817" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4647303" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1159,7 +1158,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2489339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4261954" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4261954" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1214,7 +1213,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="initial checker for accuracy and other&#10;exporter result to json and xml&#10;check how well on openCorpa (scala…)" />
     <MESSAGE value="oops, merge master crushed&#10;" />
     <MESSAGE value="oops, merge master crushed&#10;(cherry picked from commit 29d2e77)" />
     <MESSAGE value="print per line" />
@@ -1239,7 +1237,8 @@
     <MESSAGE value="some fixes and part of next homework" />
     <MESSAGE value="fix flush in FactsConverter. add punctuation and quotes remove to FactsConverter" />
     <MESSAGE value="something like facts to entities converter" />
-    <option name="LAST_COMMIT_MESSAGE" value="something like facts to entities converter" />
+    <MESSAGE value="first part of homework 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="first part of homework 5" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1253,7 +1252,7 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="67" />
+      <option name="time" value="68" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1261,42 +1260,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ParseNews.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="765">
-          <caret line="14" column="52" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FileParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="675">
-          <caret line="24" column="110" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1455" max-vertical-offset="2085">
-          <caret line="97" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="765">
-          <caret line="38" column="58" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/OpenCorpaToSentenceConverter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <caret line="8" column="95" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="345">
@@ -1460,13 +1423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/classifiersData/wekaConverter.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
@@ -1514,6 +1470,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3147" max-vertical-offset="3765">
           <caret line="256" column="36" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1556,26 +1513,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/FactsConverter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="2220">
-          <caret line="47" column="83" selection-start-line="47" selection-start-column="83" selection-end-line="47" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/featuresExtraction.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1230">
           <caret line="64" column="3" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="1110">
-          <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1596,24 +1537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/TwitterLearner.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="279" max-vertical-offset="780">
-          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/TwitterClassifier.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="1095">
-          <caret line="9" column="108" selection-start-line="9" selection-start-column="108" selection-end-line="9" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/normalizeTexts.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="375">
@@ -1624,18 +1547,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Helpers.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2340">
-          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="2355">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/FactsConverter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="2220">
+          <caret line="47" column="83" selection-start-line="47" selection-start-column="83" selection-end-line="47" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/TwitterLearner.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="780">
+          <caret line="30" column="137" selection-start-line="29" selection-start-column="2" selection-end-line="30" selection-end-column="137" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PMIAttributes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="675">
+          <caret line="38" column="1" selection-start-line="10" selection-start-column="33" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <element signature="e#1#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayesianClassifier.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1110">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/TwitterClassifier.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="9" selection-end-column="130" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/SentimentAnalysis/goodPMI">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.769663" vertical-offset="3615" max-vertical-offset="59820">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/DictClassifier.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="201" max-vertical-offset="735">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/SentimentAnalysis/bad_classifier">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="876" max-vertical-offset="1410">
+          <caret line="88" column="18" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/SentimentAnalysis/TweetsExtractor.ipynb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9135">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/SentimentAnalysis/Report">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="501">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.10294118" vertical-offset="401" max-vertical-offset="945">
+          <caret line="23" column="90" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="90" />
           <folding />
         </state>
       </provider>
