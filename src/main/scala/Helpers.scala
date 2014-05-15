@@ -100,8 +100,12 @@ object Helpers {
   implicit class FeaturesExtractor(val entity: String) {
     val whitespace = new Regex("\t")
     val split_entity = whitespace.split(entity)
+
     val word = split_entity(0)
     val label = split_entity(1)
+    if (word.length == 0) {
+      print("a")
+    }
 
 
     def extractFeatures() = {

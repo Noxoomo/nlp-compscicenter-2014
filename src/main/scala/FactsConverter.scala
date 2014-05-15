@@ -41,11 +41,181 @@ object FactsConverter extends App {
   }
 
   class Task(val id: String, facts: List[Fact]) {
+
+
     var content: String = ""
+    var contentSentence = content.split("\n").toList
+
+    def getSentencesWithEntities: String = {
+      val sentences = facts.map(convertFactToSentence).map(sentence => {
+        sentence.mkString("\n")
+      }).filter(entityRegex.findFirstIn(_) != None)
+      if (sentences.length > 0)
+        "#Document " + id + "\n\n" + sentences.mkString("\n") + "\n\n"
+      else ""
+    }
+
+    val punctuation = Set('.', ',', '?', '!', '…', '(', ')', ';', '-', '–', ":")
+    val sentenceEnd = Set('.', '?', '!', '…')
+    val punctuationRegexp = new Regex("(\\.|\\?|,|\\!|\\(|\\)|…|;|-|—)")
+    val entityRegex = new Regex("(B-ORG|I-ORG|B-PER|I-PER)")
+    val quoteRegexp = new Regex("(\"|«|»)")
+    val spaceEdit = new Regex("[\\s|\n|\t]+")
+
+    def getSentence(fact: Fact) = {
+      def getSentenceByOffset(sentences: List[String], offset: Int): String = {
+        sentences match {
+          case sentence :: tail => {
+            if (sentence.length > offset) sentence
+            else {
+              getSentenceByOffset(tail, offset - (sentence.length + 1))
+            }
+          }
+          case List() => ""
+        }
+      }
+      getSentenceByOffset(contentSentence, fact.systemOffset + fact.entityOffset)
+    }
+
+    abstract class State()
+
+    case class InOrg() extends State()
+
+    case class InPer() extends State()
+
+    case class NonEntity() extends State()
+
+    def convertFactToSentence(fact: Fact): List[String] = {
+      val sentence = quoteRegexp.replaceAllIn(getSentence(fact), "\"")
+
+      val words = spaceEdit.replaceAllIn(punctuationRegexp.replaceAllIn(sentence, " "), " ").split(" ").toList
+
+      //      for (word <- words)
+      //        if (word == "")
+      //          print("aaa")
+      val firstEntity = spaceEdit.replaceAllIn(quoteRegexp.replaceAllIn(punctuationRegexp.replaceAllIn(fact.firstText, " "), " "), " ").toLowerCase().split(" ").toSet
+      val secondEntity = spaceEdit.replaceAllIn(quoteRegexp.replaceAllIn(punctuationRegexp.replaceAllIn(fact.firstText, " "), " "), " ").toLowerCase().split(" ").toSet
+      val minSize = if (firstEntity.size < secondEntity.size) firstEntity.size else secondEntity.size
+
+      def findEntity(word_original: String, entityWords: Set[String]) = {
+        val word = spaceEdit.replaceAllIn(quoteRegexp.replaceAllIn(punctuationRegexp.replaceAllIn(word_original, ""), ""), "")
+        val half = (word.length * 0.5).toInt
+        val toCompare = word.substring(0, half).toLowerCase()
+        var isEntity = false
+        var entityWord = ""
+        for (entity <- entityWords) {
+          if (!isEntity) {
+            if (entity.length > 3)
+              if ((entity.length > half && toCompare == entity.substring(0, half))) {
+                isEntity = true
+                entityWord = entity
+              }
+              else {
+                if (word.toLowerCase() == entity) {
+                  isEntity = true
+                  entityWord = entity
+                }
+              }
+
+          }
+
+        }
+        (entityWord, isEntity)
+      }
+      val titleCase = "ЙФЯЦЫЧУВСКАМИПЕНРТЬОГШЛБЮДЩЗЖЭХЪЁQAZWSXEDCRFVTGBYHNUJMIKOLP".toCharArray.toSet
+      def isPerson(word: String) = {
+        if ('A' < word.charAt(0) && word.charAt(0) < 'Z')
+          false
+        else if (titleCase contains word.charAt(0)) {
+          !word.substring(1).foldLeft(false)({
+            case (status, c) => if (status) status else (titleCase contains c)
+          })
+        } else false
+      }
+
+      def extract(words: List[String], result: List[String], state: State, entityWords: Set[String], beginCount: Int): List[String] = {
+        words match {
+          case word :: tail => {
+            if (word.replace("\"", "").length == 0)
+              extract(tail, result, state, entityWords, beginCount)
+            else
+              state match {
+                case InOrg() => {
+                  val (entityWord, isEntity) = findEntity(word, entityWords)
+                  if (word.charAt(word.length - 1) == '\"') {
+                    val curWord = word.replace("\"", "") + "\tI-ORG"
+                    extract(tail, curWord :: result, NonEntity(), entityWords - entityWord, 1)
+                  } else {
+                    if (isEntity) {
+                      if (entityWords.size <= minSize && beginCount == 0) {
+                        extract(words, result, NonEntity(), entityWords, beginCount)
+                      } else {
+                        val curWord = word.replace("\"", "") + "\tI-ORG"
+                        extract(tail, curWord :: result, InOrg(), entityWords - entityWord, 1)
+                      }
+                    } else {
+                      val curWord = word.replace("\"", "") + "\tO"
+                      extract(tail, curWord :: result, NonEntity(), entityWords, beginCount)
+                    }
+
+                  }
+                }
+                case InPer() => {
+                  val (entityWord, isEntity) = findEntity(word, entityWords)
+
+                  if (isEntity) {
+                    if (entityWords.size <= minSize) {
+                      extract(words, result, NonEntity(), entityWords, beginCount)
+                    }
+
+                    if (word.charAt(0) == '\"') {
+                      val curWord = word.replace("\"", "") + "\tB-ORG"
+                      extract(tail, curWord :: result, InOrg(), entityWords - entityWord, 1)
+                    } else {
+                      if (isPerson(word)) {
+                        val curWord = word.replace("\"", "") + "\tI-PER"
+                        extract(tail, curWord :: result, InPer(), entityWords - entityWord, 1)
+                      } else {
+                        val curWord = word.replace("\"", "") + "\tO"
+                        extract(tail, curWord :: result, NonEntity(), entityWords - entityWord, 1)
+                      }
+
+                    }
+                  } else {
+                    val curWord = word.replace("\"", "") + "\tO"
+                    extract(tail, curWord :: result, NonEntity(), entityWords, 1)
+                  }
+                }
+                case NonEntity() => {
+                  val (entityWord, isEntity) = findEntity(word, entityWords)
+
+                  if (word.charAt(0) == '\"' && isEntity) {
+                    val curWord = word.replace("\"", "") + "\tB-ORG"
+                    extract(tail, curWord :: result, InOrg(), entityWords - entityWord, 1)
+                  } else if ((titleCase contains word.charAt(0)) && isEntity && word.length > 3) {
+
+                    if (isPerson(word)) {
+                      val curWord = word.replace("\"", "") + "\tB-PER"
+                      extract(tail, curWord :: result, InPer(), entityWords - entityWord, 1)
+                    } else {
+                      val curWord = word.replace("\"", "") + "\tB-ORG"
+                      extract(tail, curWord :: result, InOrg(), entityWords - entityWord, 1)
+                    }
+                  } else {
+                    val curWord = word.replace("\"", "") + "\tO"
+                    extract(tail, curWord :: result, NonEntity(), entityWords, beginCount)
+                  }
+                }
+              }
+          }
+          case List() => result.reverse
+        }
+      }
+      extract(words, List(), NonEntity(), firstEntity ++ secondEntity, 0)
+    }
 
     def getEntities: String = {
-      val spaceEdit = new Regex("[\\s|\n|\t]+")
-      val words = spaceEdit.replaceAllIn(content.removePunctuation(), " ").markEntities(facts)
+      val words = spaceEdit.replaceAllIn(content.removePunctuation(), "\t").markEntities(facts)
       "#Document " + id + "\n\n" + words.mkString("\n") + "\n\n"
 
     }
@@ -112,6 +282,7 @@ object FactsConverter extends App {
     for (task <- tasks) {
       try {
         task.content = documents(task.id)
+        task.contentSentence = task.content.split("\n").toList
       } catch {
         case e: Exception =>
           task.content = "Content not found."
@@ -129,7 +300,7 @@ object FactsConverter extends App {
   val writer = new BufferedWriter(new FileWriter(args(0)))
   println("Writing to file: " + args(0))
   for (task <- tasks) {
-    writer.write(task.getEntities)
+    writer.write(task.getSentencesWithEntities)
   }
   writer.flush()
   writer.close()
