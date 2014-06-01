@@ -1,6 +1,7 @@
 import FactsConverter.Fact
 import scala.io.Source
 import scala.util.matching.Regex
+import scala.util.Random
 
 object Helpers {
 
@@ -98,6 +99,7 @@ object Helpers {
 
 
   implicit class FeaturesExtractor(val entity: String) {
+    val rand = new Random()
     val whitespace = new Regex("\t")
     val split_entity = whitespace.split(entity)
 
@@ -106,6 +108,29 @@ object Helpers {
     if (word.length == 0) {
       print("a")
     }
+
+
+    def extractFeaturesToConverter() = {
+      val upperFeature = word(0).isUpper
+      val twoOrMoreUp = word.foldLeft(0)((acc, c) => {
+        acc + {
+          if (c.isUpper) 1 else 0
+        }
+      }) > 1
+      val containsLatin = word.exists(c => {
+        val code = Char.char2int(c.toLower)
+        if (Char.char2int('a') <= code && code <= Char.char2int('z'))
+          true
+        else false
+      })
+      val isLong = word.length > 4
+      val isAbridgment = abridgments contains word.toLowerCase
+      val isEntity = if (label != "O") 1 else 0
+      val isQuote = if (label == "B-ORG" && rand.nextBoolean()) 1 else 0
+      val wordFixed = word.replace("\"", "")
+      f"$wordFixed\t$upperFeature\t$twoOrMoreUp\t$containsLatin\t$isLong\t$isAbridgment\t$isEntity\t$isQuote\t$label"
+    }
+
 
 
     def extractFeatures() = {

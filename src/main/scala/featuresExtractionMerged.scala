@@ -50,7 +50,7 @@ object featuresExtractionMerged extends App {
     }
   }
 
-  save_cv(args(1), extract(args(0)).toArray)
+  //  save_cv(args(1), extract(args(0)).toArray)
 
   save(args(1), extract(args(0)))
   save(args(3), extract(args(2)))
