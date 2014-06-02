@@ -151,7 +151,7 @@ object FactsConverter extends App {
                 case NonEntity() => if (inSet(word, organizations) && (word.length > 3 || word.charAt(0) == "\"") && offset > fact.systemOffset - 5 && offset < fact.systemOffset + fact.systemLength + 30) {
                   val curWord = word.replace("\"", "") + "\tB-ORG"
                   extract(tail, curWord :: result, InOrg(), offset + word.length + 1)
-                } else if (inSet(word, person) && word.charAt(0).isUpper) {
+                } else if (inSet(word, person) && word.charAt(0).isUpper && word.length > 3) {
                   val curWord = word.replace("\"", "") + "\tB-PER"
                   extract(tail, curWord :: result, InPer(), offset + word.length + 1)
                 } else {
